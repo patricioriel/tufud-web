@@ -43,3 +43,43 @@
     transform: none;
   }
 }
+
+.hamburguesa {
+  color: #0de8fc;
+  background-color: #7858dd;
+}
+
+.btn {
+  color: #0fe3a9;
+  background-color: #7858dd;
+}
+
+.btn:hover {
+  color: #7858dd;
+  background-color: #0fe3a9
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+/* componente info */
+
+.imginfo{
+  width: 100%;
+  max-width: 100%;
+}
+
+.h2info{
+  font-size: 45px;
+}
+
+.btninfo{
+  width: 40%;
+}
+
+/* componente beneficios */
+
+.containerbeneficios{
+  background-color: #7758dd2f;
+}
