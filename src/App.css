@@ -59,6 +59,14 @@
   background-color: #0fe3a9
 }
 
+.btn-zoom {
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn-zoom:hover {
+  transform: scale(1.1);
+}
+
 .navbar-collapse {
   flex-grow: 0;
 }
@@ -82,4 +90,6 @@
 
 .containerbeneficios{
   background-color: #7758dd2f;
+  padding-top: 15px;
+  padding-bottom: 20px;
 }
