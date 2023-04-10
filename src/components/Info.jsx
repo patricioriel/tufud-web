@@ -5,8 +5,8 @@ function Info() {
     <div className="row mt-4 justify-content-center container-fluid">
       <div className="col-md-5">
         <div>
-          <h2 className='font-monospace h2info text-start'>Somos la plataforma que <b>centraliza y digitaliza todos tus pedidos.</b></h2>
-          <h3 className='text-start'>Simplificamos y hacemos eficiente tu proceso de compras en la industria gastronómica. Reducimos tiempo, costo y desperdicio de alimentos.</h3>
+          <h1 className='font-monospace h2info text-start'>Somos la <b>plataforma de pedidos</b> que revoluciona la industria gastronómica.</h1>
+          <p className='text-start fs-4'>Tufud ayuda a restaurantes y proveedores a mejorar el envio y recepcion de ordenes de compra, con el objetivo de ahorrar tiempo, disminuir costos y reducir el desperdicio de alimentos.</p>
           <button type="button" class="btn btn-primary me-4 fs-4 btninfo btn-zoom">Restaurante</button>
           <button type="button" class="btn btn-primary fs-4 btninfo btn-zoom">Proveedor</button>
         </div>

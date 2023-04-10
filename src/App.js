@@ -1,5 +1,6 @@
 import './App.css';
 import Beneficios from './components/Beneficios';
+import Contactanos from './components/Contactanos';
 import Info from './components/Info';
 import Info2 from './components/Info2';
 import Navbar from './components/Navbar';
@@ -15,6 +16,7 @@ function App() {
       <Info2/>
       <Testimonios/>
       <Separador/>
+      <Contactanos/>
     </div>
   );
 }

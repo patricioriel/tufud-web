@@ -43,7 +43,9 @@
     transform: none;
   }
 }
+
   /* navbar */
+
 .hamburguesa {
   color: #0de8fc;
   background-color: #7858dd;
@@ -95,3 +97,14 @@
   padding-bottom: 20px;
 }
 
+/* separador */
+
+
+
+/* contactanos */
+
+.btn-contactanos {
+  color: #0fe3a9;
+  background-color: #7858dd;
+  font-weight: 400;
+}

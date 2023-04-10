@@ -2,7 +2,7 @@ import React from "react";
 
 const Testimonios = () => {
   return (
-    <><div className="container-fluid containerbeneficios">
+    <><div className="container-fluid">
         <h2>Que dicen de nosotros?</h2>
         <div className="container my-5">
             <div className="row">
