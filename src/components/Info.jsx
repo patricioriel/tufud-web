@@ -7,7 +7,7 @@ function Info() {
         <div>
           <h2 className='font-monospace h2info text-start'>Somos la plataforma que <b>centraliza y digitaliza todos tus pedidos.</b></h2>
           <h3 className='text-start'>Simplificamos y hacemos eficiente tu proceso de compras en la industria gastronómica. Reducimos tiempo, costo y desperdicio de alimentos.</h3>
-          <button type="button" class="btn btn-primary me-4 fs-4 btninfo btn-zoom">Cliente</button>
+          <button type="button" class="btn btn-primary me-4 fs-4 btninfo btn-zoom">Restaurante</button>
           <button type="button" class="btn btn-primary fs-4 btninfo btn-zoom">Proveedor</button>
         </div>
       </div>

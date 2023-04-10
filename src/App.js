@@ -3,6 +3,8 @@ import Beneficios from './components/Beneficios';
 import Info from './components/Info';
 import Info2 from './components/Info2';
 import Navbar from './components/Navbar';
+import Separador from './components/Separador';
+import Testimonios from './components/Testimonios';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Info/>
       <Beneficios/>
       <Info2/>
+      <Testimonios/>
+      <Separador/>
     </div>
   );
 }
