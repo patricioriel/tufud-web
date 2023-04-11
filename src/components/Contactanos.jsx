@@ -11,7 +11,7 @@ const Contactanos = () => {
                         <a className="btn my-4 fs-5" href="">Contactanos por WhatsApp</a>
                     </div>
                     <div className="col-md-6">
-                        <img src="https://static.abc.es/media/familia/2018/05/23/Minevera_Pasta-k4KC--1240x698@abc.jpg" width="800" alt="" />
+                        <img className="img-fluid" src="https://static.abc.es/media/familia/2018/05/23/Minevera_Pasta-k4KC--1240x698@abc.jpg" width="800" alt="" />
                     </div>
                 </div>
             </div>

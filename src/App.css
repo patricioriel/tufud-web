@@ -44,6 +44,10 @@
   }
 }
 
+.fondo_secciones {
+  background-color: rgb(123, 53, 183);
+}
+
   /* navbar */
 
 .hamburguesa {
@@ -97,9 +101,6 @@
   padding-bottom: 20px;
 }
 
-/* separador */
-
-
 
 /* contactanos */
 
@@ -107,4 +108,10 @@
   color: #0fe3a9;
   background-color: #7858dd;
   font-weight: 400;
+}
+
+/*footer*/
+
+.footer_links:hover {
+  color: #0fe3a9 !important;
 }

@@ -1,6 +1,8 @@
 import './App.css';
 import Beneficios from './components/Beneficios';
+import Clientes from './components/Clientes';
 import Contactanos from './components/Contactanos';
+import Footer from './components/Footer';
 import Info from './components/Info';
 import Info2 from './components/Info2';
 import Navbar from './components/Navbar';
@@ -17,6 +19,8 @@ function App() {
       <Testimonios/>
       <Separador/>
       <Contactanos/>
+      <Clientes/>
+      <Footer/>
     </div>
   );
 }
