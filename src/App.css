@@ -44,15 +44,12 @@
   }
 }
 
-<<<<<<< HEAD
 .fondo_secciones {
   background-color: rgb(123, 53, 183);
 }
 
   /* navbar */
 
-=======
->>>>>>> 70f1c38a65e85925eb671bc06bbf52a0953f20d8
 .hamburguesa {
   color: #0de8fc;
   background-color: #7858dd;
@@ -61,10 +58,7 @@
 .btn {
   color: #0fe3a9;
   background-color: #7858dd;
-<<<<<<< HEAD
   font-weight: 400;
-=======
->>>>>>> 70f1c38a65e85925eb671bc06bbf52a0953f20d8
 }
 
 .btn:hover {
@@ -72,7 +66,6 @@
   background-color: #0fe3a9
 }
 
-<<<<<<< HEAD
 .btn-zoom {
   transition: transform 0.3s ease-in-out;
 }
@@ -122,8 +115,3 @@
 .footer_links:hover {
   color: #0fe3a9 !important;
 }
-=======
-.navbar-collapse {
-  flex-grow: 0;
-}
->>>>>>> 70f1c38a65e85925eb671bc06bbf52a0953f20d8
