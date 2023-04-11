@@ -18,9 +18,15 @@ const Navbar = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
+<<<<<<< HEAD
         <div className="collapse navbar-collapse flew-grow-0 " id="navbarTogglerDemo02">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item dropdown ">
+=======
+        <div className="collapse navbar-collapse flew-grow-0" id="navbarTogglerDemo02">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <li className="nav-item dropdown">
+>>>>>>> 70f1c38a65e85925eb671bc06bbf52a0953f20d8
               <a
                 className="nav-link dropdown-toggle"
                 href="#"
@@ -30,7 +36,11 @@ const Navbar = () => {
               >
                 Servicios
               </a>
+<<<<<<< HEAD
               <ul className="dropdown-menu fade-in">
+=======
+              <ul className="dropdown-menu">
+>>>>>>> 70f1c38a65e85925eb671bc06bbf52a0953f20d8
                 <li>
                   <a className="dropdown-item" href="#">
                     Cliente
@@ -53,7 +63,11 @@ const Navbar = () => {
               >
                 Comunidad
               </a>
+<<<<<<< HEAD
               <ul className="dropdown-menu fade-in">
+=======
+              <ul className="dropdown-menu">
+>>>>>>> 70f1c38a65e85925eb671bc06bbf52a0953f20d8
                 <li>
                   <a className="dropdown-item" href="#">
                     Testimonios
