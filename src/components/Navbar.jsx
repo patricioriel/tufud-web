@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
         <a className="navbar-brand" href="">
-          <img src="/react-gh-pages/static/media/tufudlogo.6dd2bb0b6aadb17a7f9b.png" width="150" alt="Tufud Logo" />
+          <img src="http://localhost:3000/tufud_web/static/media/tufudlogo.6dd2bb0b6aadb17a7f9b.png" width="150" alt="Tufud Logo" />
         </a>
         <button
           className="navbar-toggler hamburguesa"

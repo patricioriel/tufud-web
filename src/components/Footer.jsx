@@ -32,7 +32,7 @@ const Footer = () => {
                         </svg></a>
                     </div>
                     <div className="col-md-3">
-                        <img src="/react-gh-pages/static/media/tufudlogo.6dd2bb0b6aadb17a7f9b.png" width="150" className="img-fluid" alt="tufud logo" />
+                        <img src="http://localhost:3000/tufud_web/static/media/tufudlogo.6dd2bb0b6aadb17a7f9b.png" width="150" className="img-fluid" alt="tufud logo" />
                     </div>
                 </div>
             </div>
