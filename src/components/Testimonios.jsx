@@ -3,7 +3,7 @@ import React from "react";
 const Testimonios = () => {
   return (
     <><div className="container-fluid my-5">
-        <h2>Que dicen de nosotros?</h2>
+        <h2 className="fw-bold">Que dicen de nosotros?</h2>
         <div className="container my-5">
             <div className="row">
                 <div className="col-md-4">

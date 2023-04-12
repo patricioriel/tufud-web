@@ -8,7 +8,7 @@ function Info2() {
             </div>
             <div className="col-md-5">
                 <div>
-                    <h2 className='font-monospace h2info text-start'>Somos la plataforma que <b>centraliza y digitaliza todos tus pedidos.</b></h2>
+                    <h2 className='text-start display-2'>Somos la plataforma que <span className="fw-bold">centraliza y digitaliza todos tus pedidos.</span></h2>
                     <p className='text-start fs-4'>Simplificamos y hacemos eficiente tu proceso de compras en la industria gastronómica. Reducimos tiempo, costo y desperdicio de alimentos.</p>
                 </div>
             </div>

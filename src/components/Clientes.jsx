@@ -4,7 +4,7 @@ const Clientes = () => {
     return (
         <div className="container">
             <div className="row">
-                <h4>Conoce a los clientes que han confiado en nosotros</h4>
+                <h4 className="fw-bold">Conoce a los clientes que han confiado en nosotros</h4>
             </div>
             <div className="row my-3">
                 <div className="col-md-2">

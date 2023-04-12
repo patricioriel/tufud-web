@@ -48,6 +48,12 @@
   background-color: rgb(123, 53, 183);
 }
 
+ /* fuente */
+
+ body {
+  font-family: 'Noto Sans', sans-serif !important;
+ }
+
   /* navbar */
 
 .hamburguesa {
