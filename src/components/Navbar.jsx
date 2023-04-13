@@ -1,12 +1,14 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
+import logo from "../images/tufudlogo.png"
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
-        <a className="navbar-brand" href="">
-          <img src="http://localhost:3000/tufud_web/static/media/tufudlogo.6dd2bb0b6aadb17a7f9b.png" width="150" alt="Tufud Logo" />
-        </a>
+        <Link className="navbar-brand" to={"/tufud-web"}>
+          <img src={logo}  width="150" alt="Tufud Logo" />
+        </Link>
         <button
           className="navbar-toggler hamburguesa"
           type="button"
@@ -32,14 +34,14 @@ const Navbar = () => {
               </a>
               <ul className="dropdown-menu fade-in">
                 <li>
-                  <a className="dropdown-item" href="">
-                    Cliente
-                  </a>
+                  <NavLink className="dropdown-item" to="">
+                    Restaurante
+                  </NavLink>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="">
+                  <NavLink className="dropdown-item" to="">
                     Proveedor
-                  </a>
+                  </NavLink>
                 </li>
               </ul>
             </li>
@@ -55,21 +57,21 @@ const Navbar = () => {
               </a>
               <ul className="dropdown-menu fade-in">
                 <li>
-                  <a className="dropdown-item" href="">
+                  <NavLink className="dropdown-item" to="">
                     Testimonios
-                  </a>
+                  </NavLink>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="">
+                  <NavLink className="dropdown-item" to="">
                     Noticias
-                  </a>
+                  </NavLink>
                 </li>
               </ul>
             </li>
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="">
+              <NavLink className="nav-link" aria-current="page" to="">
                 Contacto
-              </a>
+              </NavLink>
             </li>
             <button className="btn fw-semibold">Iniciar Sesion</button>
           </ul>
