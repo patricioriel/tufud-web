@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/tufud_web/static/css/main.3599d4e7.css",
-    "main.js": "/tufud_web/static/js/main.b24ca4f9.js",
-    "index.html": "/tufud_web/index.html",
-    "main.3599d4e7.css.map": "/tufud_web/static/css/main.3599d4e7.css.map",
-    "main.b24ca4f9.js.map": "/tufud_web/static/js/main.b24ca4f9.js.map"
+    "main.css": "/tufud-web/static/css/main.3599d4e7.css",
+    "main.js": "/tufud-web/static/js/main.636af971.js",
+    "index.html": "/tufud-web/index.html",
+    "main.3599d4e7.css.map": "/tufud-web/static/css/main.3599d4e7.css.map",
+    "main.636af971.js.map": "/tufud-web/static/js/main.636af971.js.map"
   },
   "entrypoints": [
     "static/css/main.3599d4e7.css",
-    "static/js/main.b24ca4f9.js"
+    "static/js/main.636af971.js"
   ]
 }
