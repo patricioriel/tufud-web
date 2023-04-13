@@ -1,7 +1,7 @@
 {
   "name": "tufud-web",
   "version": "0.1.0",
-  "homepage": "https://patricioriel.github.io/tufud-web",
+  "homepage": "https://patricioriel.github.io/tufud-web/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
