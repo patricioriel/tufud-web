@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Separador = () => {
     return (
@@ -9,7 +10,7 @@ const Separador = () => {
                         <h4 className="text-light fw-bold">Conoce como nuestra plataforma los ha ayudado en su gestion</h4>
                     </div>
                     <div className="col-md-2">
-                        <a className="btn fw-semibold fs-5" href="">Ver Comunidad</a>
+                        <Link className="btn fw-semibold fs-5" to="">Ver Comunidad</Link>
                     </div>
                 </div>
             </div>
