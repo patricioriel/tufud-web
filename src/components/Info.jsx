@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 function Info() {
   return (
@@ -7,7 +8,7 @@ function Info() {
         <div>
           <h1 className='fw-bold text-start display-3'>Somos la plataforma de pedidos que revoluciona la industria gastronómica.</h1>
           <p className='text-start fs-4'>Tufud ayuda a restaurantes y proveedores a mejorar el envio y recepcion de ordenes de compra, con el objetivo de ahorrar tiempo, disminuir costos y reducir el desperdicio de alimentos.</p>
-          <button type="button" className="btn btn-primary me-4 fs-4 btninfo btn-zoom">Restaurante</button>
+          <Link className="btn btn-primary me-4 fs-4 btninfo btn-zoom"  to={"/restaurante"}>Restaurante</Link>
           <button type="button" className="btn btn-primary fs-4 btninfo btn-zoom">Proveedor</button>
         </div>
       </div>
