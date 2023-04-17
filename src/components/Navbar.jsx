@@ -1,80 +1,95 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import logo from "../images/tufudlogo.png"
+import logo from "../images/tufudhorizontal.png";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-md bg-body-tertiary p-3">
       <div className="container-fluid">
-        <Link className="navbar-brand" to={"/tufud-web"}>
-          <img src={logo}  width="150" alt="Tufud Logo" />
+        <Link className="navbar-brand" to="/tufud-web">
+          <img src={logo} width="185" alt="Tufud Logo" />
         </Link>
         <button
-          className="navbar-toggler hamburguesa"
+          className="navbar-toggler"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02"
-          aria-expanded="false"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse flew-grow-0 " id="navbarTogglerDemo02">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item dropdown ">
-              <a
-                className="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Servicios
-              </a>
-              <ul className="dropdown-menu fade-in">
-                <li>
-                  <NavLink className="dropdown-item" activeclassname="page" to={"/restaurante"}>
-                    Restaurante
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink className="dropdown-item" to="">
-                    Proveedor
-                  </NavLink>
-                </li>
-              </ul>
-            </li>
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Comunidad
-              </a>
-              <ul className="dropdown-menu fade-in">
-                <li>
-                  <NavLink className="dropdown-item" to="">
-                    Testimonios
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink className="dropdown-item" to="">
-                    Noticias
-                  </NavLink>
-                </li>
-              </ul>
-            </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" aria-current="page" to="">
-                Contacto
-              </NavLink>
-            </li>
-            <button className="btn fw-semibold">Iniciar Sesion</button>
-          </ul>
+        <div
+          className="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div className="offcanvas-header">
+            <img src={logo} width="100" alt="Tufud Logo" />
+            <button
+              type="button"
+              className="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div className="offcanvas-body">
+            <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li className="nav-item dropdown">
+                <NavLink
+                  className="nav-link dropdown-toggle"
+                  to="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Servicios
+                </NavLink>
+                <ul className="dropdown-menu">
+                  <li>
+                    <NavLink className="dropdown-item" to="/restaurante">
+                      Restaurante
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink className="dropdown-item" to="/proveedor">
+                      Proveedor
+                    </NavLink>
+                  </li>
+                </ul>
+              </li>
+              <li className="nav-item dropdown">
+                <NavLink
+                  className="nav-link dropdown-toggle"
+                  to="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Comunidad
+                </NavLink>
+                <ul className="dropdown-menu">
+                  <li>
+                    <NavLink className="dropdown-item" to="#">
+                      Testimonios
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink className="dropdown-item" to="#">
+                      Noticias
+                    </NavLink>
+                  </li>
+                </ul>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="#">
+                  Contacto
+                </NavLink>
+              </li>
+              <li><NavLink className="btn" to="">Iniciar Sesión</NavLink></li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>

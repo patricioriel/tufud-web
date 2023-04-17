@@ -46,7 +46,7 @@
 }
 
 .fondo_secciones {
-  background-color: rgb(123, 53, 183);
+  background-color: #F6F4FF;
 }
 
 /* fuente */
@@ -59,13 +59,13 @@ body {
 
 .hamburguesa {
   color: #0de8fc;
-  background-color: #7858dd;
+  background-color: #F6F4FF;
 }
 
 .btn {
-  color: #0fe3a9;
-  background-color: #7858dd;
-  font-weight: 400;
+  color: #fff;
+  background-color: #7858DD;
+  font-weight: 700;
 }
 
 .btn:hover {
@@ -103,7 +103,7 @@ body {
 /* componente beneficios */
 
 .containerbeneficios {
-  background-color: #7858dd;
+  background-color: #939393;
   padding-top: 15px;
   padding-bottom: 20px;
 }
@@ -121,4 +121,8 @@ body {
 
 .footer_links:hover {
   color: #0fe3a9 !important;
+}
+
+.footer_container {
+  height: 350px;
 }

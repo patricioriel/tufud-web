@@ -10,7 +10,7 @@ import BtnSubir from "./BtnSubir";
 
 const Home = () => {
     return (
-        <div>
+        <div className="App">
             <Info/>
             <Beneficios/>
             <Info2/>

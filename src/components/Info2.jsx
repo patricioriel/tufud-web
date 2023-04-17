@@ -8,8 +8,8 @@ function Info2() {
             </div>
             <div className="col-md-5">
                 <div>
-                    <h2 className='text-start display-2'>Somos la plataforma que <span className="fw-bold">centraliza y digitaliza todos tus pedidos.</span></h2>
-                    <p className='text-start fs-4'>Simplificamos y hacemos eficiente tu proceso de compras en la industria gastronómica. Reducimos tiempo, costo y desperdicio de alimentos.</p>
+                    <h2 className='text-start display-3 fw-bold'>Optimiza tu proceso de pedidos con nuestra plataforma en línea fácil de usar</h2>
+                    <p className='text-start fs-4'>Nuestra interfaz rápida e intuitiva permite agilizar la generación y recepción de ordenes de compra. Adaptamos la tecnología al trabajo de cocineros, administradores y vendedores.</p>
                 </div>
             </div>
         </div>

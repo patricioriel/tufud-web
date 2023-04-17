@@ -13,7 +13,7 @@ function Pedidos() {
             </NavLink>
             <h1 className='fw-bold text-start display-3'>Haz tus pedidos de manera ágil y sin complicaciones.</h1>
             <p className='text-start fs-4'>Nuestra plataforma centraliza todas tus órdenes y te permite ver el estado de cada una en tiempo real, optimizando el proceso de tus pedidos.</p>
-            <div class="d-flex justify-content-start">
+            <div className="d-flex justify-content-start">
             <Link className="btn my-4 fw-semibold fs-4" to="">Comencemos ahora</Link>
             </div>
         </div>
