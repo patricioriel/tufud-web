@@ -38,6 +38,7 @@
     opacity: 0;
     transform: translate3d(0, -25%, 0);
   }
+
   to {
     opacity: 1;
     transform: none;
@@ -48,13 +49,13 @@
   background-color: rgb(123, 53, 183);
 }
 
- /* fuente */
+/* fuente */
 
- body {
+body {
   font-family: 'Noto Sans', sans-serif !important;
- }
+}
 
-  /* navbar */
+/* navbar */
 
 .hamburguesa {
   color: #0de8fc;
@@ -86,22 +87,22 @@
 
 /* componente info */
 
-.imginfo{
+.imginfo {
   width: 100%;
   max-width: 100%;
 }
 
-.h2info{
+.h2info {
   font-size: 45px;
 }
 
-.btninfo{
+.btninfo {
   width: 40%;
 }
 
 /* componente beneficios */
 
-.containerbeneficios{
+.containerbeneficios {
   background-color: #7858dd;
   padding-top: 15px;
   padding-bottom: 20px;
