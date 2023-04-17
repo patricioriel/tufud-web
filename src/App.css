@@ -123,6 +123,8 @@ body {
   color: #0fe3a9 !important;
 }
 
-.footer_container {
-  height: 350px;
+.benef{
+  background-color: #7858dd;
+  padding-top: 15px;
+  padding-bottom: 20px;
 }
