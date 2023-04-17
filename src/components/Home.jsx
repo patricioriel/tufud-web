@@ -6,6 +6,7 @@ import Testimonios from "./Testimonios";
 import Separador from "./Separador";
 import Contactanos from "./Contactanos";
 import Clientes from "./Clientes";
+import BtnSubir from "./BtnSubir";
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <Separador/>
             <Contactanos/>
             <Clientes/>
+            <BtnSubir/>
         </div>
     )
 }

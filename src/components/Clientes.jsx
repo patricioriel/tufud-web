@@ -1,6 +1,7 @@
 import React from "react";
 
 const Clientes = () => {
+
     return (
         <div className="container">
             <div className="row">
@@ -26,8 +27,8 @@ const Clientes = () => {
                     <img src="https://w7.pngwing.com/pngs/115/901/png-transparent-question-mark-graphy-small-plastic-people-people-plastic-bottle-cartoon.png" className="img-fluid" alt="" />
                 </div>
             </div>
-        </div> 
-    )
-}
+        </div>
+    );
+};
 
 export default Clientes;
