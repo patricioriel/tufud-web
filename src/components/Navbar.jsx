@@ -4,13 +4,13 @@ import logo from "../images/tufudhorizontal.png";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-md bg-body-tertiary p-3">
+    <nav className="navbar navbar-expand-md fondo_secciones p-3">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/tufud-web">
           <img src={logo} width="185" alt="Tufud Logo" />
         </Link>
         <button
-          className="navbar-toggler"
+          className="navbar-toggler hamburguesa"
           type="button"
           data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasNavbar"
@@ -71,12 +71,12 @@ const Navbar = () => {
                 </NavLink>
                 <ul className="dropdown-menu">
                   <li>
-                    <NavLink className="dropdown-item" to="#">
+                    <NavLink className="dropdown-item" to="/restaurante">
                       Testimonios
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="dropdown-item" to="#">
+                    <NavLink className="dropdown-item" to="/proveedor">
                       Noticias
                     </NavLink>
                   </li>
@@ -87,7 +87,11 @@ const Navbar = () => {
                   Contacto
                 </NavLink>
               </li>
-              <li><NavLink className="btn" to="">Iniciar Sesión</NavLink></li>
+              <li>
+                <NavLink className="btn" to="">
+                  Iniciar Sesión
+                </NavLink>
+              </li>
             </ul>
           </div>
         </div>
