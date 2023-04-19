@@ -3,7 +3,7 @@ import React from 'react';
 function Beneficios() {
   return (
     <div className='mt-5 text-center containerbeneficios'>
-      <h2 className="fw-bold">Mira como te podemos ayudar</h2>
+      <h2 className="fw-bold quicksand">Mira como te podemos ayudar</h2>
       <div className="container-fluid my-2">
         <div className="row d-flex justify-content-center my-5">
           <div className="col-md-3">

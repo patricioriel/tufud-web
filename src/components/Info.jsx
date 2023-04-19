@@ -6,7 +6,7 @@ function Info() {
     <div className="row mt-4 justify-content-center container-fluid">
       <div className="col-md-5">
         <div>
-          <h1 className='fw-bold text-start display-3'>Somos la plataforma de pedidos que revoluciona la industria gastronómica.</h1>
+          <h1 className='fw-bold text-start display-3 quicksand'>Somos la plataforma de pedidos que revoluciona la industria gastronómica.</h1>
           <p className='text-start fs-4'>Tufud ayuda a restaurantes y proveedores a mejorar el envío y recepción de ordenes de compra, con el objetivo de ahorrar tiempo, disminuir costos y reducir el desperdicio de alimentos.</p>
           <Link to={"/restaurante"} className="btn my-4 fw-semibold fs-2 ps-5 pe-5 btn-zoom me-5">Restaurante</Link>
           <Link className="btn my-4 fw-semibold fs-2 ps-5 pe-5 btn-zoom me-5">Proveedor</Link>

@@ -7,7 +7,7 @@ const Contactanos = () => {
             <div className="container p-5">
                 <div className="row">
                     <div className="col-md-6">
-                        <h3 className="text-start fs-1 display-3 fw-bold">Mejora la gestión de tus pedidos hoy mismo</h3>
+                        <h3 className="text-start fs-1 display-3 fw-bold quicksand">Mejora la gestión de tus pedidos hoy mismo</h3>
                         <p className="my-3 text-start fs-3 ">Es hora de cambiar tu enfoque en la gestión de pedidos. Nuestro equipo de expertos esta siempre disponible para ayudarte a hacerlo de manera rápida y fácil. Contáctanos ahora mismo.</p>
                         <Link className="btn my-4 fw-semibold fs-5" to="">Contáctanos</Link>
                     </div>
