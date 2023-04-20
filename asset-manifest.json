@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tufud-web/static/css/main.ddc570a4.css",
-    "main.js": "/tufud-web/static/js/main.f205f417.js",
+    "main.js": "/tufud-web/static/js/main.a33b7d8a.js",
     "static/media/tufudhorizontal.png": "/tufud-web/static/media/tufudhorizontal.db6989430caf4297571a.png",
     "static/media/instituciones.png": "/tufud-web/static/media/instituciones.2ad68814ca60a4f32fca.png",
     "static/media/reloj.png": "/tufud-web/static/media/reloj.03502b3f7a5cc5c04107.png",
@@ -10,10 +10,10 @@
     "static/media/pedidos.png": "/tufud-web/static/media/pedidos.2980990bf523befa4612.png",
     "index.html": "/tufud-web/index.html",
     "main.ddc570a4.css.map": "/tufud-web/static/css/main.ddc570a4.css.map",
-    "main.f205f417.js.map": "/tufud-web/static/js/main.f205f417.js.map"
+    "main.a33b7d8a.js.map": "/tufud-web/static/js/main.a33b7d8a.js.map"
   },
   "entrypoints": [
     "static/css/main.ddc570a4.css",
-    "static/js/main.f205f417.js"
+    "static/js/main.a33b7d8a.js"
   ]
 }
