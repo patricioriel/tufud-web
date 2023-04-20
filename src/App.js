@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Restaurante from './components/Restaurante';
+import Proveedores from './components/Proveedores';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Routes>
             <Route path={'/tufud-web'} element={<Home/>}/>
             <Route path={'/restaurante'} element={<Restaurante/>}/>
+            <Route path={'/proveedor'} element={<Proveedores/>}/>
           </Routes>
         <Footer/>
       </BrowserRouter>
