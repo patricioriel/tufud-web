@@ -7,12 +7,14 @@ import Separador from "./Separador";
 import Contactanos from "./Contactanos";
 import Clientes from "./Clientes";
 import BtnSubir from "./BtnSubir";
+import Instituciones from "./Instituciones";
 
 const Home = () => {
     return (
         <div>
             <Info/>
             <Beneficios/>
+            <Instituciones/>
             <Info2/>
             <Testimonios/>
             <Separador/>

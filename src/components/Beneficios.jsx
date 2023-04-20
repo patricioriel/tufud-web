@@ -6,7 +6,7 @@ import papel from "../images/papel.png"
 function Beneficios() {
   return (
     <div class="mt-5 text-center containerbeneficios">
-  <h2 class="fw-bold quicksand">Mira como te podemos <span class='morado'>ayudar</span></h2>
+  <h2 class="fw-bold quicksand display-4">Mira como te podemos <span class='morado'>ayudar</span></h2>
   <div class="container-fluid my-2">
     <div class="row d-flex justify-content-center my-5">
       <div class="col-md-3">
