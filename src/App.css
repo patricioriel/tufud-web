@@ -63,6 +63,10 @@ body .quicksand {
   font-family: 'Quicksand', sans-serif !important;
 }
 
+.morado{
+  color: #7858dd;
+}
+
 /* navbar */
 
 .hamburguesa {
@@ -110,9 +114,14 @@ body .quicksand {
 /* componente beneficios */
 
 .containerbeneficios {
-  background-color: #939393;
   padding-top: 15px;
   padding-bottom: 20px;
+}
+
+/* separador */
+
+.separador{
+  background-color: #ECE8FF;
 }
 
 

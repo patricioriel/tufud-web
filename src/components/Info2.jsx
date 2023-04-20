@@ -8,7 +8,7 @@ function Info2() {
             </div>
             <div className="col-md-5">
                 <div>
-                    <h2 className='text-start display-3 fw-bold quicksand'>Optimiza tu proceso de pedidos con nuestra plataforma en línea fácil de usar</h2>
+                    <h2 className='text-start display-3 fw-bold quicksand'> <span className='morado'>Optimiza tu proceso</span> de pedidos con nuestra plataforma en línea fácil de usar</h2>
                     <p className='text-start fs-4'>Nuestra interfaz rápida e intuitiva permite agilizar la generación y recepción de ordenes de compra. Adaptamos la tecnología al trabajo de cocineros, administradores y vendedores.</p>
                 </div>
             </div>
