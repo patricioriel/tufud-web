@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Contactanos = () => {
     return (
-        <div className="container-fluid">
+        <div className="container-fluid gradiente_verde">
             <div className="container p-5">
                 <div className="row">
                     <div className="col-md-6">

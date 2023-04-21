@@ -5,7 +5,7 @@ const Clientes = () => {
     return (
         <div className="container">
             <div className="row">
-                <h4 className="fw-semibold display-3 quicksand">Descubre quienes confían en nosotros</h4>
+                <h4 className="fw-semibold display-3 quicksand">Descubre <span className="morado">quienes confían</span> en nosotros</h4>
             </div>
             <div className="row my-3">
                 <div className="col-md-2">

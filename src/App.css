@@ -53,6 +53,16 @@ body {
   background-color: #F6F4FF;
 }
 
+.gradiente_verde {
+  background-image: linear-gradient(
+  0deg,
+  hsl(167deg 69% 95%) 0%,
+  hsl(165deg 77% 90%) 39%,
+  hsl(165deg 77% 90%) 61%,
+  hsl(167deg 69% 95%) 100%
+);
+}
+
 /* fuente */
 
 body {
@@ -123,12 +133,6 @@ body .quicksand {
 .separador{
   background-color: #ECE8FF;
 }
-
-/* instituciones */
-.institucionesimg{
-  max-width: 100%;
-}
-
 
 /* contactanos */
 
