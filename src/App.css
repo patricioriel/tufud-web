@@ -71,6 +71,34 @@ body .quicksand {
   color: #7858dd;
 }
 
+.titulo{
+  font-size: 55px;
+}
+
+.subtitulo{
+  font-size: 48px;
+}
+
+.cuerpo{
+  font-size: 24px;
+}
+
+.titulocard{
+  font-size: 28px;
+}
+
+.cuerpocard{
+  font-size: 18px;
+}
+
+.titulofooter{
+  font-size: 30px;
+}
+
+.cuerpofooter{
+  font-size: 20px;
+}
+
 /* navbar */
 
 .hamburguesa {
