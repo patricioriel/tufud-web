@@ -88,7 +88,7 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink className="btn" to="">
+                <NavLink className="btn" to="/iniciarsesion">
                   Iniciar Sesión
                 </NavLink>
               </li>

@@ -111,6 +111,10 @@ body .quicksand {
   font-weight: 700;
 }
 
+a:active {
+  
+}
+
 .btn:hover {
   color: #7858dd;
   background-color: #0fe3a9
