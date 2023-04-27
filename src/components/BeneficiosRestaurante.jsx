@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function BeneficiosRestaurante() {
     return (
         <div class="container-fluid benef">
