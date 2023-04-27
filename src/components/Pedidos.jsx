@@ -2,6 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleLeft } from '@fortawesome/free-solid-svg-icons';
 import { NavLink, Link } from 'react-router-dom';
+import img1resto from "../images/img1resto.png"
 
 function Pedidos() {
     return (
@@ -19,7 +20,7 @@ function Pedidos() {
                 </div>
             </div>
             <div className="col-md-5">
-                <img src="https://static.abc.es/media/familia/2018/05/23/Minevera_Pasta-k4KC--1240x698@abc.jpg" alt="Descripción de la imagen" className='imginfo mt-3 rounded-circle' />
+                <img src={img1resto} alt="Descripción de la imagen" className='imginfo mt-3 rounded-circle' />
             </div>
         </div>
 

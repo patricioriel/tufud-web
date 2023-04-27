@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import img3home from "../images/img3home.png"
 
 const Contactanos = () => {
     return (
@@ -12,7 +13,7 @@ const Contactanos = () => {
                         <Link className="btn my-4 fw-semibold fs-5" to="">Contáctanos</Link>
                     </div>
                     <div className="col-md-6">
-                        <img className="img-fluid" src="https://static.abc.es/media/familia/2018/05/23/Minevera_Pasta-k4KC--1240x698@abc.jpg" width="800" alt="" />
+                        <img className="img-fluid" src={img3home} width="800" alt="" />
                     </div>
                 </div>
             </div>

@@ -1,10 +1,11 @@
 import React from 'react'
+import img2home from "../images/img2home.png"
 
 function Info2() {
     return (
         <div className="gradiente_verde row mt-5 justify-content-center container-fluid">
             <div className="col-md-5">
-                <img src="https://static.abc.es/media/familia/2018/05/23/Minevera_Pasta-k4KC--1240x698@abc.jpg" alt="Descripción de la imagen" className='imginfo mt-3 rounded-circle' />
+                <img src={img2home} alt="Descripción de la imagen" className='imginfo mt-3 rounded-circle' />
             </div>
             <div className="col-md-5">
                 <div>

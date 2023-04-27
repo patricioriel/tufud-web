@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import img1home from "../images/img1home.png"
 
 function Info() {
   return (
@@ -13,7 +14,7 @@ function Info() {
         </div>
       </div>
       <div className="col-md-5">
-        <img src="https://static.abc.es/media/familia/2018/05/23/Minevera_Pasta-k4KC--1240x698@abc.jpg" alt="Descripción de la imagen" className='imginfo mt-3 rounded-circle'/>
+        <img src={img1home} alt="Descripción de la imagen" className='imginfo mt-3 rounded-circle'/>
       </div>
     </div>
   )
