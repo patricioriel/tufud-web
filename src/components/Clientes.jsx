@@ -1,33 +1,45 @@
 import React from "react";
+import Amelia from "../images/Amelia.png"
+import MercadoSilvestre from "../images/MercadoSilvestre.png"
+import Piccolina from "../images/Piccolina.png"
+import SemillaViva from "../images/SemillaViva.png"
+import SilvestreCafe from "../images/SilvestreCafe.png"
+import Supersaludable from "../images/Supersaludable.png"
+import TiendaNova from "../images/TiendaNova.png"
+
+
 
 const Clientes = () => {
 
     return (
-        <div className="container">
-            <div className="row">
-                <h4 className="fw-semibold subtitulo quicksand">Descubre <span className="morado">quienes confían</span> en nosotros</h4>
-            </div>
-            <div className="row my-3">
-                <div className="col-md-2">
-                    <img src="https://w7.pngwing.com/pngs/115/901/png-transparent-question-mark-graphy-small-plastic-people-people-plastic-bottle-cartoon.png" className="img-fluid" alt="" />
-                </div>
-                <div className="col-md-2">
-                    <img src="https://w7.pngwing.com/pngs/115/901/png-transparent-question-mark-graphy-small-plastic-people-people-plastic-bottle-cartoon.png" className="img-fluid" alt="" />
-                </div>
-                <div className="col-md-2">
-                    <img src="https://w7.pngwing.com/pngs/115/901/png-transparent-question-mark-graphy-small-plastic-people-people-plastic-bottle-cartoon.png" className="img-fluid" alt="" />
-                </div>
-                <div className="col-md-2">
-                    <img src="https://w7.pngwing.com/pngs/115/901/png-transparent-question-mark-graphy-small-plastic-people-people-plastic-bottle-cartoon.png" className="img-fluid" alt="" />
-                </div>
-                <div className="col-md-2">
-                    <img src="https://w7.pngwing.com/pngs/115/901/png-transparent-question-mark-graphy-small-plastic-people-people-plastic-bottle-cartoon.png" className="img-fluid" alt="" />
-                </div>
-                <div className="col-md-2">
-                    <img src="https://w7.pngwing.com/pngs/115/901/png-transparent-question-mark-graphy-small-plastic-people-people-plastic-bottle-cartoon.png" className="img-fluid" alt="" />
-                </div>
-            </div>
-        </div>
+<div class="container">
+  <div class="row">
+    <h4 class="fw-semibold subtitulo quicksand">Descubre <span class="morado">quienes confían</span> en nosotros</h4>
+  </div>
+  <div class="row my-3">
+    <div class="col">
+      <img src={Amelia} class="img-fluid" alt="" />
+    </div>
+    <div class="col">
+      <img src={MercadoSilvestre} class="img-fluid" alt="" />
+    </div>
+    <div class="col">
+      <img src={Piccolina} class="img-fluid" alt="" />
+    </div>
+    <div class="col">
+      <img src={SemillaViva} class="img-fluid" alt="" />
+    </div>
+    <div class="col">
+      <img src={SilvestreCafe} class="img-fluid" alt="" />
+    </div>
+    <div class="col">
+      <img src={Supersaludable} class="img-fluid" alt="" />
+    </div>
+    <div class="col">
+      <img src={TiendaNova} class="img-fluid" alt="" />
+    </div>
+  </div>
+</div>
     );
 };
 

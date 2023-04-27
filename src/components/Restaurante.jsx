@@ -2,6 +2,7 @@ import React from 'react'
 import AgilizaPedidos from './AgilizaPedidos';
 import BeneficiosRestaurante from './BeneficiosRestaurante';
 import Pedidos from './Pedidos';
+import Video from './Video';
 
 function Restaurante() {
     return (
@@ -9,6 +10,7 @@ function Restaurante() {
         <Pedidos/>
         <BeneficiosRestaurante/>
         <AgilizaPedidos/>
+        <Video/>
         </div>
     )
 }
