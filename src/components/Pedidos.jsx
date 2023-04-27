@@ -11,10 +11,10 @@ function Pedidos() {
                     <NavLink className="nav-link text-start mb-3" aria-current="page" to={"/tufud-web"}>
                         <FontAwesomeIcon icon={faAngleLeft} /> Volver al inicio
                     </NavLink>
-                    <h1 className='fw-bold text-start display-3 quicksand'>Haz tus pedidos de manera ágil y sin complicaciones.</h1>
-                    <p className='text-start fs-4'>Nuestra plataforma centraliza todas tus órdenes y te permite ver el estado de cada una en tiempo real, optimizando el proceso de tus pedidos.</p>
+                    <h1 className='fw-bold text-start quicksand titulo'><span className='morado'>Haz tus pedidos</span> de manera ágil y sin complicaciones</h1>
+                    <p className='text-start cuerpo'>Nuestra plataforma centraliza todas tus órdenes y te permite ver el estado de cada una en tiempo real, optimizando el proceso de tus pedidos.</p>
                     <div className="d-flex justify-content-start">
-                        <Link className="btn my-4 fw-semibold fs-4" to="">Comencemos ahora</Link>
+                        <Link className="btn my-4 fw-semibold cuerpofooter" to="">Comienza ahora</Link>
                     </div>
                 </div>
             </div>

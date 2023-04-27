@@ -31,7 +31,7 @@ function BtnSubir() {
         <div>
             {scrollPosition > 1000 && (
                 <div className="fixed-bottom d-flex justify-content-end">
-                    <button className="btn btnsubir btn-lg me-3 mb-3" onClick={handleScrollToTop}>
+                    <button className="btn btnsubir btn-lg me-5 mb-5" onClick={handleScrollToTop}>
                         <FontAwesomeIcon icon={faAnglesUp} size="lg" />
                     </button>
                 </div>
