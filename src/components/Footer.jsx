@@ -18,7 +18,7 @@ const Footer = () => {
                             <li><Link to="" className="text-decoration-none text-dark footer_links cuerpofooter">FAQ</Link></li>
                         </ul>
                     </div>
-                    <div className="col-md-3 row align-items-start">
+                    <div className="text-start col-md-3">
                         <h5 className="text-start fw-bold quicksand titulofooter">Contacto</h5>
                         <div className="d-flex align-items-center">
                             <FontAwesomeIcon icon={faEnvelope} size="lg" style={{ color: "#7858DD" }} />
