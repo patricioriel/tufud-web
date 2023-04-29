@@ -11,7 +11,7 @@ const Formulario = () => {
                         <p className="text-start fs-4">Al simplificar tus procesos de gestión y mejorar la eficiencia de tus operaciones, aumenta tu productividad y mejora la satisfacción del cliente. Que esperas? comunícate con nosotros ahora.</p>
                     </div>
                     <div className="col-md-6">
-                        <Form>
+                        <form>
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" className="form-label">Nombre Completo</label>
                                 <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Escribe tu nombre"/>
@@ -28,7 +28,7 @@ const Formulario = () => {
                                 <label for="exampleFormControlTextarea1" className="form-label">Mensaje</label>
                                 <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu mensaje aquí"></textarea>
                             </div>
-                        </Form>
+                        </form>
                     </div>
                 </div>
             </div>
