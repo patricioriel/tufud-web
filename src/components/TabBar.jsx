@@ -11,7 +11,7 @@ function TabBar() {
             title: 'Mejor frecuencia',
             content: <div className="row mt-5 justify-content-center container-fluid">
                 <div className="col-md-5">
-                    <img src={tabbar1} alt="Descripción de la imagen" className='imginfo mt-3 img-fluid' />
+                    <img src={tabbar1} alt="Descripción de la imagen" className='imginfo mt-3 w-75' />
                 </div>
                 <div className="col-md-5">
                     <div>
@@ -26,7 +26,7 @@ function TabBar() {
             title: 'Promocionar',
             content: <div className="row mt-5 justify-content-center container-fluid">
             <div className="col-md-5">
-                <img src={tabbar2} alt="Descripción de la imagen" className='imginfo mt-3 img-fluid' />
+                <img src={tabbar2} alt="Descripción de la imagen" className='imginfo mt-3 w-75' />
             </div>
             <div className="col-md-5">
                 <div>
@@ -41,7 +41,7 @@ function TabBar() {
             title: 'Mejor organización',
             content: <div className="row mt-5 justify-content-center container-fluid">
             <div className="col-md-5">
-                <img src={tabbar3} alt="Descripción de la imagen" className='imginfo mt-3 img-fluid' />
+                <img src={tabbar3} alt="Descripción de la imagen" className='imginfo mt-3 w-75' />
             </div>
             <div className="col-md-5">
                 <div>
@@ -54,8 +54,8 @@ function TabBar() {
     ];
 
     return (
-        <div>
-            <div className="tab-bar">
+        <div className='container-fluid'>
+            <div className="tab-bar d-flex justify-content-start ms-5 mw-100">
                 {tabs.map((tab, index) => (
                     <div
                         key={index}
