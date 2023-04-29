@@ -111,11 +111,6 @@ body .quicksand {
   font-weight: 700;
 }
 
-.btn:hover {
-  color: #7858dd;
-  background-color: #0fe3a9
-}
-
 .btn-zoom {
   transition: transform 0.3s ease-in-out;
 }
@@ -166,9 +161,7 @@ body .quicksand {
 
 /*footer*/
 
-.footer_links:hover {
-  color: #0fe3a9 !important;
-}
+
 
 /* tab bar */
 

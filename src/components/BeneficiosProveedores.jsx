@@ -1,48 +1,102 @@
-import React from 'react'
+import React from "react";
+import tareas from "../images/Tareas.png";
+import centraliza from "../images/Centraliza.png";
+import aumenta from "../images/Aumento.png";
+import experiencia from "../images/Experiencia.png";
+import gestion from "../images/Gestion.png"
 
 function BeneficiosProveedores() {
   return (
-    <div class="container-fluid benef">
-    <div class="row my-3 justify-content-center">
-      <div class="col-sm-6 col-md-3">
-        <div class="card h-100">
-          <div class="card-body d-flex flex-column text-center h-100">
-            <img class="card-img-top rounded-circle imgbeneficios" src="https://w7.pngwing.com/pngs/115/901/png-transparent-question-mark-graphy-small-plastic-people-people-plastic-bottle-cartoon.png" alt="Card image cap" />
-            <h5 class="card-title fw-bold">Reduce las tareas manuales</h5>
-            <p class="card-text">Basta de perder tiempo procesando pedidos ilegibles. Recibe órdenes limpias, 100% digitales.</p>
+    <div className="container-fluid w-75 mt-5">
+      <div className="row my-3 justify-content-center">
+        <div className="col-sm-6 col-md-4">
+          <div className="card bg-transparent shadow rounded border-0 h-100 p-3">
+            <div className="card-body text-center altocard">
+              <img
+                className="card-img-top rounded-circle imgbeneficios fluid w-50"
+                src={tareas}
+                alt="avion de papel"
+              />
+              <h5 className="card-title fw-bold morado titulocard">
+                Reduce las tareas manuales
+              </h5>
+              <p className="card-text cuerpocard">
+                Basta de perder tiempo procesando pedidos ilegibles. Recibe ordenes limpias, 100% digitales.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="col-sm-6 col-md-4">
+          <div className="card bg-transparent shadow rounded border-0 h-100 p-3">
+            <div className="card-body text-center">
+              <img
+                className="card-img-top rounded-circle imgbeneficios fluid w-50"
+                src={experiencia}
+                alt="reloj"
+              />
+              <h5 className="card-title fw-bold morado titulocard">Aumenta la experiencia de compra de tus clientes</h5>
+              <p className="card-text cuerpocard">
+                Mejora la experiencia de compra. Basta de planillas interminables o listados en PDF.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="col-sm-6 col-md-4">
+          <div className="card bg-transparent shadow rounded border-0 h-100 p-3">
+            <div className="card-body text-center">
+              <img
+                className="card-img-top rounded-circle imgbeneficios fluid w-50"
+                src={centraliza}
+                alt="pedidos"
+              />
+              <h5 className="card-title fw-bold morado titulocard">
+                Centraliza a todos tus clientes
+              </h5>
+              <p className="card-text cuerpocard">
+                Encuentra a todos tus clientes en una sola app y recibe sus ordenes de manera sencilla y ordenada.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="card h-100">
-          <div class="card-body d-flex flex-column text-center h-100">
-            <img class="card-img-top rounded-circle imgbeneficios" src="https://w7.pngwing.com/pngs/115/901/png-transparent-question-mark-graphy-small-plastic-people-people-plastic-bottle-cartoon.png" alt="Card image cap" />
-            <h5 class="card-title fw-bold">Aumenta tus ventas</h5>
-            <p class="card-text">Mejora la experiencia de compra. Basta de planillas interminables o listados en PDF.</p>
+      <div className="row justify-content-center">
+        <div className="col-sm-6 col-md-4">
+          <div className="card bg-transparent shadow rounded border-0 h-100 p-3">
+            <div className="card-body text-center">
+              <img
+                className="card-img-top rounded-circle imgbeneficios fluid w-50"
+                src={aumenta}
+                alt="check"
+              />
+              <h5 className="card-title fw-bold morado titulocard">
+                Optimiza tus procesos
+              </h5>
+              <p className="card-text cuerpocard">
+                Tufud simplifica la gestión de los pedidos, dandole mas tiempo a tu equipo para aumentar las ventas.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="col-sm-6 col-md-4">
+          <div className="card bg-transparent shadow rounded border-0 h-100 p-3">
+            <div className="card-body text-center">
+              <img
+                className="card-img-top rounded-circle imgbeneficios fluid w-50"
+                src={gestion}
+                alt="check"
+              />
+              <h5 className="card-title fw-bold morado titulocard">
+                Mejora la gestion de tu negocio
+              </h5>
+              <p className="card-text cuerpocard">
+                Viendo las estadísticas y gestionando todas tus cuentas por cobrar.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="card h-100">
-          <div class="card-body d-flex flex-column text-center h-100">
-            <img class="card-img-top rounded-circle imgbeneficios" src="https://w7.pngwing.com/pngs/115/901/png-transparent-question-mark-graphy-small-plastic-people-people-plastic-bottle-cartoon.png" alt="Card image cap" />
-            <h5 class="card-title fw-bold">Centraliza a todos tus clientes</h5>
-            <p class="card-text">Encuentra a todos tus clientes en una sola app y recibe sus órdenes de manera sencilla y ordenada.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="card h-100">
-          <div class="card-body d-flex flex-column text-center h-100">
-            <img class="card-img-top rounded-circle imgbeneficios" src="https://w7.pngwing.com/pngs/115/901/png-transparent-question-mark-graphy-small-plastic-people-people-plastic-bottle-cartoon.png" alt="Card image cap" />
-            <h5 class="card-title fw-bold">Optimiza tus procesos</h5>
-            <p class="card-text">Tufud simplifica la gestión de los pedidos, dándole más tiempo a tu equipo para aumentar las ventas.</p>
-          </div>
-        </div>
-      </div>
-   </div>
-   </div>
-  )
+    </div>
+  );
 }
 
-export default BeneficiosProveedores
+export default BeneficiosProveedores;

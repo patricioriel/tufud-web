@@ -20,7 +20,7 @@ function Pedidos() {
                 </div>
             </div>
             <div className="col-md-5">
-                <img src={img1resto} alt="Descripción de la imagen" className='imginfo mt-3 rounded-circle' />
+                <img src={img1resto} alt="Descripción de la imagen" className='imginfo mt-3 img-fluid' />
             </div>
         </div>
 

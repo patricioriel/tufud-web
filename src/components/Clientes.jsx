@@ -12,31 +12,31 @@ import TiendaNova from "../images/TiendaNova.png"
 const Clientes = () => {
 
     return (
-<div class="container">
-  <div class="row">
-    <h4 class="fw-semibold subtitulo quicksand">Descubre <span class="morado">quienes confían</span> en nosotros</h4>
+<div className="container">
+  <div className="row">
+    <h4 className="fw-semibold subtitulo quicksand">Descubre <span className="morado">quienes confían</span> en nosotros</h4>
   </div>
-  <div class="row my-3">
-    <div class="col">
-      <img src={Amelia} class="img-fluid" alt="" />
+  <div className="row my-3 p-5">
+    <div className="col">
+      <img src={Amelia} className="img-fluid" alt="" />
     </div>
-    <div class="col">
-      <img src={MercadoSilvestre} class="img-fluid" alt="" />
+    <div className="col">
+      <img src={MercadoSilvestre} className="img-fluid" alt="" />
     </div>
-    <div class="col">
-      <img src={Piccolina} class="img-fluid" alt="" />
+    <div className="col">
+      <img src={Piccolina} className="img-fluid" alt="" />
     </div>
-    <div class="col">
-      <img src={SemillaViva} class="img-fluid" alt="" />
+    <div className="col">
+      <img src={SemillaViva} className="img-fluid" alt="" />
     </div>
-    <div class="col">
-      <img src={SilvestreCafe} class="img-fluid" alt="" />
+    <div className="col">
+      <img src={SilvestreCafe} className="img-fluid" alt="" />
     </div>
-    <div class="col">
-      <img src={Supersaludable} class="img-fluid" alt="" />
+    <div className="col">
+      <img src={Supersaludable} className="img-fluid" alt="" />
     </div>
-    <div class="col">
-      <img src={TiendaNova} class="img-fluid" alt="" />
+    <div className="col">
+      <img src={TiendaNova} className="img-fluid" alt="" />
     </div>
   </div>
 </div>

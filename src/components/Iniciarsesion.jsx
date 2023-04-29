@@ -16,7 +16,7 @@ const Iniciarsesion = () => {
           </div>
         </div>
         <div className="col-md-6">
-          <div class="card w-75">
+          <div className="card w-75">
             <img src={imgproveedor} className="card-img-top img-fluid" alt="..." />
             <div className="card-body">
               <Link to={"#"} className="btn my-4 fw-semibold fs-2 ps-5 pe-5 btn-zoom me-5">Soy Proveedor</Link>
