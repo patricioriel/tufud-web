@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tufud-web/static/css/main.7ae3184f.css",
-    "main.js": "/tufud-web/static/js/main.1e6a48ff.js",
+    "main.css": "/tufud-web/static/css/main.72953df6.css",
+    "main.js": "/tufud-web/static/js/main.24831872.js",
     "static/media/Funcionamiento.mp4": "/tufud-web/static/media/Funcionamiento.b22313aef5c5ecaf970d.mp4",
     "static/media/img2home.png": "/tufud-web/static/media/img2home.2c5e5e8bdf5b27ba9318.png",
     "static/media/imgproveedor.jpg": "/tufud-web/static/media/imgproveedor.deaf82728354583b7fa6.jpg",
@@ -11,10 +11,19 @@
     "static/media/img3home.png": "/tufud-web/static/media/img3home.ea9317899d989bb14a5e.png",
     "static/media/TiendaNova.png": "/tufud-web/static/media/TiendaNova.4ee5cc5ddb32145a725d.png",
     "static/media/imgrestaurante.jpg": "/tufud-web/static/media/imgrestaurante.ea070bb9dd6c5b0c25b0.jpg",
+    "static/media/tabbar1.png": "/tufud-web/static/media/tabbar1.839a34dfdf70813b6dbf.png",
+    "static/media/tabbar3.png": "/tufud-web/static/media/tabbar3.9ea0eba3469d5616e2a4.png",
     "static/media/logo-500-latam.png": "/tufud-web/static/media/logo-500-latam.0993d209e24ccdecfb3d.png",
+    "static/media/Aumento.png": "/tufud-web/static/media/Aumento.bcaeb4da76fc241d5f69.png",
     "static/media/img1resto.png": "/tufud-web/static/media/img1resto.9170edf0a948fae1bfbc.png",
+    "static/media/Tareas.png": "/tufud-web/static/media/Tareas.ba449087f86c8d0210f2.png",
+    "static/media/tabbar2.png": "/tufud-web/static/media/tabbar2.a45e498f35762d193fe0.png",
+    "static/media/Experiencia.png": "/tufud-web/static/media/Experiencia.505aee7de1f7a9923d0e.png",
+    "static/media/Gestion.png": "/tufud-web/static/media/Gestion.b4469f2ae6442f667abb.png",
     "static/media/tufudhorizontal.png": "/tufud-web/static/media/tufudhorizontal.db6989430caf4297571a.png",
     "static/media/img2resto.png": "/tufud-web/static/media/img2resto.a449cc9a48818e07408b.png",
+    "static/media/imagenprincipalproveedores.png": "/tufud-web/static/media/imagenprincipalproveedores.09d166ba0da6a9d05b8d.png",
+    "static/media/Centraliza.png": "/tufud-web/static/media/Centraliza.9004a9f3d94e41241c75.png",
     "static/media/SilvestreCafe.png": "/tufud-web/static/media/SilvestreCafe.1f24d52c66cdba95af26.png",
     "static/media/Piccolina.png": "/tufud-web/static/media/Piccolina.2388c102b96b9f5823b4.png",
     "static/media/MercadoSilvestre.png": "/tufud-web/static/media/MercadoSilvestre.eed2dc1fedfd9bdb5256.png",
@@ -23,13 +32,16 @@
     "static/media/tufudlogo.png": "/tufud-web/static/media/tufudlogo.6dd2bb0b6aadb17a7f9b.png",
     "static/media/Supersaludable.png": "/tufud-web/static/media/Supersaludable.3535c57f4c1a5539ccab.png",
     "static/media/papel.png": "/tufud-web/static/media/papel.847d9e102976f060182a.png",
+    "static/media/pedidos2.png": "/tufud-web/static/media/pedidos2.1f6c853131fd79aff4ff.png",
+    "static/media/check.png": "/tufud-web/static/media/check.36b3efc627b2b3937a80.png",
     "static/media/pedidos.png": "/tufud-web/static/media/pedidos.2980990bf523befa4612.png",
+    "static/media/logo-anii.png": "/tufud-web/static/media/logo-anii.cf352e28258c1c3b5165.png",
     "index.html": "/tufud-web/index.html",
-    "main.7ae3184f.css.map": "/tufud-web/static/css/main.7ae3184f.css.map",
-    "main.1e6a48ff.js.map": "/tufud-web/static/js/main.1e6a48ff.js.map"
+    "main.72953df6.css.map": "/tufud-web/static/css/main.72953df6.css.map",
+    "main.24831872.js.map": "/tufud-web/static/js/main.24831872.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ae3184f.css",
-    "static/js/main.1e6a48ff.js"
+    "static/css/main.72953df6.css",
+    "static/js/main.24831872.js"
   ]
 }
