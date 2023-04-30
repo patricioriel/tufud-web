@@ -185,3 +185,19 @@ body .quicksand {
 .tab-content {
   margin-top: 20px;
 }
+
+@media (max-width: 768px) {
+  .tab-bar {
+    flex-direction: column;
+  }
+}
+
+.tab-item {
+  border-bottom: 3px solid #7758dd3f;
+}
+
+.tab-item.active {
+ 
+  border-bottom: 3px solid #7858DD;
+  
+}
