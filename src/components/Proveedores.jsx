@@ -5,6 +5,8 @@ import Ventas from './Ventas'
 import Video from './Video'
 import Formulario from './Formulario'
 
+
+
 function Proveedores() {
   return (
     <div>

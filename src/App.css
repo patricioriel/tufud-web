@@ -111,6 +111,11 @@ body .quicksand {
   font-weight: 700;
 }
 
+.btn:hover {
+  background-color: #6541dd;
+  color: #fff;
+}
+
 .btn-zoom {
   transition: transform 0.3s ease-in-out;
 }
@@ -159,8 +164,18 @@ body .quicksand {
   font-weight: 400;
 }
 
-/*footer*/
+/*formulario*/
+.form {
+  background-color: #7858DD;
+}
 
+.btn_form {
+  background-color: #C4F8EB;
+  color: #7858DD;
+  border: none;
+  width: 160px;
+  border-radius: 10px;
+}
 
 
 /* tab bar */
