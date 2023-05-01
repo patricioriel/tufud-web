@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tufud-web/static/css/main.72953df6.css",
-    "main.js": "/tufud-web/static/js/main.24831872.js",
+    "main.css": "/tufud-web/static/css/main.6e77e912.css",
+    "main.js": "/tufud-web/static/js/main.cce5a168.js",
     "static/media/Funcionamiento.mp4": "/tufud-web/static/media/Funcionamiento.b22313aef5c5ecaf970d.mp4",
     "static/media/img2home.png": "/tufud-web/static/media/img2home.2c5e5e8bdf5b27ba9318.png",
     "static/media/imgproveedor.jpg": "/tufud-web/static/media/imgproveedor.deaf82728354583b7fa6.jpg",
@@ -37,11 +37,11 @@
     "static/media/pedidos.png": "/tufud-web/static/media/pedidos.2980990bf523befa4612.png",
     "static/media/logo-anii.png": "/tufud-web/static/media/logo-anii.cf352e28258c1c3b5165.png",
     "index.html": "/tufud-web/index.html",
-    "main.72953df6.css.map": "/tufud-web/static/css/main.72953df6.css.map",
-    "main.24831872.js.map": "/tufud-web/static/js/main.24831872.js.map"
+    "main.6e77e912.css.map": "/tufud-web/static/css/main.6e77e912.css.map",
+    "main.cce5a168.js.map": "/tufud-web/static/js/main.cce5a168.js.map"
   },
   "entrypoints": [
-    "static/css/main.72953df6.css",
-    "static/js/main.24831872.js"
+    "static/css/main.6e77e912.css",
+    "static/js/main.cce5a168.js"
   ]
 }
