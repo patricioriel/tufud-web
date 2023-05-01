@@ -54,20 +54,28 @@ function TabBar() {
     ];
 
     return (
-        <div className='container-fluid'>
-  <div className="tab-bar d-flex justify-content-start ms-5 mt-5 mw-100">
-    {tabs.map((tab, index) => (
-      <div
-        key={index}
-        onClick={() => setActiveTab(index)}
-        className={`tab-item ${activeTab === index ? 'active' : ''}`}
-      >
-        {tab.title}
+        <div className="container-fluid">
+  <div className="row">
+    <div className="col-12">
+      <div className="tab-bar d-flex overflow-auto justify-content-start align-items-center">
+        {tabs.map((tab, index) => (
+          <div
+            key={index}
+            onClick={() => setActiveTab(index)}
+            className={`tab-item ${activeTab === index ? 'active' : ''}`}
+          >
+            {tab.title}
+          </div>
+        ))}
       </div>
-    ))}
+    </div>
   </div>
-  <div className="tab-content">
-    {tabs[activeTab].content}
+  <div className="row">
+    <div className="col-12">
+      <div className="tab-content">
+        {tabs[activeTab].content}
+      </div>
+    </div>
   </div>
 </div>
     );

@@ -169,7 +169,7 @@ body .quicksand {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50px;
+  height: 56px;
 }
 
 .tab-bar div {
@@ -186,18 +186,28 @@ body .quicksand {
   margin-top: 20px;
 }
 
-@media (max-width: 768px) {
-  .tab-bar {
-    flex-direction: column;
-  }
-}
-
 .tab-item {
   border-bottom: 3px solid #7758dd3f;
+  padding: 0 10px;
+  white-space: nowrap;
 }
 
 .tab-item.active {
- 
-  border-bottom: 3px solid #7858DD;
-  
+  border-bottom: 3px solid #7858DD; 
+}
+
+.tab-item {
+  padding: 0 10px;
+  white-space: nowrap;
+}
+
+@media (max-width: 576px) {
+  .tab-item {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .tab-item.active {
+    margin-right: 0;
+  }
 }
