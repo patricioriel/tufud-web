@@ -1,8 +1,8 @@
 import React from 'react'
-import reloj from "../images/reloj.png"
-import papel from "../images/papel.png"
-import pedidos2 from "../images/pedidos2.png"
-import check from "../images/check.png"
+import reloj from "../images/reloj.svg"
+import papel from "../images/papel.svg"
+import pedidos2 from "../images/pedidos2.svg"
+import check from "../images/check.svg"
 
 function BeneficiosRestaurante() {
   return (
