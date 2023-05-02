@@ -4,7 +4,7 @@ import img3resto from "../images/img3resto.png"
 
 function EstasListo() {
   return (
-    <div className="row mt-5 justify-content-center container-fluid">
+    <div className="row mt-5 justify-content-center container-fluid gradiente_verde">
             <div className="col-md-5">
                 <div>
                     <h1 className='fw-bold text-start quicksand titulo'>¿Estás listo para empezar a agilizar más rápido <span className='morado'>tus pedidos</span>?</h1>

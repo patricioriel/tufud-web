@@ -115,6 +115,11 @@ body .quicksand {
   font-weight: 700;
 }
 
+.btn:hover {
+  background-color: #6541dd;
+  color: #fff;
+}
+
 .btn-zoom {
   transition: transform 0.3s ease-in-out;
 }
