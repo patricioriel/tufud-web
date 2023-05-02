@@ -76,7 +76,7 @@ const Navbar = () => {
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="dropdown-item" to="/proveedor">
+                    <NavLink className="dropdown-item" to="/noticias">
                       Noticias
                     </NavLink>
                   </li>

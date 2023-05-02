@@ -1,9 +1,9 @@
 import React from "react";
-import tareas from "../images/Tareas.png";
-import centraliza from "../images/Centraliza.png";
-import aumenta from "../images/Aumento.png";
-import experiencia from "../images/Experiencia.png";
-import gestion from "../images/Gestion.png"
+import tareas from "../images/tareas.svg";
+import centraliza from "../images/centraliza.svg";
+import aumenta from "../images/aumento.svg";
+import experiencia from "../images/experiencia.svg";
+import gestion from "../images/gestion.svg"
 
 function BeneficiosProveedores() {
   return (
