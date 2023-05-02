@@ -115,6 +115,16 @@ body .quicksand {
   font-weight: 700;
 }
 
+.dropdown-item.active {
+    background-color: #F6EDFF;
+    color: #7858DD;
+    }
+
+.dropdown-item:hover {
+  background-color: #F6EDFF;
+  color: #7858DD;
+}
+
 .btn:hover {
   background-color: #6541dd;
   color: #fff;
@@ -127,6 +137,11 @@ body .quicksand {
 .btn-zoom:hover {
   transform: scale(1.1);
 }
+
+.btn.active {
+  background-color: #6541dd;
+  color: #fff;
+  }
 
 .navbar-collapse {
   flex-grow: 0;

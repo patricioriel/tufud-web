@@ -3,7 +3,7 @@ import React from "react";
 const Formulario = () => {
     return (
         <div className="container-fluid gradiente_verde">
-            <div className="container m-5">
+            <div className="container m-5 form">
                 <div className="row">
                     <div className="col-md-6">
                         <h3 className="fw-bold text-start display-3 quicksand"><span className="morado">Optimiza la gestion</span> de tus pedidos y lleva tu negocio al siguiente nivel</h3>

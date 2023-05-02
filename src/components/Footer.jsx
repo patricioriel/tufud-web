@@ -12,8 +12,8 @@ const Footer = () => {
                     <div className="col-md-3">
                         <h5 className="text-start fw-bold quicksand titulofooter">Enlaces</h5>
                         <ul className="text-start list-unstyled">
-                            <li><Link to="/restaurante" className="text-decoration-none text-dark footer_links cuerpofooter">Restaurante</Link></li>
-                            <li><Link to="/proveedor" className="text-decoration-none text-dark footer_links cuerpofooter">Proveedor</Link></li>
+                            <li><Link to="/restaurante" className="text-decoration-none text-dark footer_links cuerpofooter">Restaurantes</Link></li>
+                            <li><Link to="/proveedor" className="text-decoration-none text-dark footer_links cuerpofooter">Proveedores</Link></li>
                             <li><Link to="" className="text-decoration-none text-dark footer_links cuerpofooter">Testimonios</Link></li>
                             <li><Link to="" className="text-decoration-none text-dark footer_links cuerpofooter">FAQ</Link></li>
                         </ul>
@@ -22,7 +22,7 @@ const Footer = () => {
                         <h5 className="text-start fw-bold quicksand titulofooter">Contacto</h5>
                         <div className="d-flex align-items-center">
                             <FontAwesomeIcon icon={faEnvelope} size="lg" style={{ color: "#7858DD" }} />
-                            <p className="text-start cuerpofooter ms-2 m-0">contacto@tufud.com</p>
+                            <p className="text-start cuerpofooter ms-2 m-0">contacto@tufud.co</p>
                         </div>
                     </div>
 
