@@ -162,6 +162,12 @@ body .quicksand {
   width: 40%;
 }
 
+/* testimonios */
+
+.bi-quote {
+  color: #7858DD;
+}
+
 /* componente beneficios */
 
 .containerbeneficios {
