@@ -338,3 +338,26 @@ body .quicksand {
   height: 100%;
   object-fit: cover;
 }
+
+/* formulario */
+
+.form {
+  background-color: #7858DD;
+  border-radius: 10px;
+  width: 600px;
+  height: 640px;
+}
+
+.btn_form {
+  background-color: #C4F8EB;
+  color: #7858DD;
+  border-radius: 10px;
+  width: 160px;
+  border: none
+}
+
+.fondo_form {
+  background-image: url(images/FONDO-SEC\ FORMULARIO.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}

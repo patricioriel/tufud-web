@@ -5,6 +5,7 @@ import EstasListo from './EstasListo';
 import Pedidos from './Pedidos';
 import Video from './Video';
 import BtnSubir from "./BtnSubir"
+import Formulario from './Formulario';
 
 function Restaurante() {
     return (
@@ -14,6 +15,7 @@ function Restaurante() {
         <AgilizaPedidos/>
         <Video/>
         <EstasListo/>
+        <Formulario/>
         <BtnSubir/>
         </div>
     )

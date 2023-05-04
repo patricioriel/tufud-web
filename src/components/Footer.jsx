@@ -12,10 +12,10 @@ const Footer = () => {
                     <div className="col-md-3">
                         <h5 className="text-start fw-bold quicksand titulofooter">Enlaces</h5>
                         <ul className="text-start list-unstyled">
-                            <li><Link to="/restaurante" className="text-decoration-none text-dark footer_links cuerpofooter">Restaurantes</Link></li>
-                            <li><Link to="/proveedor" className="text-decoration-none text-dark footer_links cuerpofooter">Proveedores</Link></li>
-                            <li><Link to="" className="text-decoration-none text-dark footer_links cuerpofooter">Testimonios</Link></li>
-                            <li><Link to="" className="text-decoration-none text-dark footer_links cuerpofooter">FAQ</Link></li>
+                            <li><Link to="/restaurante" className="text-decoration-underline text-dark footer_links cuerpofooter">Restaurantes</Link></li>
+                            <li><Link to="/proveedor" className="text-decoration-underline text-dark footer_links cuerpofooter">Proveedores</Link></li>
+                            <li><Link to="" className="text-decoration-underline text-dark footer_links cuerpofooter">Testimonios</Link></li>
+                            <li><Link to="" className="text-decoration-underline text-dark footer_links cuerpofooter">FAQ</Link></li>
                         </ul>
                     </div>
                     <div className="text-start col-md-3">
