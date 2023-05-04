@@ -303,12 +303,16 @@ body .quicksand {
     z-index: 1;
   }
   .cajanoticias {
+    padding-top: 45px;
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 46px;
     height: auto;
     z-index: 2;
     margin-top: -90px;
+  }
+  .imagennoticia img {
+    max-width: 100%;
   }
 }
 
