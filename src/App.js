@@ -8,6 +8,9 @@ import Restaurante from './components/Restaurante';
 import Proveedores from './components/Proveedores';
 import Iniciarsesion from './components/Iniciarsesion';
 import Noticias from './components/Noticias';
+import Noticia1 from './components/Noticia1';
+import Noticia2 from './components/Noticia2';
+import Noticia3 from './components/Noticia3';
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
             <Route path={'/proveedor'} element={<Proveedores/>}/>
             <Route path={'/iniciarsesion'} element={<Iniciarsesion/>}/>
             <Route path={'/noticias'} element={<Noticias/>}/>
+            <Route path={'/noticias/1'} element={<Noticia1/>}/>
+            <Route path={'/noticias/2'} element={<Noticia2/>}/>
+            <Route path={'/noticias/3'} element={<Noticia3/>}/>
           </Routes>
         <Footer/>
       </BrowserRouter>
