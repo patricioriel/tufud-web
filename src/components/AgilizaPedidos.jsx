@@ -5,7 +5,7 @@ function AgilizaPedidos() {
   return (
     <div className="row mt-5 justify-content-center container-fluid">
             <div className="col-md-5">
-                <img src={img2resto} alt="Descripción de la imagen" className='imginfo mt-3 rounded-circle' />
+                <img src={img2resto} alt="Descripción de la imagen" className='imginfo mt-3' />
             </div>
             <div className="col-md-5">
                 <div>
