@@ -21,6 +21,7 @@ const Clientes = () => {
         <Swiper
           slidesPerView={5}
           spaceBetween={50}
+          
           autoplay={{
             delay: 1000,
             pauseOnMouseEnter: true,
