@@ -29,6 +29,9 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
+  position: relative;
   background-image: linear-gradient(180deg, #F6F4FF 8.65%, rgba(246, 237, 255, 0.5) 29.48%, rgba(227, 214, 240, 0.48) 55.52%, rgba(255, 255, 255, 0) 100%);
 }
 
@@ -307,4 +310,27 @@ body .quicksand {
     z-index: 2;
     margin-top: -90px;
   }
+}
+
+/* swiper */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 15px;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
