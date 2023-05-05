@@ -19,12 +19,12 @@ function Noticia1() {
                 <h2 className='titulo quicksand fw-bold mt-5 pt-5'>Tufud está revolucionando la industria gastronómica.</h2>
                 <p className='cuerpo'>La industria gastronómica ha experimentado cambios significativos en los últimos años debido a la creciente demanda de opciones digitales por parte de los clientes y la necesidad de los restaurantes de adaptarse a la "nueva normalidad" tras la pandemia. La digitalización de la industria alimentaria ha llegado para quedarse y está transformando el sistema gastronómico en su totalidad. En este artículo hablaremos sobre cómo y por qué la tecnología está revolucionando la industria gastronómica y cómo los restaurantes pueden aprovechar al máximo las oportunidades que se les presentan.</p>
                 <img src={donjulio} alt="Don Julio" class="img-fluid mx-auto w-100 mb-5 mt-5" />
-                <h3 className='titulocard fw-bold mb-5'>¿Por qué la digitalización es un factor fundamental para la industria gastronómica?</h3>
+                <h3 className='titulocard fw-bold mb-3'>¿Por qué la digitalización es un factor fundamental para la industria gastronómica?</h3>
                 <div className='row'>
-                    <div className='col-5'>
-                        <img src={dnoticia1} alt="Restó" class="img-fluid mx-auto" />
+                    <div className='col-md-5 col-sm-12'>
+                        <img src={dnoticia1} alt="Restó" class="img-fluid mx-auto mt-3" />
                     </div>
-                    <div className='col-7'>
+                    <div className='col-md-7 col-sm-12'>
                         <p className='pfoto cuerpo'>En la actualidad, es prácticamente inevitable no haber experimentado la transición hacia el mundo digital, ya sea realizando pedidos a través de las aplicaciones, dejando reseñas en línea a los establecimientos gastronómicos o incluso rasteando al delivery mientras reparte tu pedido.
                             Si bien esta práctica se ha convertido en una costumbre en la relación entre los clientes y los restaurantes, también resulta crucial la digitalización en la relación entre los restaurantes y sus proveedores.</p>
                     </div>

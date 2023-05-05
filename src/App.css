@@ -361,6 +361,12 @@ body .quicksand {
   text-align: justify;
 }
 
+@media (max-width: 1100px) {
+  .detallenoticia{
+    width: 100% !important;
+  }
+}
+
 /* swiper */
 
 .swiper {
