@@ -4,11 +4,11 @@ import img1home from "../images/img1home.png"
 
 function Info() {
   return (
-    <div className="row mt-4 justify-content-center container-fluid">
+    <div className="row mt-4 d-flex justify-content-center container-fluid">
       <div className="col-md-5">
         <div>
           <h1 className='fw-bold text-start quicksand titulo mb-5'>Somos la plataforma de <span className='morado'>pedidos</span> que revoluciona la <span className='morado'>industria gastronómica</span></h1>
-          <p className='text-start cuerpo'>Tufud ayuda a restaurantes y proveedores a mejorar el envío y recepción de ordenes de compra, con el objetivo de ahorrar tiempo, disminuir costos y reducir el desperdicio de alimentos.</p>
+          <p className='text-start cuerpo'>Tufud ayuda a Restaurantes y Proveedores a mejorar el envío y recepción de ordenes de compra, con el objetivo de ahorrar tiempo, disminuir costos y reducir el desperdicio de alimentos.</p>
         </div>
         <div className="row my-3 text-start">
             <Link to={"/restaurante"} className="btn my-4 botones_info">Soy Restaurante</Link>

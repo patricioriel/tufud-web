@@ -11,7 +11,7 @@ function Info2() {
                 <div className="col-md-5">
                     <div>
                         <h2 className='text-start display-3 fw-bold quicksand titulo mb-5'> <span className='morado'>Optimiza tu proceso</span> de pedidos con nuestra plataforma en linea</h2>
-                        <p className='text-start cuerpo'>Nuestra interfaz rápida e intuitiva permite agilizar la<br/> generación y recepción de ordenes de compra.<br/> Adaptamos la tecnología al trabajo de cocineros,<br/> administradores y vendedores.</p>
+                        <p className='text-start cuerpo'>Nuestra interfaz rápida e intuitiva permite agilizar la generación y recepción de ordenes de compra. Adaptamos la tecnología al trabajo de cocineros, administradores y vendedores.</p>
                     </div>
                 </div>
             </div>

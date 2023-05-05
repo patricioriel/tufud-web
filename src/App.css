@@ -111,8 +111,29 @@ body .quicksand {
   line-height: 24.5px;
 }
 
+.subtitulos_cards {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.8px;
+}
+
 .titulofooter{
   font-size: 30px;
+}
+
+.btn_comunidad {
+  width: 255px;
+  height: 56px;
+  padding: 12px;
+  color: #fff;
+  background-color: #7858DD;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 10px;
+  display:inline-block;
+  text-align: center;
+  
+
 }
 
 .cuerpofooter{

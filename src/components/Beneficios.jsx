@@ -20,7 +20,7 @@ function Beneficios() {
       <div className="col-md-3">
         <div className="card bg-transparent shadow rounded border-0 h-100">
           <div className="card-body text-center pb-5">
-            <img className="card-img-top rounded-circle imgbeneficios fluid w-50 mb-3" src={papel} alt="ilustracion papel" />
+            <img className="card-img-top rounded-circle fluid w-50 mb-3" src={papel} alt="ilustracion papel" />
             <h5 className="card-title fw-bold morado titulos_cards mt-2">Olvídate del Papel</h5>
             <p className="card-text cuerpocard">Evita la generación de pilas de facturas o remitos que terminan perdiéndose.</p>
           </div>
@@ -29,7 +29,7 @@ function Beneficios() {
       <div className="col-md-3">
         <div className="card bg-transparent shadow rounded border-0 h-100">
           <div className="card-body text-center pb-5">
-            <img className="card-img-top rounded-circle imgbeneficios fluid w-50 mb-3" src={pedidos} alt="ilustracion pedidos"/>
+            <img className="card-img-top rounded-circle fluid w-50 mb-3" src={pedidos} alt="ilustracion pedidos"/>
             <h5 className="card-title fw-bold morado titulos_cards">Mejora la Precisión</h5>
             <p className="card-text cuerpocard">Reduce la probabilidad de errores y malentendidos al realizar o recibir pedidos mas detallados.</p>
           </div>
