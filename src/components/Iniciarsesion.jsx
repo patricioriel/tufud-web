@@ -1,27 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import imgproveedor from "../images/imgproveedor.jpg"
-import imgrestaurante from "../images/imgrestaurante.jpg"
+import proveedor from "../images/card_soyproveedor.png"
+import restaurante from "../images/card_soyrestaurante.png"
 
 const Iniciarsesion = () => {
   return (
-    <div className="container vh-100 my-5">
-      <div className="row">
+    <div className="container-fluid bg-light d-flex align-items-center justify-content-center my-5">
+      <div className="row p-5">
         <div className="col-md-6">
-          <div className="card w-75">
-            <img src={imgrestaurante} className="card-img-top img-fluid" alt="..." />
-            <div className="card-body">
-              <Link to={"#"} className="btn my-4 fw-semibold fs-2 ps-5 pe-5 btn-zoom me-5">Soy Restaurante</Link>
-            </div>
-          </div>
+              <Link to={"/restaurante"}><img src={restaurante} className="img-fluid" alt="ilustracion restaurante" /></Link>
         </div>
         <div className="col-md-6">
-          <div className="card w-75">
-            <img src={imgproveedor} className="card-img-top img-fluid" alt="..." />
-            <div className="card-body">
-              <Link to={"#"} className="btn my-4 fw-semibold fs-2 ps-5 pe-5 btn-zoom me-5">Soy Proveedor</Link>
-            </div>
-          </div>
+              <Link to={"/proveedor"}><img src={proveedor} className="img-fluid" alt="ilustracion proveedor" /></Link>
         </div>
       </div>
     </div>

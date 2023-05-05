@@ -4,7 +4,7 @@ import InicioNoticias from './InicioNoticias'
 
 function Noticias() {
     return (
-        <div className='container'>
+        <div className='container my-5'>
             <InicioNoticias />
             <ExploraNoticias />
         </div>

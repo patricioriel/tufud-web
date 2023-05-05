@@ -26,7 +26,7 @@ const Clientes = () => {
             pauseOnMouseEnter: true,
           }}
           modules={[Autoplay]}
-          className="mySwiper p-4"
+          className="mySwiper p-4 w-75"
         >
           <SwiperSlide><img src={amelia} className="img-fluid" alt="Amelia Logo" /></SwiperSlide>
           <SwiperSlide><img src={semilla} className="img-fluid" alt="Semilla Logo" /></SwiperSlide>
