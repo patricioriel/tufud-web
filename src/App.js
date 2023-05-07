@@ -11,6 +11,8 @@ import Noticias from './components/Noticias';
 import Noticia1 from './components/Noticia1';
 import Noticia2 from './components/Noticia2';
 import Noticia3 from './components/Noticia3';
+import Noticia4 from './components/Noticia4';
+import TodasNoticias from './components/TodasNoticias';
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
             <Route path={'/noticias/1'} element={<Noticia1/>}/>
             <Route path={'/noticias/2'} element={<Noticia2/>}/>
             <Route path={'/noticias/3'} element={<Noticia3/>}/>
+            <Route path={'/noticias/4'} element={<Noticia4/>}/>
+            <Route path={'/noticias/all'} element={<TodasNoticias/>}/>
           </Routes>
         <Footer/>
       </BrowserRouter>

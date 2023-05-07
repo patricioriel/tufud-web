@@ -368,21 +368,42 @@ body .quicksand {
     position: relative;
     left: 0;
     margin-right: 0;
-    border-radius: 42px;
+    border-radius: 20px;
     height: auto;
     z-index: 1;
+  }
+  .imagennoticia img{
+    height: 250px;
+    max-width: 90%;
   }
   .cajanoticias {
     padding-top: 45px;
     padding-left: 30px;
     padding-right: 30px;
-    border-radius: 46px;
+    border-radius: 10px;
     height: auto;
     z-index: 2;
     margin-top: -90px;
+    max-width: 90%;
   }
-  .imagennoticia img {
-    max-width: 100%;
+  .cajanoticias h2{
+    font-family: 'Noto Sans' !important;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: -0.035em;
+  }
+  .cajanoticias p{
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+align-items: center;
+margin-bottom: 0;
+  }
+  .leermas{
+font-size: 16px;
+line-height: 102.7%;
+letter-spacing: -0.035em;
   }
 }
 
@@ -410,6 +431,11 @@ body .quicksand {
 .grillanoticias p{
   letter-spacing: -0.035em;
   line-height: 17px;
+}
+
+.grillanoticias a{
+  color: black;
+  text-decoration: none;
 }
 
 .grillanoticias h2{

@@ -1,16 +1,25 @@
 import React from 'react'
-import noti1 from "../images/noti1.png"
-import noti2 from "../images/noti2.png"
-import noti3 from "../images/noti3.png"
-import noti4 from "../images/noti4.png"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
+import noti1 from '../images/noti1.png';
+import noti2 from '../images/noti2.png';
+import noti3 from '../images/noti3.png';
+import noti4 from '../images/noti4.png';
 
-function UltimasNoticias() {
+function TodasNoticias() {
     return (
-        <div className='container mt-5'>
-            <h3 className='fw-bold quicksand subtitulo mb-5 mt-5'>Últimas Noticias</h3>
-            <div className="row flex-row justify-content-center align-items-center">
-            <div className="col-md-3 col-sm-12 imagengrillanoticias h-100 mb-5">
+        <div className='container-fluid'>
+            <Link to={"/noticias"} className='float-start btnatras'>
+                <FontAwesomeIcon icon={faArrowLeft} size="2xl" style={{ color: 'black' }} />
+            </Link>
+            <h1 className='titulocard fw-bold mt-5'>NOTICIAS</h1>
+            <div className='container-md'>
+                <h2 className='fw-bold quicksand titulo text-center'>Las últimas tendencias en gastronomía, tecnología y novedades de nuestra plataforma</h2>
+                <h2 className="fw-semibold quicksand subtitulo mb-5 mt-5">Explora las noticias más relevantes </h2>
+                <div className="row flex-row justify-content-center align-items-center">
+
+                    <div className="col-md-3 col-sm-12 imagengrillanoticias h-100 mb-5">
                         <Link to={"/noticias/1"}><img src={noti1} alt="ilustración noticias" /></Link>
                     </div>
                     <div className="col-md-3 col-sm-12 grillanoticias mb-5">
@@ -74,11 +83,10 @@ function UltimasNoticias() {
                         </Link>
                     </div>
 
+                </div>
             </div>
         </div>
-
-
     )
 }
 
-export default UltimasNoticias
+export default TodasNoticias

@@ -65,7 +65,7 @@ function ExploraNoticias() {
               <FontAwesomeIcon icon={faArrowRight} size="xl" />
             </button>            
           </div>
-          <Link className="btn btnnoticia mt-5 pt-2 pb-2" to="">Ver todas las Noticias</Link>
+          <Link className="btn btnnoticia mt-5 pt-2 pb-2" to="/noticias/all">Ver todas las Noticias</Link>
         </div>
       </div>
     </div>
