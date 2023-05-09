@@ -51,18 +51,18 @@ function ExploraNoticias() {
           </div>
           <div className="d-flex justify-content-center align-items-center mt-5">
             <button
-              className="btn btn-outline-secondary rounded-circle me-3 btn-lg"
+              className="btn btn-outline-secondary rounded-circle me-3 btn-lg btnatrasnoti"
               disabled={esPrimeraNoticia}
               onClick={retrocederNoticia}
             >
-              <FontAwesomeIcon icon={faArrowLeft} size="xl" />
+              <FontAwesomeIcon icon={faArrowLeft} size="xl" style={{color: "#4819DC",}}/>
             </button>
             <button
-              className="btn btn-outline-secondary rounded-circle btn-lg"
+              className="btn btn-outline-secondary rounded-circle btn-lg btnadelante"
               disabled={esUltimaNoticia}
               onClick={avanzarNoticia}
             >
-              <FontAwesomeIcon icon={faArrowRight} size="xl" />
+              <FontAwesomeIcon icon={faArrowRight} size="xl" style={{color: "#4819DC",}}/>
             </button>            
           </div>
           <Link className="btn btnnoticia mt-5 pt-2 pb-2" to="/noticias/all">Ver todas las Noticias</Link>

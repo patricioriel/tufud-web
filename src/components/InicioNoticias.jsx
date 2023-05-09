@@ -4,7 +4,7 @@ import inicionoti from "../images/inicionoti.svg"
 function InicioNoticias() {
   return (
     <div>
-    <div class="container">
+    <div class="container containernoti">
       <h1 class="titulocard fw-bold titulonoticias">NOTICIAS</h1>
     </div>
     <div class="row justify-content-center">
