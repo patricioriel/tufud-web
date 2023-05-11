@@ -31,7 +31,7 @@ function App() {
             <Route path={'/noticias/3'} element={<Noticia3/>}/>
             <Route path={'/noticias/4'} element={<Noticia4/>}/>
             <Route path={'/noticias/all'} element={<TodasNoticias/>}/>
-            <Route path={'/contacto'} element={<Contacto/>}/>
+            <Route path={'/faq'} element={<Contacto/>}/>
           </Routes>
         <Footer/>
       </BrowserRouter>

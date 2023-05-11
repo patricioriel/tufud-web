@@ -83,7 +83,7 @@ const Navbar = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/contacto">
+                <NavLink className="nav-link" to="/faq">
                   Contacto
                 </NavLink>
               </li>
