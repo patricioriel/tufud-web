@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tufud-web/static/css/main.4c18f4bb.css",
-    "main.js": "/tufud-web/static/js/main.849b93db.js",
+    "main.js": "/tufud-web/static/js/main.ecb0de34.js",
     "static/media/Funcionamiento.mp4": "/tufud-web/static/media/Funcionamiento.b22313aef5c5ecaf970d.mp4",
     "static/media/tabbar3.svg": "/tufud-web/static/media/tabbar3.d9014f1dd2e401003277b5cd0165ae45.svg",
     "static/media/noti2.png": "/tufud-web/static/media/noti2.6055aeec2fc6c0bd8736.png",
@@ -49,10 +49,10 @@
     "static/media/cruz.svg": "/tufud-web/static/media/cruz.05362867a8da4887fec7.svg",
     "static/media/plus.svg": "/tufud-web/static/media/plus.560a59a2d77e1a816293.svg",
     "main.4c18f4bb.css.map": "/tufud-web/static/css/main.4c18f4bb.css.map",
-    "main.849b93db.js.map": "/tufud-web/static/js/main.849b93db.js.map"
+    "main.ecb0de34.js.map": "/tufud-web/static/js/main.ecb0de34.js.map"
   },
   "entrypoints": [
     "static/css/main.4c18f4bb.css",
-    "static/js/main.849b93db.js"
+    "static/js/main.ecb0de34.js"
   ]
 }
