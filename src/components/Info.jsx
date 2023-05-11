@@ -11,7 +11,7 @@ function Info() {
           <p className='text-start cuerpo'>Tufud ayuda a Restaurantes y Proveedores a mejorar el envío y recepción de ordenes de compra, con el objetivo de ahorrar tiempo, disminuir costos y reducir el desperdicio de alimentos.</p>
         </div>
         <div className="row my-3 text-start">
-            <Link to={"/restaurante"} className="btn my-4 botones_info">Soy Restaurante</Link>
+            <Link to={"/restaurante"} className="btn my-4 botones_info ms-2">Soy Restaurante</Link>
             <Link to={"/proveedor"} className="btn my-4 botones_info ms-5">Soy Proveedor</Link>       
         </div>        
       </div>

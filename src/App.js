@@ -13,6 +13,7 @@ import Noticia2 from './components/Noticia2';
 import Noticia3 from './components/Noticia3';
 import Noticia4 from './components/Noticia4';
 import TodasNoticias from './components/TodasNoticias';
+import Contacto from './components/Contacto';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
             <Route path={'/noticias/3'} element={<Noticia3/>}/>
             <Route path={'/noticias/4'} element={<Noticia4/>}/>
             <Route path={'/noticias/all'} element={<TodasNoticias/>}/>
+            <Route path={'/contacto'} element={<Contacto/>}/>
           </Routes>
         <Footer/>
       </BrowserRouter>
