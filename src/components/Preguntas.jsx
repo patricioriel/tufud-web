@@ -12,7 +12,7 @@ function Preguntas() {
     };
 
     return (
-        <div>
+        <div className='container'>
             <ul className="nav nav-tabs justify-content-center">
                 <li className="nav-item col-md-5">
                     <a

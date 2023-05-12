@@ -60,6 +60,12 @@ body {
   background: linear-gradient(180deg, rgba(233, 251, 247, 0.12) 6.04%, rgba(196, 248, 235, 0.46) 55.65%, rgba(233, 251, 247, 0) 100%);
 }
 
+.btnsubir{
+  background-color:#C4F8EB !important;
+  box-shadow: 1.32448px 1.32448px 5.27785px rgba(161, 138, 230, 0.2);
+  border-radius: 6px;
+}
+
 /* fuente */
 
 body {
@@ -736,3 +742,4 @@ body .quicksand {
   background-repeat: no-repeat;
   background-position: center;
 }
+
