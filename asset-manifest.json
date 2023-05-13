@@ -1,8 +1,14 @@
 {
   "files": {
-    "main.css": "/tufud-web/static/css/main.4c18f4bb.css",
-    "main.js": "/tufud-web/static/js/main.ecb0de34.js",
+    "main.css": "/tufud-web/static/css/main.0276c413.css",
+    "main.js": "/tufud-web/static/js/main.bb8892fc.js",
     "static/media/Funcionamiento.mp4": "/tufud-web/static/media/Funcionamiento.b22313aef5c5ecaf970d.mp4",
+    "static/media/noti4s.svg": "/tufud-web/static/media/noti4s.20583c1c10f0cbf28d94c5ff8ce41230.svg",
+    "static/media/noti4p.svg": "/tufud-web/static/media/noti4p.fa8c1d2d1d60835b59f13443a7bfeae2.svg",
+    "static/media/noti2p.svg": "/tufud-web/static/media/noti2p.4f1650d6e763082f1de709b26f8da858.svg",
+    "static/media/noti3s.svg": "/tufud-web/static/media/noti3s.6bfea91d9b92dd3ea02575946ca74a9c.svg",
+    "static/media/noti3p.svg": "/tufud-web/static/media/noti3p.6c027f9438f3c14b123a884a07f49367.svg",
+    "static/media/noti2s.svg": "/tufud-web/static/media/noti2s.8042ca94494cb90e542bb61c581ff917.svg",
     "static/media/tabbar3.svg": "/tufud-web/static/media/tabbar3.d9014f1dd2e401003277b5cd0165ae45.svg",
     "static/media/noti2.png": "/tufud-web/static/media/noti2.6055aeec2fc6c0bd8736.png",
     "static/media/donjulio.png": "/tufud-web/static/media/donjulio.b326218b13c6bb4ee719.png",
@@ -10,6 +16,7 @@
     "static/media/dnoticia1.png": "/tufud-web/static/media/dnoticia1.3d1b44eade222add676f.png",
     "static/media/tabbar2.svg": "/tufud-web/static/media/tabbar2.b4a32b1b6a3b8228c25a2913f2f3bfcb.svg",
     "static/media/img2home.png": "/tufud-web/static/media/img2home.2c5e5e8bdf5b27ba9318.png",
+    "static/media/poster.jpeg": "/tufud-web/static/media/poster.cd0f3a34fc82493a843c.jpeg",
     "static/media/SemillaViva.png": "/tufud-web/static/media/SemillaViva.c0e54120d8e5ce2e69e3.png",
     "static/media/img1home.png": "/tufud-web/static/media/img1home.46950ef6dfcda0fe6125.png",
     "static/media/img3resto.png": "/tufud-web/static/media/img3resto.285acb2e0318929d2e5e.png",
@@ -48,11 +55,11 @@
     "index.html": "/tufud-web/index.html",
     "static/media/cruz.svg": "/tufud-web/static/media/cruz.05362867a8da4887fec7.svg",
     "static/media/plus.svg": "/tufud-web/static/media/plus.560a59a2d77e1a816293.svg",
-    "main.4c18f4bb.css.map": "/tufud-web/static/css/main.4c18f4bb.css.map",
-    "main.ecb0de34.js.map": "/tufud-web/static/js/main.ecb0de34.js.map"
+    "main.0276c413.css.map": "/tufud-web/static/css/main.0276c413.css.map",
+    "main.bb8892fc.js.map": "/tufud-web/static/js/main.bb8892fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c18f4bb.css",
-    "static/js/main.ecb0de34.js"
+    "static/css/main.0276c413.css",
+    "static/js/main.bb8892fc.js"
   ]
 }
