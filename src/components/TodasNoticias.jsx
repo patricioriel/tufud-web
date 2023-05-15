@@ -6,23 +6,32 @@ import noti1 from '../images/noti1.png';
 import noti2 from '../images/noti2.png';
 import noti3 from '../images/noti3.png';
 import noti4 from '../images/noti4.png';
+import inicionoti from "../images/inicionoti.svg"
 
 function TodasNoticias() {
     return (
         <div className='container-fluid'>
-            <Link to={"/noticias"} className='float-start btnatras'>
+            <Link to={"/noticias"} className='float-start btnatras d-none d-md-block'>
                 <FontAwesomeIcon icon={faArrowLeft} size="2xl" style={{ color: 'black' }} />
             </Link>
-            <h1 className='titulocard fw-bold mt-5'>NOTICIAS</h1>
+            
             <div className='container-md'>
-                <h2 className='fw-bold quicksand titulo text-center'>Las últimas tendencias en gastronomía, tecnología y novedades de nuestra plataforma</h2>
-                <h2 className="fw-semibold quicksand subtitulo mb-5 mt-5">Explora las noticias más relevantes </h2>
-                <div className="row flex-row justify-content-center align-items-center">
+            <h1 className='titulocard fw-bold mt-5 text-start text-md-center titulonoticias'>NOTICIAS</h1>
+                <div class="row justify-content-center">
+                    <div class="col-md-7 col-8">
+                        <h2 class="fw-bold quicksand titulo text-start tendencianoticia">Tendencias y novedades de nuestra plataforma.</h2>
+                    </div>
+                    <div class="col-md-4 col-4">
+                        <img src={inicionoti} alt="ilustración noticias" class="img-fluid mx-auto ilusnoticia" />
+                    </div>
+                </div>
+                <h2 className="fw-semibold quicksand subtitulo mb-5 mt-5 subnoticia">Explora las noticias más relevantes </h2>
+                <div className="row flex-row justify-content-center align-items-center contenedornoticias">
 
-                    <div className="col-md-3 col-sm-12 imagengrillanoticias h-100 mb-5">
+                    <div className="col-md-3 col-sm-12 imagengrillanoticias h-100 mb-5 d-none d-lg-block">
                         <Link to={"/noticias/1"}><img src={noti1} alt="ilustración noticias" /></Link>
                     </div>
-                    <div className="col-md-3 col-sm-12 grillanoticias mb-5">
+                    <div className="col-md-3 col-sm-12 grillanoticias todasnoticias mb-5">
                         <Link to={"/noticias/1"}>
                             <span className="titulocard d-block text-start">12/05/22</span>
                             <span className="titulocard d-block text-start">TECNOLOGÍA</span>
@@ -33,10 +42,10 @@ function TodasNoticias() {
                         </Link>
                     </div>
 
-                    <div className="col-md-3 col-sm-12 imagengrillanoticias h-100 mb-5">
+                    <div className="col-md-3 col-sm-12 imagengrillanoticias h-100 mb-5 d-none d-lg-block">
                         <Link to={"/noticias/2"}><img src={noti2} alt="ilustración noticias" /></Link>
                     </div>
-                    <div className="col-md-3 col-sm-12 grillanoticias mb-5">
+                    <div className="col-md-3 col-sm-12 grillanoticias todasnoticias mb-5">
                         <Link to={"/noticias/2"}>
                             <span className="titulocard d-block text-start">12/05/22</span>
                             <span className="titulocard d-block text-start">TECNOLOGÍA</span>
@@ -50,10 +59,10 @@ function TodasNoticias() {
                     </div>
 
 
-                    <div className="col-md-3 col-sm-12 imagengrillanoticias h-100 mb-5">
+                    <div className="col-md-3 col-sm-12 imagengrillanoticias h-100 mb-5 d-none d-lg-block">
                         <Link to={"/noticias/3"}><img src={noti3} alt="ilustración noticias" /></Link>
                     </div>
-                    <div className="col-md-3 col-sm-12 grillanoticias mb-5">
+                    <div className="col-md-3 col-sm-12 grillanoticias todasnoticias mb-5">
                         <Link to={"/noticias/3"}>
                             <span className="titulocard d-block text-start">12/05/22</span>
                             <span className="titulocard d-block text-start">TECNOLOGÍA</span>
@@ -67,10 +76,10 @@ function TodasNoticias() {
                     </div>
 
 
-                    <div className="col-md-3 col-sm-12 imagengrillanoticias h-100 mb-5">
+                    <div className="col-md-3 col-sm-12 imagengrillanoticias h-100 mb-5 d-none d-lg-block">
                         <Link to={"/noticias/4"}><img src={noti4} alt="ilustración noticias" /></Link>
                     </div>
-                    <div className="col-md-3 col-sm-12 grillanoticias mb-5">
+                    <div className="col-md-3 col-sm-12 grillanoticias todasnoticias mb-5">
                         <Link to={"/noticias/4"}>
                             <span className="titulocard d-block text-start">12/05/22</span>
                             <span className="titulocard d-block text-start">TECNOLOGÍA</span>

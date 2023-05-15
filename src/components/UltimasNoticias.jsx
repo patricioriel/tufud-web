@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 function UltimasNoticias() {
     return (
-        <div className='container mt-5'>
+        <div className='container mt-5 d-none d-lg-block'>
             <h3 className='fw-bold quicksand subtitulo mb-5 mt-5'>Últimas Noticias</h3>
             <div className="row flex-row justify-content-center align-items-center">
             <div className="col-md-3 col-sm-12 imagengrillanoticias h-100 mb-5">
