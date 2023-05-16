@@ -103,6 +103,14 @@ body .quicksand {
   line-height: 38px;
 }
 
+.titulos_cards_testimonios {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+
+
 .botones_info {
   width: 200px;
   height: 56px;
@@ -115,6 +123,12 @@ body .quicksand {
   font-size: 18px;
   font-weight: 400;
   line-height: 24.5px;
+}
+
+.cuerpocard_testimonios {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
 }
 
 .subtitulos_cards {
@@ -223,6 +237,10 @@ body .quicksand {
   transform: scale(1.1);
 }
 
+.nav-link {
+color: #000
+}
+
 .btn.active {
   background-color: #6541dd;
   color: #fff;
@@ -239,6 +257,19 @@ body .quicksand {
   max-width: 100%;
 }
 
+.card_testimonios {
+  height: 696px;
+  color: #fff;
+  box-sizing: border-box;
+  padding-top: 30px;
+  padding-left: 100px;
+  background-color: #7858DD;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 1;
+  border-radius: 46px;
+}
+
 .h2info {
   font-size: 45px;
 }
@@ -248,6 +279,9 @@ body .quicksand {
 }
 
 /* testimonios */
+.icono_testimonio {
+  color: #AF9AF0 !important;
+}
 
 .bi-quote {
   color: #7858DD;

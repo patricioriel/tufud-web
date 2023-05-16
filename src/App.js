@@ -14,6 +14,7 @@ import Noticia3 from './components/Noticia3';
 import Noticia4 from './components/Noticia4';
 import TodasNoticias from './components/TodasNoticias';
 import Contacto from './components/Contacto';
+import Historias from './components/Historias';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route path={'/tufud-web'} element={<Home/>}/>
             <Route path={'/restaurante'} element={<Restaurante/>}/>
             <Route path={'/proveedor'} element={<Proveedores/>}/>
+            <Route path={'/testimonios'} element={<Historias/>}/>
             <Route path={'/iniciarsesion'} element={<Iniciarsesion/>}/>
             <Route path={'/noticias'} element={<Noticias/>}/>
             <Route path={'/noticias/1'} element={<Noticia1/>}/>

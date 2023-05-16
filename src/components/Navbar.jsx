@@ -5,7 +5,7 @@ import logo from "../images/tufudhorizontal.png";
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-md fondo_secciones p-3 containernavbar">
-      <div className="container-fluid">
+      <div className="container-fluid d-flex align-items-center">
         <Link className="navbar-brand" to="/tufud-web">
           <img src={logo} width="185" alt="Tufud Logo" />
         </Link>
@@ -71,7 +71,7 @@ const Navbar = () => {
                 </NavLink>
                 <ul className="dropdown-menu">
                   <li>
-                    <NavLink className="dropdown-item fw-bolder" to="/restaurante">
+                    <NavLink className="dropdown-item fw-bolder" to="/testimonios">
                       Testimonios
                     </NavLink>
                   </li>
@@ -83,7 +83,7 @@ const Navbar = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/faq">
+                <NavLink className="nav-link me-3" to="/faq">
                   Contacto
                 </NavLink>
               </li>

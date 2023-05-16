@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { preguntasRestaurants } from '../data/PreguntasRestaurants';
 import { preguntasProveedores } from '../data/PreguntasProveedores';
+import { Link } from 'react-router-dom'
 
 function Preguntas() {
     const [activeTab, setActiveTab] = useState('restaurantes');
@@ -15,20 +16,20 @@ function Preguntas() {
         <div className='container'>
             <ul className="nav nav-tabs justify-content-center">
                 <li className="nav-item col-md-5">
-                    <a
+                    <Link
                         className={`nav-link navfaq ${activeTab === 'restaurantes' ? 'active' : ''}`}
                         onClick={() => toggleTab('restaurantes')}
                     >
                         Restaurantes
-                    </a>
+                    </Link>
                 </li>
                 <li className="nav-item col-md-5">
-                    <a
+                    <Link
                         className={`nav-link navfaq ${activeTab === 'proveedores' ? 'active' : ''}`}
                         onClick={() => toggleTab('proveedores')}
                     >
                         Proveedores
-                    </a>
+                    </Link>
                 </li>
             </ul>
             <div className="tab-content">
