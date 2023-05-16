@@ -281,7 +281,6 @@ color: #000
 /* componente info */
 
 .imginfo {
-  width: 100%;
   max-width: 100%;
 }
 
@@ -815,6 +814,7 @@ color: #000
   font-weight: 700;
   font-size: 28px;
   letter-spacing: -0.035em;
+  padding-left: 25px;
 }
 
 .accordion-body {
@@ -824,6 +824,9 @@ color: #000
   letter-spacing: -0.035em;
   background: #F6F4FF;
   border-radius: 6px;
+  text-align: start;
+  padding-right: 25px !important;
+  padding-left: 25px !important;
 }
 
 .accordion-button:not(.collapsed) {
@@ -897,4 +900,6 @@ color: #000
   background: url("images/cruz.svg");
   background-repeat: no-repeat;
   background-position: center;
+  padding-left: 25px !important;
 }
+

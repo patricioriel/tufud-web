@@ -7,7 +7,7 @@ function Beneficios() {
   return (
     <div className="mt-5 text-center containerbeneficios">
   <div className="container-fluid my-2">
-    <div className="row d-flex justify-content-center my-5">
+    <div className="row d-flex justify-content-evenly my-5">
       <div className="col-md-3">
         <div className="card bg-transparent shadow rounded border-0 h-100">
           <div className="card-body text-center pb-5">
