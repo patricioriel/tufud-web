@@ -15,6 +15,7 @@ import Noticia4 from './components/Noticia4';
 import TodasNoticias from './components/TodasNoticias';
 import Contacto from './components/Contacto';
 import Historias from './components/Historias';
+import PaginaTestimonios from './components/PaginaTestimonios';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             <Route path={'/restaurante'} element={<Restaurante/>}/>
             <Route path={'/proveedor'} element={<Proveedores/>}/>
             <Route path={'/testimonios'} element={<Historias/>}/>
+            <Route path={'/testimonios/all'} element={<PaginaTestimonios/>}/>
             <Route path={'/iniciarsesion'} element={<Iniciarsesion/>}/>
             <Route path={'/noticias'} element={<Noticias/>}/>
             <Route path={'/noticias/1'} element={<Noticia1/>}/>
