@@ -5,6 +5,7 @@ import saludable from "../images/Supersaludable.png";
 import picolina from "../images/Piccolina.png";
 import tienda from "../images/TiendaNova.png";
 import mercado from "../images/MercadoSilvestre.png";
+import sd from "../images/sd.png";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -35,6 +36,7 @@ const Clientes = () => {
           <SwiperSlide><img src={picolina} className="img-fluid" alt="Picolina Logo" /></SwiperSlide>
           <SwiperSlide><img src={tienda} className="img-fluid" alt="Tienda Logo" /></SwiperSlide>
           <SwiperSlide><img src={mercado} className="img-fluid" alt="Mercado Logo" /></SwiperSlide>
+          <SwiperSlide><img src={sd} className="img-fluid" alt="Stores Deli" /></SwiperSlide>
         </Swiper>
       </div>    
     </div>

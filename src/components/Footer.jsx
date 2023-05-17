@@ -41,6 +41,9 @@ const Footer = () => {
                     <div className="col-md-3">
                         <img src={logo} width="196px" className="img-fluid" alt="tufud logo" />
                     </div>
+                    <div className="text-start freepik">
+                        <span >Este sitio web utiliza ilustraciones gratuitas de www.freepik.com | © 2023 Tufud.co</span>
+                    </div>
                 </div>
             </div>
         </div>
