@@ -6,7 +6,7 @@ function Info() {
   return (
     <div className="row mt-4 d-flex justify-content-center container-fluid">
   <div className="col-md-5 order-md-2">
-    <img src={img1home} alt="Descripción de la imagen" className='imginfo mt-3 img-fluid'/>
+    <img src={img1home} alt="Descripción de la imagen" className='imginfo mt-3 img-fluid ps-5'/>
   </div>
   <div className="col-md-5 order-md-1">
     <div>
