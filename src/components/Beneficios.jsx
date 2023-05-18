@@ -9,7 +9,7 @@ function Beneficios() {
   <div className="container-fluid my-2">
     <div className="row d-flex justify-content-evenly my-5">
       <div className="col-md-3">
-        <div className="card bg-transparent shadow rounded border-0 h-100">
+        <div className="card border-0 h-100 cardbeneficios">
           <div className="card-body text-center pb-5">
             <img className="card-img-top rounded-circle imgbeneficios fluid w-50 mb-3" src={reloj} alt="ilustracion reloj" />
             <h5 className="card-title fw-bold morado titulos_cards">Gana Tiempo</h5>
@@ -18,7 +18,7 @@ function Beneficios() {
         </div>
       </div>
       <div className="col-md-3">
-        <div className="card bg-transparent shadow rounded border-0 h-100">
+        <div className="card border-0 h-100 cardbeneficios">
           <div className="card-body text-center pb-5">
             <img className="card-img-top rounded-circle fluid w-50 mb-3" src={papel} alt="ilustracion papel" />
             <h5 className="card-title fw-bold morado titulos_cards mt-2">Olvídate del Papel</h5>
@@ -27,7 +27,7 @@ function Beneficios() {
         </div>
       </div>
       <div className="col-md-3">
-        <div className="card bg-transparent shadow rounded border-0 h-100">
+        <div className="card border-0 h-100 cardbeneficios">
           <div className="card-body text-center pb-5">
             <img className="card-img-top rounded-circle fluid w-50 mb-3" src={pedidos} alt="ilustracion pedidos"/>
             <h5 className="card-title fw-bold morado titulos_cards">Mejora la Precisión</h5>

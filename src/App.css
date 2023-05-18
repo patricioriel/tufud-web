@@ -79,6 +79,9 @@ body {
   }
 }
 
+.cajainfo{
+  margin-top: 5% !important;
+}
 
 .fondo_secciones {
   background-color: #F6F4FF;
@@ -137,7 +140,14 @@ body .quicksand {
   line-height: 26px;
 }
 
-
+.cardtestimonios{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  box-shadow: 6px 2px 18px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+}
 
 .botones_info {
   width: 200px;
@@ -397,6 +407,25 @@ color: #A183FF !important;
 .containerbeneficios {
   padding-top: 15px;
   padding-bottom: 20px;
+}
+
+.cardbeneficios{
+  box-shadow: 6px 2px 18px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  padding-bottom: 8% !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  background-color: white;
+}
+
+.cardbeneficios h5{
+  font-size: 28px !important;
+  line-height: 38px !important;
+  letter-spacing: -0.035em !important;
+}
+
+.optimiza{
+  margin-top: 20%;
 }
 
 /* separador */
