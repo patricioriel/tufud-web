@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tufud-web/static/css/main.5908e10a.css",
-    "main.js": "/tufud-web/static/js/main.e6f4993c.js",
+    "main.css": "/tufud-web/static/css/main.92f912d8.css",
+    "main.js": "/tufud-web/static/js/main.c904516c.js",
     "static/media/Funcionamiento.mp4": "/tufud-web/static/media/Funcionamiento.b22313aef5c5ecaf970d.mp4",
     "static/media/noti4s.svg": "/tufud-web/static/media/noti4s.20583c1c10f0cbf28d94c5ff8ce41230.svg",
     "static/media/noti4p.svg": "/tufud-web/static/media/noti4p.fa8c1d2d1d60835b59f13443a7bfeae2.svg",
@@ -47,23 +47,21 @@
     "static/media/Supersaludable.png": "/tufud-web/static/media/Supersaludable.3535c57f4c1a5539ccab.png",
     "static/media/tareas.svg": "/tufud-web/static/media/tareas.811b47f1ee4449cebefb5724b73fad3f.svg",
     "static/media/pedidos.svg": "/tufud-web/static/media/pedidos.b4a289fffd8f3d0b16651f6218373c47.svg",
-    "static/media/logo-anii.png": "/tufud-web/static/media/logo-anii.cf352e28258c1c3b5165.png",
     "static/media/reloj.svg": "/tufud-web/static/media/reloj.2d47b75033cf8d689ef64389f8221da9.svg",
     "static/media/gestion.svg": "/tufud-web/static/media/gestion.916fd379035f378c8a49a76cc6ff4f39.svg",
     "static/media/check.svg": "/tufud-web/static/media/check.81705cf81752f1235624588a8227bf38.svg",
     "static/media/papel.svg": "/tufud-web/static/media/papel.1f4f8b5def51ac1c223722496160723c.svg",
     "static/media/centraliza.svg": "/tufud-web/static/media/centraliza.b8cf5cc6e6754ea202a0eb79b7a0dc4c.svg",
     "static/media/pedidos2.svg": "/tufud-web/static/media/pedidos2.e6c4b3801dfbf921a2299e6bf460169a.svg",
-    "static/media/close.svg": "/tufud-web/static/media/close.dbafbf426fb1adcf7f8fa27dbfff84ec.svg",
     "index.html": "/tufud-web/index.html",
     "static/media/cruz.svg": "/tufud-web/static/media/cruz.05362867a8da4887fec7.svg",
     "static/media/plus.svg": "/tufud-web/static/media/plus.560a59a2d77e1a816293.svg",
     "static/media/menu.svg": "/tufud-web/static/media/menu.0ec9dc45fbb79819c631589da46644d4.svg",
-    "main.5908e10a.css.map": "/tufud-web/static/css/main.5908e10a.css.map",
-    "main.e6f4993c.js.map": "/tufud-web/static/js/main.e6f4993c.js.map"
+    "main.92f912d8.css.map": "/tufud-web/static/css/main.92f912d8.css.map",
+    "main.c904516c.js.map": "/tufud-web/static/js/main.c904516c.js.map"
   },
   "entrypoints": [
-    "static/css/main.5908e10a.css",
-    "static/js/main.e6f4993c.js"
+    "static/css/main.92f912d8.css",
+    "static/js/main.c904516c.js"
   ]
 }
