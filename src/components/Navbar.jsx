@@ -2,7 +2,6 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import logo from "../images/tufudhorizontal.png";
 import menu from "../images/menu.svg";
-import close from "../images/close.svg";
 
 const Navbar = () => {
   return (
@@ -49,12 +48,12 @@ const Navbar = () => {
                 </NavLink>
                 <ul className="dropdown-menu">
                   <li>
-                    <NavLink className="dropdown-item fw-bolder" to="/restaurante">
+                    <NavLink className="dropdown-item fw-bolder fade-in" to="/restaurante">
                       Restaurante
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="dropdown-item fw-bolder" to="/proveedor">
+                    <NavLink className="dropdown-item fw-bolder fade-in" to="/proveedor">
                       Proveedor
                     </NavLink>
                   </li>
@@ -72,12 +71,12 @@ const Navbar = () => {
                 </NavLink>
                 <ul className="dropdown-menu">
                   <li>
-                    <NavLink className="dropdown-item fw-bolder" to="/testimonios">
+                    <NavLink className="dropdown-item fw-bolder fade-in" to="/testimonios">
                       Testimonios
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="dropdown-item fw-bolder" to="/noticias">
+                    <NavLink className="dropdown-item fw-bolder fade-in" to="/noticias">
                       Noticias
                     </NavLink>
                   </li>
