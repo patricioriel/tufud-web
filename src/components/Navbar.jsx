@@ -1,6 +1,8 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import logo from "../images/tufudhorizontal.png";
+import menu from "../images/menu.svg";
+import close from "../images/close.svg";
 
 const Navbar = () => {
   return (
@@ -17,7 +19,7 @@ const Navbar = () => {
           aria-controls="offcanvasNavbar"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <img src={menu} alt="" height={30}  />
         </button>
         <div
           className="offcanvas offcanvas-end"
@@ -26,10 +28,9 @@ const Navbar = () => {
           aria-labelledby="offcanvasNavbarLabel"
         >
           <div className="offcanvas-header">
-            <img src={logo} width="100" alt="Tufud Logo" />
             <button
               type="button"
-              className="btn-close"
+              className="btn-close ms-auto"
               data-bs-dismiss="offcanvas"
               aria-label="Close"
             ></button>
@@ -38,7 +39,7 @@ const Navbar = () => {
             <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li className="nav-item dropdown">
                 <NavLink
-                  className="nav-link dropdown-toggle"
+                  className="nav-link dropdown-toggle itemnavbar"
                   to="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -61,7 +62,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item dropdown">
                 <NavLink
-                  className="nav-link dropdown-toggle"
+                  className="nav-link dropdown-toggle itemnavbar"
                   to="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -83,12 +84,12 @@ const Navbar = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link me-3" to="/faq">
+                <NavLink className="nav-link me-3 itemnavbar" to="/faq">
                   Contacto
                 </NavLink>
               </li>
               <li>
-                <NavLink className="btn" to="/iniciarsesion">
+                <NavLink className="btn btniniciosesion" to="/iniciarsesion">
                   Iniciar Sesión
                 </NavLink>
               </li>
