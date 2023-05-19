@@ -558,6 +558,15 @@ color: #A183FF !important;
   border-radius: 42px;
 }
 
+.imagen_testimonio2 {
+  height: 500px;
+  position: relative;
+  left: 10px;
+  top: 100px;
+  z-index: 2;
+  border-radius: 42px;
+}
+
 .leermas {
   font-size: 36px;
   text-decoration: none;
@@ -567,6 +576,14 @@ color: #A183FF !important;
   position: absolute;
   bottom: 30px;
   right: 40px;
+}
+
+.conocelos {
+  font-size: 36px;
+  text-decoration: none;
+  display: block;
+  text-align: right;
+
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
@@ -1108,4 +1125,8 @@ color: #A183FF !important;
   font-size: 19px;
   line-height: 19px;
   font-weight: 500;
+}
+
+.svg-inline--fa {
+  vertical-align: -7px;
 }
