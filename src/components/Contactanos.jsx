@@ -13,7 +13,7 @@ const Contactanos = () => {
                         <Link className="btn my-4 botones_info" to="/restaurante">Contáctanos</Link>
                     </div>
                     <div className="col-md-6">
-                        <img className="" src={img3home} alt="" />
+                        <img className="img-fluid" src={img3home} alt="" />
                     </div>
                 </div>
             </div>
