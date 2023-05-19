@@ -1,6 +1,5 @@
-import amelia from "../images/Amelia.png";
-import semilla from "../images/SemillaViva.png";
-import silvestre from "../images/SilvestreCafe.png";
+import stories from "../images/sd.png";
+import tienda from "../images/TiendaNova.png";
 import saludable from "../images/Supersaludable.png";
 
 
@@ -11,7 +10,7 @@ export const testimonios = [
         descripcion: "La inclusión de fotos de los productos nos ha ayudado significativamente a acelerar el proceso de compra. El uso de la plataforma es simple y práctico. El servicio técnico es excelente.",
         persona: "Pompi Huarte",
         puesto: "Dueño en Super Saludable",
-        imagen: amelia
+        imagen: saludable
     },
     {
         id: 2,
@@ -19,22 +18,14 @@ export const testimonios = [
         descripcion: "La función para cargar imágenes en el catálogo es muy intuitiva. También es muy útil  la división de catálogos por Proveedor. Todas las operaciones se realizan con mayor eficacia y rapidez.",
         persona: "Jorge Giménez",
         puesto: "Dueño en Tienda Nova",
-        imagen: semilla
+        imagen: tienda
     },
     {
         id: 3,
         titulo: "La plataforma es muy útil y efectiva a la hora de hacer muchos pedidos a la vez.",
-        descripcion: "La inclusión de fotos de los productos nos ha ayudado significativamente a acelerar el proceso de compra. El uso de la plataforma es simple y práctico. El servicio técnico es excelente.",
-        persona: "Pompi Huarte",
-        puesto: "Dueño en Super Saludable",
-        imagen: silvestre
-    },
-    {
-        id: 4,
-        titulo: "La plataforma es muy útil y efectiva a la hora de hacer muchos pedidos a la vez.",
-        descripcion: "La inclusión de fotos de los productos nos ha ayudado significativamente a acelerar el proceso de compra. El uso de la plataforma es simple y práctico. El servicio técnico es excelente.",
-        persona: "Pompi Huarte",
-        puesto: "Dueño en Super Saludable",
-        imagen: saludable
+        descripcion: "El tiempo que se dedica a hacer los pedidos bajo considerablemente. Es muy intuitiva y se aprende enseguida. Obtiene resultados en cuestión de clics. La recomiendo sin dudas!",
+        persona: "Lucía Alvarez",
+        puesto: "Dueña en Stories Deli",
+        imagen: stories
     }
 ]
