@@ -72,7 +72,7 @@ function BeneficiosProveedores() {
                 Optimiza tus procesos
               </h5>
               <p className="card-text cuerpocard">
-                Tufud simplifica la gestión de los pedidos, dandole mas tiempo a tu equipo para aumentar las ventas.
+                Tufud simplifica la gestión de los pedidos, dandole más tiempo a tu equipo para aumentar las ventas.
               </p>
             </div>
           </div>

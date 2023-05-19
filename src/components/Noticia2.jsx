@@ -13,7 +13,6 @@ function Noticia2() {
             </Link>
             <h1 className='titulocard fw-bold mt-5'>NOTICIAS</h1>
             <span className="titulocard d-block text-start fechanoticia ms-5">12/05/22</span>
-            <span className="titulocard d-block text-start categorianoticia ms-5 mt-5 ">CATEGORIA DE NOTICIA</span>
 
             <div className='text-start mt-5 detallenoticia'>
                 <h2 className='titulo quicksand fw-bold mt-5 pt-5'>La tecnología en la trazabilidad y seguimiento de pedidos.</h2>

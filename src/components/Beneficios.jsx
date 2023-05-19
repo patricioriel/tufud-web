@@ -13,7 +13,7 @@ function Beneficios() {
           <div className="card-body text-center pb-5">
             <img className="card-img-top rounded-circle imgbeneficios fluid w-50 mb-3" src={reloj} alt="ilustracion reloj" />
             <h5 className="card-title fw-bold morado titulos_cards">Gana Tiempo</h5>
-            <p className="card-text cuerpocard">Gestionar los pedidos es mas fácil y rápido. Ahorra mas de 5 horas semanales.</p>
+            <p className="card-text cuerpocard">Gestionar los pedidos es más fácil y rápido. Ahorra mas de 5 horas semanales.</p>
           </div>
         </div>
       </div>
@@ -31,7 +31,7 @@ function Beneficios() {
           <div className="card-body text-center pb-5">
             <img className="card-img-top rounded-circle fluid w-50 mb-3" src={pedidos} alt="ilustracion pedidos"/>
             <h5 className="card-title fw-bold morado titulos_cards">Mejora la Precisión</h5>
-            <p className="card-text cuerpocard">Reduce la probabilidad de errores y malentendidos al realizar o recibir pedidos mas detallados.</p>
+            <p className="card-text cuerpocard">Reduce la probabilidad de errores y malentendidos al realizar o recibir pedidos más detallados.</p>
           </div>
         </div>
       </div>

@@ -150,11 +150,13 @@ body .quicksand {
 }
 
 .botones_info {
-  width: 200px;
+  width: 255px;
   height: 56px;
   font-size: 20px;
   padding: 12px;
+  line-height: 27px;
   text-align: center;
+  border-radius: 10px;
 }
 
 .cuerpocard {
@@ -397,6 +399,18 @@ color: #A183FF !important;
 .btninfo {
   width: 40%;
 }
+
+@media (max-width: 768px) {
+  .inst1{
+    width: 70%;
+    margin-bottom: 50px;
+    margin-right: 0 !important;
+  }
+  .inst2{
+    width: 70%;
+    margin-left: 0 !important;
+  }
+ }
 
 /* testimonios */
 .icono_testimonio {
@@ -871,6 +885,10 @@ color: #A183FF !important;
   }
 }
 
+.titulocontactanos{
+  margin-top: 15% !important;
+}
+
 /* swiper */
 
 .swiper {
@@ -892,6 +910,14 @@ color: #A183FF !important;
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.tituloswiper{
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+  color: #363636;
+  margin-top: 45px;
 }
 
 /* formulario */
