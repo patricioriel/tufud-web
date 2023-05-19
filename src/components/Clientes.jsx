@@ -19,6 +19,7 @@ const Clientes = () => {
   return (
     <div className="container-fluid">
       <div className="row">
+      <h2 className='quicksand tituloswiper mb-5'>Descubre algunos de los <span className="morado">que confían</span> en nosotros</h2>
         <Swiper
           slidesPerView={5}
           spaceBetween={50}
