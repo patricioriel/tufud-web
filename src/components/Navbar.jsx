@@ -49,12 +49,12 @@ const Navbar = () => {
                 <ul className="dropdown-menu">
                   <li>
                     <NavLink className="dropdown-item fw-bolder fade-in" to="/restaurante">
-                      Restaurante
+                      Restaurantes
                     </NavLink>
                   </li>
                   <li>
                     <NavLink className="dropdown-item fw-bolder fade-in" to="/proveedor">
-                      Proveedor
+                      Proveedores
                     </NavLink>
                   </li>
                 </ul>

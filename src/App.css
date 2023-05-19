@@ -235,6 +235,11 @@ body .quicksand {
   font-weight: 700;
 }
 
+.btn_footer {
+  --bs-btn-padding-x: 0.5rem;
+  --bs-btn-padding-y: 0.5rem;
+}
+
 .dropdown-item{
 background-color: white;
 margin-bottom: 5px;
@@ -1127,4 +1132,8 @@ color: #A183FF !important;
 
 .svg-inline--fa {
   vertical-align: -7px;
+}
+
+.footer_link:focus {
+  color: #7858DD !important;
 }
