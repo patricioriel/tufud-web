@@ -7,10 +7,10 @@ function EstasListo() {
     <div className="row mt-5 justify-content-center container-fluid gradiente_verde">
             <div className="col-md-5">
                 <div>
-                    <h1 className='fw-bold text-start quicksand titulo'>¿Estás listo para empezar a agilizar más rápido <span className='morado'>tus pedidos</span>?</h1>
+                    <h1 className='fw-bold text-start quicksand titulo mb-4 mt-5'>¿Estás listo para empezar a agilizar más rápido <span className='morado'>tus pedidos</span>?</h1>
                     <p className='text-start cuerpo'>Nuestra plataforma ofrece una solución completa para eliminar errores y mejorar la gestión de tus ordenes ¡No esperes más para conocer todas las ventajas que podemos ofrecerte!</p>
                     <div className="d-flex justify-content-start">
-                        <Link className="btn my-4 fw-semibold cuerpofooter pe-4 ps-4" to="">Reserva un demo</Link>
+                        <Link className="btn my-4 fw-semibold btnpedidos" to="">Reserva un demo</Link>
                     </div>
                 </div>
             </div>

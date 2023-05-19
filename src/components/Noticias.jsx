@@ -1,6 +1,7 @@
 import React from 'react'
 import ExploraNoticias from './ExploraNoticias'
 import InicioNoticias from './InicioNoticias'
+import NewsLetter from './NewsLetter'
 import UltimasNoticias from './UltimasNoticias'
 
 function Noticias() {
@@ -9,6 +10,7 @@ function Noticias() {
             <InicioNoticias />
             <ExploraNoticias />
             <UltimasNoticias/>
+            <NewsLetter/>
         </div>
     )
 }
