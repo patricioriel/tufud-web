@@ -150,11 +150,13 @@ body .quicksand {
 }
 
 .botones_info {
-  width: 200px;
+  width: 255px;
   height: 56px;
   font-size: 20px;
   padding: 12px;
+  line-height: 27px;
   text-align: center;
+  border-radius: 10px;
 }
 
 .cuerpocard {
