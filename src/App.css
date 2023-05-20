@@ -476,6 +476,25 @@ body .quicksand {
   margin-top: 20%;
 }
 
+@media (max-width: 768px){
+  .containerbeneficios h5{
+    font-size: 25px !important;
+    line-height: 30px !important;
+    letter-spacing: -0.035em !important;
+  }
+  .containerbeneficios p{
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.035em;
+  }
+  .cardbeneficios{
+    margin-bottom: 20px;
+    height: auto !important;
+    margin-right: 6%;
+    margin-left: 6%;
+  }
+}
+
 /* separador */
 
 .separador {
