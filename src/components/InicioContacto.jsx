@@ -4,7 +4,7 @@ import imgcontacto from '../images/imgcontacto.png';
 
 function InicioContacto() {
   return (
-    <div className="row mt-4 d-flex justify-content-center container-fluid">
+    <div className="row d-flex justify-content-center container-fluid containercontacto">
       <div className="col-md-5">
         <div>
           <h1 className='fw-bold text-start quicksand titulo mb-5'>Tenemos <span className='morado'>todas las respuestas </span>que necesitas</h1>

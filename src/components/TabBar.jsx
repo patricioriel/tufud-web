@@ -58,6 +58,7 @@ function TabBar() {
         <div className="container-fluid mt-5">
         <div className="row">
           <div className="col-12">
+          <h4 className="quicksand mt-5 mb-5 titulotabbar">¿Qué es lo que <span className="morado">conseguirás?</span></h4>
             <div className="tab-bar d-flex overflow-auto justify-content-start align-items-centers ms-5">
               {tabs.map((tab, index) => (
                 <div

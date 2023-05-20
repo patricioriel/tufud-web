@@ -516,7 +516,27 @@ body .quicksand {
   font-weight: 400;
 }
 
+/* ventas proveedores */
+
+.containerventas{
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+
+.containerventas h1{
+  line-height: 69px;
+  letter-spacing: -0.035em;
+  font-size: 55px;
+}
+
 /* tab bar */
+
+.titulotabbar{
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+  color: #363636;
+}
 
 .tab-bar {
   display: flex;
@@ -583,6 +603,26 @@ body .quicksand {
 
 /* noticias */
 
+.containernoti{
+  margin-top: 8%;
+}
+
+.titulonoticias{
+  font-weight: 700;
+  font-size: 28.3724px;
+  line-height: 102.7%;
+  letter-spacing: -0.035em;
+  color: #3B3B3B;
+}
+
+.exploranoticias{
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+
 @media (max-width: 768px) {
   .titulonoticias {
     text-align: left;
@@ -605,8 +645,6 @@ body .quicksand {
     text-align: left;
     margin-top: 20px !important;
   }
-
-
 }
 
 .cajanoticias {
@@ -616,7 +654,7 @@ body .quicksand {
   padding-bottom: 100px;
   padding-left: 150px;
   background-color: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 30px #DFDBF4;
   position: relative;
   z-index: 1;
   border-radius: 46px;
@@ -782,7 +820,7 @@ body .quicksand {
   padding-bottom: 20px;
   padding-left: 40px;
   background-color: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 30px #DFDBF4;
   position: relative;
   z-index: 1;
   border-radius: 20px;
@@ -1004,6 +1042,18 @@ body .quicksand {
 
 /* contacto */
 
+.containercontacto{
+  margin-top: 6%;
+}
+
+.titulopreguntas{
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+  color: #363636;
+  margin-left: 8%;
+}
+
 .cuerpocontacto {
   font-size: 24px;
   line-height: 33px;
@@ -1023,8 +1073,13 @@ body .quicksand {
   height: 100%;
 }
 
+.accordion-item:first-of-type .accordion-button{
+  background: #F6F4FF;
+  color: #3B3B3B;
+}
+
 .accordion-button {
-  background: #fff4f4;
+  background: #F6F4FF;
   border: 1px solid #D9D9D9;
   border-radius: 6px;
   width: 100%;
@@ -1045,6 +1100,7 @@ body .quicksand {
   text-align: start;
   padding-right: 25px !important;
   padding-left: 25px !important;
+  color: #3B3B3B;
 }
 
 .accordion-button:not(.collapsed) {
@@ -1060,7 +1116,7 @@ body .quicksand {
 
 .navfaq {
   color: black;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 24px;
   line-height: 24px;
   text-align: center;
@@ -1077,6 +1133,7 @@ body .quicksand {
   border-bottom: 6px solid #7858DD;
   margin-top: 5px;
   padding-bottom: 35px;
+  
 }
 
 .navfaq:not(.active)::after {
@@ -1088,12 +1145,14 @@ body .quicksand {
   border-bottom: 6px solid #e3eee8;
   margin-top: 5px;
   padding-bottom: 35px;
+   
 }
 
 .nav-tabs .nav-item.show .navfaq,
 .nav-tabs .navfaq.active {
   background-color: transparent;
   border: none;
+  font-weight: 700;
 }
 
 .nav-tabs {
