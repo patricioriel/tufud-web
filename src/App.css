@@ -78,6 +78,7 @@ body {
 
   .cajabotones {
     justify-content: center !important;
+    margin-top: 9% !important;
   }
 
   .titulofooter {
@@ -430,14 +431,20 @@ body .quicksand {
 
 @media (max-width: 768px) {
   .inst1 {
-    width: 70%;
+    width: 35%;
     margin-bottom: 50px;
     margin-right: 0 !important;
   }
-
   .inst2 {
-    width: 70%;
-    margin-left: 0 !important;
+    width: 35%;
+    margin-left: 30px !important;
+    margin-bottom: 15% ;
+  }
+  .tituloinst{
+    font-size: 15.6992px;
+    line-height: 120.7%;
+    letter-spacing: -0.035em;
+    color: #363636;
   }
 }
 
@@ -448,6 +455,14 @@ body .quicksand {
 
 .bi-quote {
   color: #7858DD;
+}
+
+@media (max-width: 768px) {
+  .titulotest{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+  }
 }
 
 /* componente beneficios */
@@ -492,6 +507,10 @@ body .quicksand {
     height: auto !important;
     margin-right: 6%;
     margin-left: 6%;
+  }
+  .tituloseparador{
+    font-size: 28px;
+    line-height: 32px;
   }
 }
 
@@ -1034,6 +1053,14 @@ body .quicksand {
   line-height: 60px;
   color: #363636;
   margin-top: 45px;
+}
+
+@media (max-width: 768px) {
+  .tituloswiper{
+    font-size: 30px;
+    line-height: 36px;
+    color: #363636;
+  }
 }
 
 /* formulario */
