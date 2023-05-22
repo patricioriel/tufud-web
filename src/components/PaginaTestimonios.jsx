@@ -15,6 +15,7 @@ import fondosaludable from "../images/fondo_supersaludable.png";
 import { testimonios } from "../data/DataTestimonios";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Clientes from "./Clientes";
+import BtnSubir from './BtnSubir';
 
 const PaginaTestimonios = () => {
   return (
@@ -204,6 +205,7 @@ const PaginaTestimonios = () => {
       <div className="row">
         <Clientes />
       </div>
+      <BtnSubir/>
     </div>
   );
 };

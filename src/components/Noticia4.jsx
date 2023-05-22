@@ -4,6 +4,7 @@ import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import noti4p from '../images/noti4p.svg';
 import noti4s from '../images/noti4s.svg';
+import BtnSubir from './BtnSubir';
 
 function Noticia4() {
   return (
@@ -33,6 +34,7 @@ function Noticia4() {
           En resumen, Tufud es una plataforma que puede revolucionar la forma en que los proveedores hacen negocios. Con su capacidad de recibir las compras de todos tus clientes en un solo lugar, enviar promociones, ver reportes y hacer un seguimiento de tus cuentas corrientes con cada cliente, podrás mejorar tus relaciones con tus clientes y aumentar tus ventas. Si eres un proveedor que busca mejorar su negocio, no dudes en considerar Tufud como una herramienta valiosa para lograrlo.</p>
         <span className='titulofooter fw-semibold'>FUENTE: TUFUD.CO</span>
       </div>
+      <BtnSubir/>
     </div>
   )
 }

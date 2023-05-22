@@ -4,6 +4,7 @@ import {faArrowLeft} from '@fortawesome/free-solid-svg-icons';
 import {Link} from 'react-router-dom';
 import noti3p from '../images/noti3p.svg';
 import noti3s from '../images/noti3s.svg';
+import BtnSubir from './BtnSubir';
 
 function Noticia3() {
   return (
@@ -35,6 +36,7 @@ function Noticia3() {
 En resumen, la gestión eficiente de compras es fundamental para el éxito de cualquier restaurante. Tufud puede ayudar a los restaurantes a mejorar su gestión de compras a través de la centralización de sus compras, el seguimiento de estadísticas del negocio, la gestión de cuentas por pagar y la mejora de la comunicación con los proveedores. Si eres un restaurante que busca mejorar su eficiencia y rentabilidad, Tufud es tu herramienta ideal.</p>
                 <span className='titulofooter fw-semibold'>FUENTE: TUFUD.CO</span>
             </div>
+            <BtnSubir/>
         </div>
   )
 }

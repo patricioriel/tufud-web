@@ -4,6 +4,7 @@ import {faArrowLeft} from '@fortawesome/free-solid-svg-icons';
 import {Link} from 'react-router-dom';
 import noti2p from '../images/noti2p.svg';
 import noti2s from '../images/noti2s.svg';
+import BtnSubir from './BtnSubir';
 
 function Noticia2() {
   return (
@@ -35,6 +36,7 @@ function Noticia2() {
 En conclusión, la tecnología tiene un papel clave en la reducción del desperdicio de alimentos en la cadena de abastecimiento de frutas y verduras. Las soluciones de seguimiento y monitoreo, así como las soluciones de trazabilidad, pueden ayudar a los actores de la cadena de suministro a tomar decisiones más informadas y a reducir el desperdicio de alimentos en cada etapa del proceso. Es importante abordar este problema para mejorar la eficiencia de la cadena de suministro, reducir los costos y minimizar el desperdicio de alimentos.</p>
                 <span className='titulofooter fw-semibold'>FUENTE: TUFUD.CO</span>
             </div>
+            <BtnSubir/>
         </div>
   )
 }
