@@ -547,6 +547,55 @@ body .quicksand {
   justify-content: center;
 }
 
+@media (max-width: 768px) {
+  .colpedidos{
+    padding-right: 0 !important;
+  }
+  .cajapedidos p{
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.035em;
+    color: #363636;
+    text-align: center !important;
+    margin-top: 25px !important;
+  }
+  .cajapedidos{
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+  .cajaagiliza{
+    padding-right: 5% !important;
+    padding-left: 5% !important;
+  }
+  .fondoagiliza{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+  .titulovideo{
+    font-size: 28px !important;
+    line-height: 35px !important;
+    color: #363636;
+  }
+  .tituloformulario{
+    font-size: 30px !important;
+    line-height: 36px !important;
+    letter-spacing: -0.02em !important;
+  }
+}
+
+.tituloformulario{
+  font-size: 55px;
+  line-height: 69px;
+  letter-spacing: -0.035em;
+  color: #363636;
+}
+
+.titulovideo{
+  font-size: 48px;
+  line-height: 60px;
+  color: #363636;
+}
+
 /* contactanos */
 
 .btn-contactanos {
