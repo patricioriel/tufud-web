@@ -10,8 +10,8 @@ function TabBar() {
     const tabs = [
         {
             title: 'Mejor frecuencia',
-            content: <div className="row mt-5 justify-content-center container-fluid d-flex">
-                <div className="col-md-5 mt-5 d-flex align-items-center">
+            content: <div className="row mt-5 justify-content-center container-fluid d-flex divtabs">
+                <div className="col-md-5 mt-5 d-flex align-items-center cajatabs">
                     <img src={tabbar1} alt="Descripción de la imagen" className='imginfo mt-3 w-75' />
                 </div>
                 <div className="col-md-5 d-flex align-items-center">
@@ -25,8 +25,8 @@ function TabBar() {
 
         {
             title: 'Promocionar',
-            content: <div className="row mt-5 justify-content-center container-fluid d-flex">
-                <div className="col-md-5 mt-5 d-flex align-items-center">
+            content: <div className="row mt-5 justify-content-center container-fluid d-flex divtabs">
+                <div className="col-md-5 mt-5 d-flex align-items-center cajatabs">
                     <img src={tabbar2} alt="Descripción de la imagen" className='imginfo mt-3 w-75' />
                 </div>
                 <div className="col-md-5 d-flex align-items-center">
@@ -40,8 +40,8 @@ function TabBar() {
 
         {
             title: 'Mejor organización',
-            content: <div className="row mt-5 justify-content-center container-fluid d-flex">
-                <div className="col-md-5 mt-5 d-flex align-items-center">
+            content: <div className="row mt-5 justify-content-center container-fluid d-flex divtabs">
+                <div className="col-md-5 mt-5 d-flex align-items-center cajatabs">
                     <img src={tabbar3} alt="Descripción de la imagen" className='imginfo mt-3 w-75' />
                 </div>
                 <div className="col-md-5 d-flex align-items-center">
@@ -75,7 +75,7 @@ function TabBar() {
           </div>
         </div>
         <div className="row">
-          <div className="col-12">
+          <div className="col-12 containertabs">
             <div className="tab-content">
               {tabs[activeTab].content}
             </div>

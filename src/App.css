@@ -617,6 +617,33 @@ body .quicksand {
   font-size: 55px;
 }
 
+@media (max-width: 768px) {
+  .containerventas{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+  .containerventas h1{
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    text-align: center !important;
+    margin-bottom: 6% !important;
+    margin-top: 2% !important;
+  }
+  .containerventas p{
+    font-size: 16px !important;
+    line-height: 20px;
+    text-align: center !important;
+    letter-spacing: -0.035em;
+    color: #3B3B3B;
+  }
+  .cajabenefprov{
+    width: 100% !important;
+  }
+}
+
 /* tab bar */
 
 .titulotabbar{
@@ -651,9 +678,23 @@ body .quicksand {
     width: 100%;
     text-align: center;
   }
-
   .tab-item.active {
     margin-right: 0;
+  }
+  .titulotabbar{
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+  }
+  .cajatabs{
+    justify-content: center !important;
+  }
+  .containertabs{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .divtabs{
+    padding: 0 !important;
   }
 }
 

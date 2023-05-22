@@ -7,7 +7,7 @@ import gestion from "../images/gestion.svg"
 
 function BeneficiosProveedores() {
   return (
-    <div className="container-fluid w-75 mt-5">
+    <div className="container-fluid w-75 mt-5 cajabenefprov">
       <div className="row my-3 justify-content-center">
         <div className="col-sm-6 col-md-4">
           <div className="card rounded border-0 h-100 p-3 cardbeneficios">
