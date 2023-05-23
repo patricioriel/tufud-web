@@ -724,6 +724,10 @@ body .quicksand {
   }
   .divtabs{
     padding: 0 !important;
+    margin-top: 0 !important;
+  }
+  .tab-bar{
+    margin-left: auto !important;
   }
 }
 

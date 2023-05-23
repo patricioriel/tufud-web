@@ -6,8 +6,8 @@ import sd from "../images/sd.png"
 const Testimonios = () => {
   return (
     <>
-      <div className="container-fluid my-5">
-        <h2 className="quicksand subtitulo titulotest">Que dicen de nosotros</h2>
+      <div className="container-fluid my-5" >
+        <h2 className="quicksand subtitulo titulotest" id="iniciotestimonios">Que dicen de nosotros</h2>
         <div className="container my-5">
           <div className="row">
             <div className="row d-flex justify-content-center my-5">
@@ -26,7 +26,7 @@ const Testimonios = () => {
                     <p className="text-start titulos_cards_testimonios">La plataforma es muy útil y efectiva a la hora de hacer muchos pedidos a la vez.</p>
                     <p className="text-start cuerpocard_testimonios">La inclusión de fotos de los productos nos ha ayudado significativamente a acelerar el proceso de compra. El uso de la plataforma es simple y práctico. El servicio técnico es excelente.</p>
                     <p className="text-start titulos_cards_testimonios mb-0">Pompi Huarte</p>
-                    <p className="text-start subtitulos_cards">Dueño en SuperSaludable</p>
+                    <p className="text-start subtitulos_cards">Dueña en SuperSaludable</p>
                   </div>
                 </div>
               </div>

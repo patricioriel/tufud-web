@@ -8,7 +8,7 @@ function BeneficiosRestaurante() {
   return (
     <div className="container-fluid w-75 mt-5">
       <div className="row my-3 justify-content-center">
-        <div className="col-sm-6 col-md-6 col-lg-3">
+        <div className=" col-md-6 col-lg-3">
           <div className="card rounded border-0 h-100 cardbeneficios">
             <div className="card-body text-center altocard p-4">
               <img className="card-img-top rounded-circle imgbeneficios fluid w-50" src={papel} alt="avion de papel" />
@@ -17,7 +17,7 @@ function BeneficiosRestaurante() {
             </div>
           </div>
         </div>
-        <div className="col-sm-6 col-md-6 col-lg-3">
+        <div className=" col-md-6 col-lg-3">
           <div className="card rounded border-0 h-100 cardbeneficios">
             <div className="card-body text-center p-4">
               <img className="card-img-top rounded-circle fluid w-50" src={reloj} alt="reloj" />
@@ -26,7 +26,7 @@ function BeneficiosRestaurante() {
             </div>
           </div>
         </div>
-        <div className="col-sm-6 col-md-6 col-lg-3">
+        <div className=" col-md-6 col-lg-3">
           <div className="card rounded border-0 h-100 cardbeneficios">
             <div className="card-body text-center p-4">
               <img className="card-img-top rounded-circle  fluid w-50" src={pedidos2} alt="pedidos" />
@@ -35,7 +35,7 @@ function BeneficiosRestaurante() {
             </div>
           </div>
         </div>
-        <div className="col-sm-6 col-md-6 col-lg-3">
+        <div className=" col-md-6 col-lg-3">
           <div className="card rounded border-0 h-100 cardbeneficios">
             <div className="card-body text-center p-4">
               <img className="card-img-top rounded-circle fluid w-50" src={check} alt="check"/>
