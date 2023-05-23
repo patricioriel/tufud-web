@@ -7,7 +7,7 @@ const Testimonios = () => {
   return (
     <>
       <div className="container-fluid my-5" >
-        <h2 className="quicksand subtitulo titulotest" id="iniciotestimonios">Que dicen de nosotros</h2>
+        <h2 className="quicksand subtitulo titulotest">Que dicen de nosotros</h2>
         <div className="container my-5">
           <div className="row">
             <div className="row d-flex justify-content-center my-5">
