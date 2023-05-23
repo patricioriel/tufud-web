@@ -58,6 +58,8 @@ body {
     line-height: 36px !important;
     letter-spacing: -0.02em;
     text-align: center !important;
+    margin-top: 8% !important;
+    margin-bottom: 8% !important;
   }
 
   .cuerpo {
@@ -78,6 +80,7 @@ body {
 
   .cajabotones {
     justify-content: center !important;
+    margin-top: 9% !important;
   }
 
   .titulofooter {
@@ -128,6 +131,16 @@ body {
 
   
   
+  
+  .cajainfo{
+    padding-right: 0!important;
+  }
+  .cajainfo2{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
   
 }
 
@@ -274,6 +287,7 @@ body .quicksand {
 @media (max-width: 799px) {
   .containernavbar {
     margin-left: auto;
+    margin-right: 0;
   }
 }
 
@@ -425,6 +439,12 @@ body .quicksand {
   .offcanvas-body {
     background: #F6F4FF;
   }
+  .btniniciosesion{
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 7% !important;
+    margin-left: 30px !important;
+  }
 
   .col-md-6 {
     margin-top: 80px !important;
@@ -485,14 +505,20 @@ body .quicksand {
 
 @media (max-width: 768px) {
   .inst1 {
-    width: 70%;
+    width: 35%;
     margin-bottom: 50px;
     margin-right: 0 !important;
   }
-
   .inst2 {
-    width: 70%;
-    margin-left: 0 !important;
+    width: 35%;
+    margin-left: 30px !important;
+    margin-bottom: 15% ;
+  }
+  .tituloinst{
+    font-size: 15.6992px;
+    line-height: 120.7%;
+    letter-spacing: -0.035em;
+    color: #363636;
   }
 }
 
@@ -503,6 +529,14 @@ body .quicksand {
 
 .bi-quote {
   color: #7858DD;
+}
+
+@media (max-width: 768px) {
+  .titulotest{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+  }
 }
 
 /* componente beneficios */
@@ -531,10 +565,43 @@ body .quicksand {
   margin-top: 20%;
 }
 
+@media (max-width: 768px){
+  .containerbeneficios h5{
+    font-size: 25px !important;
+    line-height: 30px !important;
+    letter-spacing: -0.035em !important;
+  }
+  .containerbeneficios p{
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.035em;
+  }
+  .cardbeneficios{
+    margin-bottom: 20px;
+    height: auto !important;
+    margin-right: 6%;
+    margin-left: 6%;
+  }
+  .tituloseparador{
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .separador{
+    padding-top: 12% !important;
+    padding-bottom: 12% !important;
+  }
+  .containerbeneficios{
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+}
+
 /* separador */
 
 .separador {
   background-color: #ECE8FF;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
 }
 
 /* pedidos restaurantes */
@@ -563,6 +630,59 @@ body .quicksand {
   justify-content: center;
 }
 
+@media (max-width: 768px) {
+  .colpedidos{
+    padding-right: 0 !important;
+  }
+  .cajapedidos p{
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.035em;
+    color: #363636;
+    text-align: center !important;
+    margin-top: 25px !important;
+  }
+  .cajapedidos{
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+  .cajaagiliza{
+    padding-right: 5% !important;
+    padding-left: 5% !important;
+  }
+  .fondoagiliza{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+  .titulovideo{
+    font-size: 28px !important;
+    line-height: 35px !important;
+    color: #363636;
+  }
+  .tituloformulario{
+    font-size: 30px !important;
+    line-height: 36px !important;
+    letter-spacing: -0.02em !important;
+  }
+  .paddingform{
+    padding-left: 3% !important;
+    padding-right: 3% !important;
+  }
+}
+
+.tituloformulario{
+  font-size: 55px;
+  line-height: 69px;
+  letter-spacing: -0.035em;
+  color: #363636;
+}
+
+.titulovideo{
+  font-size: 48px;
+  line-height: 60px;
+  color: #363636;
+}
+
 /* contactanos */
 
 .btn-contactanos {
@@ -571,7 +691,54 @@ body .quicksand {
   font-weight: 400;
 }
 
+/* ventas proveedores */
+
+.containerventas{
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+
+.containerventas h1{
+  line-height: 69px;
+  letter-spacing: -0.035em;
+  font-size: 55px;
+}
+
+@media (max-width: 768px) {
+  .containerventas{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+  .containerventas h1{
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    text-align: center !important;
+    margin-bottom: 6% !important;
+    margin-top: 2% !important;
+  }
+  .containerventas p{
+    font-size: 16px !important;
+    line-height: 20px;
+    text-align: center !important;
+    letter-spacing: -0.035em;
+    color: #3B3B3B;
+  }
+  .cajabenefprov{
+    width: 100% !important;
+  }
+}
+
 /* tab bar */
+
+.titulotabbar{
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+  color: #363636;
+}
 
 .tab-bar {
   display: flex;
@@ -598,9 +765,27 @@ body .quicksand {
     width: 100%;
     text-align: center;
   }
-
   .tab-item.active {
     margin-right: 0;
+  }
+  .titulotabbar{
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+  }
+  .cajatabs{
+    justify-content: center !important;
+  }
+  .containertabs{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .divtabs{
+    padding: 0 !important;
+    margin-top: 0 !important;
+  }
+  .tab-bar{
+    margin-left: auto !important;
   }
 }
 
@@ -638,6 +823,26 @@ body .quicksand {
 
 /* noticias */
 
+.containernoti{
+  margin-top: 8%;
+}
+
+.titulonoticias{
+  font-weight: 700;
+  font-size: 28.3724px;
+  line-height: 102.7%;
+  letter-spacing: -0.035em;
+  color: #3B3B3B;
+}
+
+.exploranoticias{
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+
 @media (max-width: 768px) {
   .titulonoticias {
     text-align: left;
@@ -673,7 +878,7 @@ body .quicksand {
   padding-bottom: 100px;
   padding-left: 150px;
   background-color: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 30px #DFDBF4;
   position: relative;
   z-index: 1;
   border-radius: 46px;
@@ -839,7 +1044,7 @@ body .quicksand {
   padding-bottom: 20px;
   padding-left: 40px;
   background-color: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 30px #DFDBF4;
   position: relative;
   z-index: 1;
   border-radius: 20px;
@@ -1036,6 +1241,14 @@ body .quicksand {
   margin-top: 45px;
 }
 
+@media (max-width: 768px) {
+  .tituloswiper{
+    font-size: 30px;
+    line-height: 36px;
+    color: #363636;
+  }
+}
+
 /* formulario */
 
 .form {
@@ -1059,7 +1272,25 @@ body .quicksand {
   background-repeat: no-repeat;
 }
 
+@media (max-width: 768px) {
+  .fondo_form{
+    background-image:none
+  }
+}
+
 /* contacto */
+
+.containercontacto{
+  margin-top: 6%;
+}
+
+.titulopreguntas{
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+  color: #363636;
+  margin-left: 8%;
+}
 
 .cuerpocontacto {
   font-size: 24px;
@@ -1080,8 +1311,13 @@ body .quicksand {
   height: 100%;
 }
 
+.accordion-item:first-of-type .accordion-button{
+  background: #F6F4FF;
+  color: #3B3B3B;
+}
+
 .accordion-button {
-  background: #fff4f4;
+  background: #F6F4FF;
   border: 1px solid #D9D9D9;
   border-radius: 6px;
   width: 100%;
@@ -1102,6 +1338,7 @@ body .quicksand {
   text-align: start;
   padding-right: 25px !important;
   padding-left: 25px !important;
+  color: #3B3B3B;
 }
 
 .accordion-button:not(.collapsed) {
@@ -1117,7 +1354,7 @@ body .quicksand {
 
 .navfaq {
   color: black;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 24px;
   line-height: 24px;
   text-align: center;
@@ -1134,6 +1371,7 @@ body .quicksand {
   border-bottom: 6px solid #7858DD;
   margin-top: 5px;
   padding-bottom: 35px;
+  
 }
 
 .navfaq:not(.active)::after {
@@ -1145,12 +1383,14 @@ body .quicksand {
   border-bottom: 6px solid #e3eee8;
   margin-top: 5px;
   padding-bottom: 35px;
+   
 }
 
 .nav-tabs .nav-item.show .navfaq,
 .nav-tabs .navfaq.active {
   background-color: transparent;
   border: none;
+  font-weight: 700;
 }
 
 .nav-tabs {

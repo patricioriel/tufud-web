@@ -87,7 +87,7 @@ const Navbar = () => {
                   Contacto
                 </NavLink>
               </li>
-              <li>
+              <li className="text-md-center text-start">
                 <NavLink className="btn btniniciosesion" to="/iniciarsesion">
                   Iniciar Sesión
                 </NavLink>

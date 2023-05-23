@@ -4,6 +4,7 @@ import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import donjulio from "../images/donjulio.png"
 import dnoticia1 from "../images/dnoticia1.png"
+import BtnSubir from './BtnSubir';
 
 function Noticia1() {
     return (
@@ -37,6 +38,7 @@ function Noticia1() {
                     La app de pedidos online de Tufud se ha creado justamente por los motivos mencionados anteriormente. Como restaurantero, podrás gestionar fácilmente todo el proceso de pedidos en cuestión de segundos, ahorrando tiempo, dinero y reduciendo el número de errores. Asimismo, Tufud te permite llevar un mejor control de tu negocio, con estadísticas y reportes generales y por proveedor, así como cuentas por pagar con cada uno de tus proveedores.</p>
                 <span className='titulofooter fw-semibold'>FUENTE: TUFUD.CO</span>
             </div>
+            <BtnSubir/>
         </div>
 
     )

@@ -23,7 +23,7 @@ function ExploraNoticias() {
 
   return (
     <div>
-      <h2 className="fw-bold quicksand subtitulo mb-5 mt-5 subnoticia">
+      <h2 className="quicksand text-start exploranoticias">
         Explora las noticias más relevantes
       </h2>
 

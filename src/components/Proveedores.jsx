@@ -4,6 +4,7 @@ import TabBar from './TabBar'
 import Ventas from './Ventas'
 import Video from './Video'
 import Formulario from './Formulario'
+import BtnSubir from './BtnSubir';
 
 
 
@@ -15,6 +16,7 @@ function Proveedores() {
         <TabBar/>
         <Video/>
         <Formulario/>
+        <BtnSubir/>
     </div>
   )
 }

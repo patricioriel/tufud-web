@@ -3,6 +3,7 @@ import ExploraNoticias from './ExploraNoticias'
 import InicioNoticias from './InicioNoticias'
 import NewsLetter from './NewsLetter'
 import UltimasNoticias from './UltimasNoticias'
+import BtnSubir from './BtnSubir';
 
 function Noticias() {
     return (
@@ -11,6 +12,7 @@ function Noticias() {
             <ExploraNoticias />
             <UltimasNoticias/>
             <NewsLetter/>
+            <BtnSubir/>
         </div>
     )
 }

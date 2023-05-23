@@ -13,7 +13,8 @@ function Preguntas() {
     };
 
     return (
-        <div className='container'>
+        <div className='container-fluid'>
+            <h2 className="quicksand text-start titulopreguntas">Preguntas frecuentes:</h2>
             <ul className="nav nav-tabs justify-content-center">
                 <li className="nav-item col-md-5">
                     <Link
