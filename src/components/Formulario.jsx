@@ -50,7 +50,7 @@ const Formulario = () => {
       <div className="container m-5 form">
         <div className="row">
           <div className="form">
-            <form onSubmit={handleSubmit} className="p-5">
+            <form onSubmit={handleSubmit} className="p-5 paddingform">
               <div className="mb-3">
                 <label htmlFor="nombre" className="form-label text-light d-flex">
                   Nombre Completo

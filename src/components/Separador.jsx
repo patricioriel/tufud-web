@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Separador = () => {
     return (
-        <div className="container-fluid containerbeneficios separador">
+        <div className="container-fluid separador">
             <div className="container">
                 <div className="row p-1 d-flex align-items-center">
                     <div className="col-md-10">

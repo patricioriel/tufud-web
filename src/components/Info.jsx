@@ -10,7 +10,7 @@ function Info() {
   </div>
   <div className="col-md-5 order-md-1">
     <div>
-      <h1 className='fw-bold text-start quicksand titulo mb-5'>Somos la plataforma de <span className='morado'>pedidos</span> que revoluciona la <span className='morado'>industria gastronómica</span></h1>
+      <h1 className='fw-bold text-start quicksand titulo mb-4'>Somos la plataforma de <span className='morado'>pedidos</span> que revoluciona la <span className='morado'>industria gastronómica</span></h1>
       <p className='text-start cuerpo'>Tufud ayuda a Restaurantes y Proveedores a mejorar el envío y recepción de ordenes de compra, con el objetivo de ahorrar tiempo, disminuir costos y reducir el desperdicio de alimentos.</p>
     </div>
     <div className="row my-3 text-start cajabotones">

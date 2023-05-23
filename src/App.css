@@ -58,6 +58,8 @@ body {
     line-height: 36px !important;
     letter-spacing: -0.02em;
     text-align: center !important;
+    margin-top: 8% !important;
+    margin-bottom: 8% !important;
   }
 
   .cuerpo {
@@ -101,8 +103,15 @@ body {
   .caja_footer {
     padding: 10px !important;
   }
-
-  
+  .cajainfo{
+    padding-right: 0!important;
+  }
+  .cajainfo2{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
   
 }
 
@@ -401,6 +410,12 @@ body .quicksand {
   .offcanvas-body {
     background: #F6F4FF;
   }
+  .btniniciosesion{
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 7% !important;
+    margin-left: 30px !important;
+  }
 }
 
 /* componente info */
@@ -513,12 +528,22 @@ body .quicksand {
     font-size: 28px;
     line-height: 32px;
   }
+  .separador{
+    padding-top: 12% !important;
+    padding-bottom: 12% !important;
+  }
+  .containerbeneficios{
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
 }
 
 /* separador */
 
 .separador {
   background-color: #ECE8FF;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
 }
 
 /* pedidos restaurantes */
@@ -580,6 +605,10 @@ body .quicksand {
     font-size: 30px !important;
     line-height: 36px !important;
     letter-spacing: -0.02em !important;
+  }
+  .paddingform{
+    padding-left: 3% !important;
+    padding-right: 3% !important;
   }
 }
 
@@ -1175,6 +1204,12 @@ body .quicksand {
   background-image: url(images/FONDO-SEC\ FORMULARIO.png);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  .fondo_form{
+    background-image:none
+  }
 }
 
 /* contacto */

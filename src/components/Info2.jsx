@@ -3,8 +3,8 @@ import img2home from "../images/img2home.png"
 
 function Info2() {
     return (
-        <div className="gradiente_verde row my-5  container-fluid">
-            <div className="row justify-content-center column-gap-2">
+        <div className="gradiente_verde row my-5  container-fluid cajainfo2">
+            <div className="row justify-content-center column-gap-2 cajainfo2">
                 <div className="col-md-5">
                     <img src={img2home} alt="Descripción de la imagen" className='imginfo mt-3' />
                 </div>
