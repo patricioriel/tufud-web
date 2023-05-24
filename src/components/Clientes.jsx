@@ -21,9 +21,9 @@ const Clientes = () => {
     <div className="container-fluid">
       <div className="row">
         <h2 className="quicksand tituloswiper mb-5">
-          Descubre algunos de los <span className="morado">que confían</span> en
+          Descubre <span className="morado">quiénes confían</span> en
           nosotros
-        </h2>
+        </h2> 
         <Swiper
           slidesPerView={slidesPerView}
           spaceBetween={50}
