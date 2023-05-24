@@ -1191,6 +1191,64 @@ body .quicksand {
     letter-spacing: -0.035em;
   }
 
+  .container_historias {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+  }
+
+  .card_testimonios {
+   width: 85% !important;
+   padding: 20px !important;
+   margin-top: 20px !important;
+   height: fit-content !important;
+  }
+
+  .card_testimonios h2 {
+    font-size: 18px !important;
+    line-height: 26px !important;
+    margin: 10px !important;
+    margin-top: 0px !important;
+  }
+
+  .card_testimonios img {
+    width: 70px !important;
+  }
+
+  .cuerpo_mobile {
+    font-size: 15px !important;
+    line-height: 22px !important;
+    text-align: start !important;
+    margin: 10px !important;
+  }
+
+  .persona_mobile {
+    font-size: 23px !important;
+    font-weight: 700 !important;
+  }
+
+  .puesto_mobile {
+    font-size: 12px !important;
+    line-height: 12px !important;
+    margin-top: 8px !important;
+    text-align: start !important;
+  }
+
+  .historias_mobile h4 {
+    text-align: start !important;
+    font-size: 30px !important;
+    line-height: 36px !important;
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+  }
+
+  .historias_mobile p {
+    text-align: start !important;
+    margin-top: 0px !important;
+  }
+
+  .historias_mobile h3 {
+    font-size: 18px !important;
+  }
 
 }
 

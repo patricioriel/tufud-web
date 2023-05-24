@@ -42,6 +42,7 @@ const Navbar = () => {
                   to="#"
                   role="button"
                   data-bs-toggle="dropdown"
+                  data-bs-target="#navbarNavDropdown"
                   aria-expanded="false"
                 >
                   Servicios
