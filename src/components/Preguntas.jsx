@@ -18,7 +18,7 @@ function Preguntas() {
             <ul className="nav nav-tabs justify-content-center">
                 <li className="nav-item col-md-5">
                     <Link
-                        className={`nav-link navfaq ${activeTab === 'restaurantes' ? 'active' : ''}`}
+                        className={`nav-link pnavlink navfaq ${activeTab === 'restaurantes' ? 'active' : ''}`}
                         onClick={() => toggleTab('restaurantes')}
                     >
                         Restaurantes
@@ -26,7 +26,7 @@ function Preguntas() {
                 </li>
                 <li className="nav-item col-md-5">
                     <Link
-                        className={`nav-link navfaq ${activeTab === 'proveedores' ? 'active' : ''}`}
+                        className={`nav-link pnavlink navfaq ${activeTab === 'proveedores' ? 'active' : ''}`}
                         onClick={() => toggleTab('proveedores')}
                     >
                         Proveedores

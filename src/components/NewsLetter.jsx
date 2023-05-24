@@ -36,8 +36,8 @@ function NewsLetter() {
   };
 
   return (
-    <div className='container nl'>
-      <div className='row'>
+    <div className='container nl containernl'>
+      <div className='row connl'>
         <div className='col-md-6 col-sm-12 pt-3 pb-3'>
           <h3 className='nlact text-start'>MANTENTE ACTUALIZADO</h3>
           <h3 className='titulonl quicksand text-start'>Suscribite a nuestro canal</h3>
