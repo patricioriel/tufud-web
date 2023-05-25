@@ -9,7 +9,7 @@ export const testimonios = [
         titulo: "La plataforma es muy útil y efectiva a la hora de hacer muchos pedidos a la vez.",
         descripcion: "La inclusión de fotos de los productos nos ha ayudado significativamente a acelerar el proceso de compra. El uso de la plataforma es simple y práctico. El servicio técnico es excelente.",
         persona: "Pompi Huarte",
-        puesto: "Dueño en Super Saludable",
+        puesto: "Dueña en Super Saludable",
         imagen: saludable
     },
     {

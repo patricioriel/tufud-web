@@ -156,6 +156,10 @@ body {
   background: linear-gradient(180deg, rgba(233, 251, 247, 0.12) 6.04%, rgba(196, 248, 235, 0.46) 55.65%, rgba(233, 251, 247, 0) 100%);
 }
 
+.offcanvas-backdrop.fade {
+  opacity: 0 !important;
+}
+
 .btnsubir {
   background-color: #C4F8EB !important;
   box-shadow: 1.32448px 1.32448px 5.27785px rgba(161, 138, 230, 0.2);
@@ -1347,6 +1351,12 @@ body .quicksand {
   background-repeat: no-repeat;
 }
 
+.fondo_noticias {
+  background-image: url(images/fondo_noticia_completa.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 @media (max-width: 768px) {
   .fondo_form{
     background-image:none
@@ -1413,6 +1423,14 @@ body .quicksand {
     font-size: 14px !important;
     line-height: 17px !important;
     letter-spacing: -0.035em !important;
+  }
+
+  .navbar-brand img {
+    width: 140px !important;
+  }
+
+  .hamburguesa img {
+    width: 25px !important;
   }
 }
 
