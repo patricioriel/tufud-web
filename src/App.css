@@ -1620,7 +1620,6 @@ body .quicksand {
   .caja_testimonio{
     z-index: 20 !important;
     height: 100% !important;
-    margin-top: -30px;
     padding-top: 12% !important;
   padding-bottom: 10% !important;
   padding-right: 10% !important;
@@ -1633,6 +1632,11 @@ border-radius: 10px !important;
     z-index: 2 !important;
   }
   .imagen_testimonio{
+    left: auto !important;
+    margin-left: 0 !important;
+    height: auto !important;
+  }
+  .imagen_testimonio2{
     left: auto !important;
     margin-left: 0 !important;
     height: auto !important;
@@ -1658,6 +1662,7 @@ border-radius: 10px !important;
     line-height: 26px !important;
     letter-spacing: -0.02em;
     color: #363636;
+    margin-bottom: 6% !important;
   }
   .cuerpo_testimonios{
     font-size: 12px !important;
@@ -1672,6 +1677,31 @@ border-radius: 10px !important;
   }
   .textostest{
     margin-left: 0 !important;
+    margin-top: 5% !important;
+  }
+  .personatest{
+    font-size: 21.5771px !important;
+    line-height: 27px !important;
+    margin-top: auto !important;
+    margin-bottom: 3% !important;
+  }
+  .conocelos{
+    font-size: 20.9405px;
+    line-height: 102.7%;
+    text-align: center;
+    letter-spacing: -0.035em;
+    margin-top: 5% !important;
+    margin-bottom: 0 !important;
+  }
+  .flechatest{
+    position: relative !important;
+    top: -3px !important;
+  }
+  .containertest{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .btntest{
     margin-top: 5% !important;
   }
 }
