@@ -13,9 +13,11 @@ function Proveedores() {
     <div>
         <Ventas/>
         <BeneficiosProveedores/>
-        <TabBar/>
-        <Video/>
-        <Formulario/>
+        <div className="gradiente_verde">
+          <TabBar/>
+          <Video/>
+          <Formulario/>
+        </div>
         <BtnSubir/>
     </div>
   )

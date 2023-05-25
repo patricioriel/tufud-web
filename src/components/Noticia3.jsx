@@ -8,7 +8,7 @@ import BtnSubir from './BtnSubir';
 
 function Noticia3() {
   return (
-    <div className='container-fluid row justify-content-center'>
+    <div className='container-fluid row justify-content-center fondo_noticias mb-5'>
             <Link to={"/noticias"} className='text-start btnatras'>
                 <FontAwesomeIcon icon={faArrowLeft} size="2xl" style={{ color: 'black' }} />
             </Link>

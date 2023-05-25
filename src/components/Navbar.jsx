@@ -1,9 +1,16 @@
-import React from "react";
+import React, {useState} from "react";
 import { Link, NavLink } from "react-router-dom";
 import logo from "../images/tufudhorizontal.png";
 import menu from "../images/menu.svg";
 
 const Navbar = () => {
+
+  const [menuAbierto, setMenuAbierto] = useState(false);
+
+  const cerrarMenu = () => {
+    setMenuAbierto(false);
+  };
+
   return (
     <nav className="navbar navbar-expand-md fondo_secciones p-3 containernavbar">
       <div className="container-fluid d-flex align-items-center">
@@ -13,6 +20,7 @@ const Navbar = () => {
         <button
           className="navbar-toggler hamburguesa"
           type="button"
+          onClick={() => setMenuAbierto(!menuAbierto)}
           data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasNavbar"
           aria-controls="offcanvasNavbar"
@@ -21,7 +29,7 @@ const Navbar = () => {
           <img src={menu} alt="" height={30}  />
         </button>
         <div
-          className="offcanvas offcanvas-end"
+          className={`offcanvas offcanvas-end ${menuAbierto ? 'show' : ''}`}
           tabindex="-1"
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
@@ -49,12 +57,12 @@ const Navbar = () => {
                 </NavLink>
                 <ul className="dropdown-menu">
                   <li>
-                    <NavLink className="dropdown-item fw-bolder fade-in" to="/restaurante">
+                    <NavLink className="dropdown-item fw-bolder fade-in" to="/restaurante" onClick={cerrarMenu}>
                       Restaurantes
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="dropdown-item fw-bolder fade-in" to="/proveedor">
+                    <NavLink className="dropdown-item fw-bolder fade-in" to="/proveedor" onClick={cerrarMenu}>
                       Proveedores
                     </NavLink>
                   </li>
@@ -72,24 +80,24 @@ const Navbar = () => {
                 </NavLink>
                 <ul className="dropdown-menu">
                   <li>
-                    <NavLink className="dropdown-item fw-bolder fade-in" to="/testimonios">
+                    <NavLink className="dropdown-item fw-bolder fade-in" to="/testimonios" onClick={cerrarMenu}>
                       Testimonios
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="dropdown-item fw-bolder fade-in" to="/noticias">
+                    <NavLink className="dropdown-item fw-bolder fade-in" to="/noticias" onClick={cerrarMenu}>
                       Noticias
                     </NavLink>
                   </li>
                 </ul>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link me-3 itemnavbar" to="/faq">
+                <NavLink className="nav-link me-3 itemnavbar" to="/faq" onClick={cerrarMenu}>
                   Contacto
                 </NavLink>
               </li>
               <li className="text-md-center text-start">
-                <NavLink className="btn btniniciosesion" to="/iniciarsesion">
+                <NavLink className="btn btniniciosesion" to="/iniciarsesion" onClick={cerrarMenu}>
                   Iniciar Sesión
                 </NavLink>
               </li>

@@ -1,4 +1,4 @@
-import noti1 from "../images/noti1.png"
+import noti1 from "../images/LOGO_NOTICIA.png"
 import noti2 from "../images/noti2.png"
 import noti3 from "../images/noti3.png"
 

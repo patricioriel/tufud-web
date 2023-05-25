@@ -32,6 +32,7 @@ function ExploraNoticias() {
           <div className="col-md-5 col-sm-12 imagennoticia">
             <img
               src={noticias[noticiaActual].imagen}
+              width="600"
               alt="ilustración noticias"
             />
           </div>
