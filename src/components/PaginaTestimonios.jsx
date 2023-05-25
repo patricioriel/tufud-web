@@ -11,6 +11,7 @@ import tienda from "../images/TiendaNova.png";
 import mercado from "../images/MercadoSilvestre.png";
 import fondosd from "../images/fondo_sd.png";
 import fondotienda from "../images/fondo_tienda.png";
+import comillas from "../images/comillas.svg"
 import fondosaludable from "../images/fondo_supersaludable.png";
 import { testimonios } from "../data/DataTestimonios";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
@@ -22,13 +23,14 @@ const PaginaTestimonios = () => {
     <div className="container-fluid">
       <div className="container mt-5">
         <div className="row">
-          <Link to={"/testimonios"} className="text-start btnatras">
-            <FontAwesomeIcon
-              icon={faArrowLeft}
-              size="2xl"
-              style={{ color: "black" }}
-            />
+          <Link
+            to={"/testimonios"}
+            className="text-start btnatras btnatrastest"
+            style={{ display: "none" }}
+          >
+            <FontAwesomeIcon icon={faArrowLeft} size="2xl" style={{ color: "black" }} />
           </Link>
+
         </div>
         <div className="row">
           <h3 className="titulo quicksand">Historias que inspiran</h3>
@@ -53,19 +55,13 @@ const PaginaTestimonios = () => {
         {/* testimonio 1 */}
 
         <div className="row my-5">
-          <div className="col-md-7 caja_testimonio">
-            <div>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="80"
-                fill="currentColor"
-                className="bi bi-quote d-flex ms-0"
-                viewBox="0 0 16 16"
-              >
-                <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z" />
-              </svg>
+          <div className="col-md-7 caja_testimonio order-2 order-md-1">
+            <div className="d-flex">
+              <img src={comillas} alt="" className="me-1 comillas" />
+              <img src={comillas} alt="" className="comillas" />
             </div>
-            <div className="ms-3">
+            <div className="ms-3 textostest">
+              <img className="logocardtest d-none d-block" src={saludable} alt="" />
               <h2 className="fw-bold titulos_testimonios text-start mb-4 me-5">
                 {testimonios[0].titulo}
               </h2>
@@ -80,7 +76,7 @@ const PaginaTestimonios = () => {
               </p>
             </div>
           </div>
-          <div className="col-md-5 imagen_testimonio">
+          <div className="col-md-5 imagen_testimonio order-1 order-md-2">
             <img
               className="fondo_imagenes_testimonios"
               src={fondosaludable}
@@ -205,7 +201,7 @@ const PaginaTestimonios = () => {
       <div className="row">
         <Clientes />
       </div>
-      <BtnSubir/>
+      <BtnSubir />
     </div>
   );
 };
