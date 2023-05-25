@@ -11,7 +11,7 @@ const Iniciarsesion = () => {
               <Link to={"https://www.tufud-web.com/login"}><img src={restaurante} className="img-fluid" alt="ilustracion restaurante" /></Link>
         </div>
         <div className="col-md-6">
-              <Link to={"/proveedor"}><img src={proveedor} className="img-fluid" alt="ilustracion proveedor" /></Link>
+              <Link to={"https://www.tufud-proveedores.com/login"}><img src={proveedor} className="img-fluid" alt="ilustracion proveedor" /></Link>
         </div>
       </div>
     </div>
