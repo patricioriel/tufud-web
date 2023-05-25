@@ -177,7 +177,7 @@ body .quicksand {
 }
 
 .titulo {
-  font-size: 55px;
+  font-size: 52px;
   line-height: 69px;
   font-weight: bold;
 }
@@ -282,6 +282,7 @@ body .quicksand {
 .containernavbar {
   margin-left: 7%;
   margin-right: 7%;
+  margin-bottom: 100px;
 }
 
 @media (max-width: 799px) {
@@ -468,6 +469,7 @@ body .quicksand {
   }
 
   .col-md-5 {
+    margin-top: 20px !important;
     margin-left: 20px !important;
     margin-right: 20px !important;
   }
@@ -480,11 +482,11 @@ body .quicksand {
 }
 
 .card_testimonios {
-  height: 696px;
+  height: 690px;
   color: #fff;
   box-sizing: border-box;
-  padding-top: 30px;
-  padding-left: 100px;
+  padding-top: 55px;
+  padding-left: 60px;
   background-color: #7858DD;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   position: relative;

@@ -1,5 +1,5 @@
 import React from 'react'
-import noti1 from "../images/noti1.png"
+import noti1 from "../images/LOGO_NOTICIA.png"
 import noti2 from "../images/noti2.png"
 import noti3 from "../images/noti3.png"
 import noti4 from "../images/noti4.png"
@@ -17,7 +17,7 @@ function UltimasNoticias() {
                         <Link to={"/noticias/1"}>
                             <span className="titulocard d-block text-start">12/05/22</span>
                             <span className="titulocard d-block text-start">TECNOLOGÍA</span>
-                            <h2 className="fw-bold quicksand titulos_cards text-start me-5">Tufud está revolucionando la industria gastronómica.</h2>
+                            <h2 className="fw-semibold quicksand titulos_cards text-start me-5">Tufud está revolucionando la industria gastronómica.</h2>
                             <p className="cuerpocardnoticias text-start me-5">
                                 La industria gastronómica ha experimentado cambios significativos en los últimos años debido a la creciente demanda de opciones digitales...
                             </p>
@@ -31,7 +31,7 @@ function UltimasNoticias() {
                         <Link to={"/noticias/2"}>
                             <span className="titulocard d-block text-start">12/05/22</span>
                             <span className="titulocard d-block text-start">TECNOLOGÍA</span>
-                            <h2 className="fw-bold quicksand titulos_cards text-start me-5">
+                            <h2 className="fw-semibold quicksand titulos_cards text-start me-5">
                                 La tecnología en la trazabilidad y seguimiento de pedidos.
                             </h2>
                             <p className="cuerpocardnoticias text-start me-5">
@@ -48,7 +48,7 @@ function UltimasNoticias() {
                         <Link to={"/noticias/3"}>
                             <span className="titulocard d-block text-start">12/05/22</span>
                             <span className="titulocard d-block text-start">TECNOLOGÍA</span>
-                            <h2 className="fw-bold quicksand titulos_cards text-start me-5">
+                            <h2 className="fw-semibold quicksand titulos_cards text-start me-5">
                                 La importancia de la gestión eficiente de compras para los restaurantes
                             </h2>
                             <p className="cuerpocardnoticias text-start me-5">
@@ -65,7 +65,7 @@ function UltimasNoticias() {
                         <Link to={"/noticias/4"}>
                             <span className="titulocard d-block text-start">12/05/22</span>
                             <span className="titulocard d-block text-start">TECNOLOGÍA</span>
-                            <h2 className="fw-bold quicksand titulos_cards text-start me-5">
+                            <h2 className="fw-semibold quicksand titulos_cards text-start me-5">
                                 Tufud impulsa las ventas de proveedores.
                             </h2>
                             <p className="cuerpocardnoticias text-start me-5">

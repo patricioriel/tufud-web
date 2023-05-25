@@ -2,7 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
-import noti1 from '../images/noti1.png';
+import noti1 from '../images/LOGO_NOTICIA.png';
 import noti2 from '../images/noti2.png';
 import noti3 from '../images/noti3.png';
 import noti4 from '../images/noti4.png';

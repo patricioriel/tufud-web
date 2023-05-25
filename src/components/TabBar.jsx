@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import tabbar1 from '../images/tabbar1.png';
-import tabbar2 from '../images/tabbar2.svg';
-import tabbar3 from '../images/tabbar3.svg';
+import tabbar1 from '../images/TAB_BAR 1.png';
+import tabbar2 from '../images/TAB_BAR 2.png';
+import tabbar3 from '../images/TAB_BAR 3.png';
 
 function TabBar() {
     const [activeTab, setActiveTab] = useState(0);
@@ -14,7 +14,7 @@ function TabBar() {
                 <div className="col-md-5 mt-5 d-flex align-items-center cajatabs">
                     <img src={tabbar1} alt="Descripción de la imagen" className='imginfo mt-3 w-75' />
                 </div>
-                <div className="col-md-5 d-flex align-items-center">
+                <div className="col-md-5 d-flex">
                     <div>
                         <h2 className='fw-bold text-end quicksand titulo'><span className='morado'>Aumenta la frecuencia </span>de pedidos</h2>
                         <p className='text-end cuerpo'>Simplifica el proceso de compra para tus clientes, brindándoles un catálogo actualizado y mostrando la disponibilidad de tus productos en tiempo real.</p>
@@ -29,9 +29,9 @@ function TabBar() {
                 <div className="col-md-5 mt-5 d-flex align-items-center cajatabs">
                     <img src={tabbar2} alt="Descripción de la imagen" className='imginfo mt-3 w-75' />
                 </div>
-                <div className="col-md-5 d-flex align-items-center">
+                <div className="col-md-5 d-flex">
                     <div>
-                        <h2 className='fw-bold text-end quicksand titulo'>Será mucho <span className='morado'>más fácil promocionar </span>tus productos</h2>
+                        <h2 className='fw-bold text-end quicksand titulo'>Es <span className='morado'>más fácil promocionar </span>tus productos</h2>
                         <p className='text-end cuerpo'>Mantén una comunicación directa con tus clientes y aumenta la efectividad de tus estrategias de marketing al enviar ofertas personalizadas.</p>
                     </div>
                 </div>
@@ -44,7 +44,7 @@ function TabBar() {
                 <div className="col-md-5 mt-5 d-flex align-items-center cajatabs">
                     <img src={tabbar3} alt="Descripción de la imagen" className='imginfo mt-3 w-75' />
                 </div>
-                <div className="col-md-5 d-flex align-items-center">
+                <div className="col-md-5 d-flex">
                     <div>
                         <h2 className='fw-bold text-end quicksand titulo'>Procesa mucho <span className='morado'>más rápido </span>los pedidos de tus clientes</h2>
                         <p className='text-end cuerpo'>Ahorra tiempo y aumenta la satisfacción de tus clientes al contar con un proceso de pedido más rápido y confiable.</p>

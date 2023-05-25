@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import proveedor from "../images/card_soyproveedor.png"
-import restaurante from "../images/card_soyrestaurante.png"
+import proveedor from "../images/PROVEEDOR.png"
+import restaurante from "../images/RESTAURANTE.png"
 
 const Iniciarsesion = () => {
   return (
