@@ -14,12 +14,16 @@ const Home = () => {
         <div>
             <Info/>
             <Beneficios/>
-            <Instituciones/>
-            <Info2/>
-            <Testimonios/>
+            <div className="gradiente_verde">
+                <Instituciones/>
+                <Info2/>
+                <Testimonios/>
+            </div>
             <Separador/>
-            <Contactanos/>
-            <Clientes/>
+            <div className="gradiente_verde">
+                <Contactanos/>
+                <Clientes/>
+            </div>
             <BtnSubir/>
         </div>
     )

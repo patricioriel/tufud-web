@@ -4,7 +4,7 @@ import img3home from "../images/img3home.png"
 
 const Contactanos = () => {
     return (
-        <div className="container-fluid gradiente_verde">
+        <div className="container-fluid">
     <div className="container p-5">
         <div className="row ">
             <div className="col-md-6 order-1 order-md-2">

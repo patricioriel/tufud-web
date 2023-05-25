@@ -1,9 +1,10 @@
-import React from "react";
+import React, {useState} from "react";
 import { Link, NavLink } from "react-router-dom";
 import logo from "../images/tufudhorizontal.png";
 import menu from "../images/menu.svg";
 
 const Navbar = () => {
+
   return (
     <nav className="navbar navbar-expand-md fondo_secciones p-3 containernavbar">
       <div className="container-fluid d-flex align-items-center">
@@ -21,7 +22,7 @@ const Navbar = () => {
           <img src={menu} alt="" height={30}  />
         </button>
         <div
-          className="offcanvas offcanvas-end"
+          className= "offcanvas offcanvas-end"
           tabindex="-1"
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"

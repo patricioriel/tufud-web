@@ -14,7 +14,9 @@ function Restaurante() {
         <BeneficiosRestaurante/>
         <AgilizaPedidos/>
         <Video/>
-        <EstasListo/>
+        <div className="gradiente_verde">
+            <EstasListo/>
+        </div>
         <Formulario/>
         <BtnSubir/>
         </div>

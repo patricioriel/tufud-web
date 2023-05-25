@@ -1,10 +1,15 @@
 import React from "react";
 import logo from "../images/tufudlogo.png"
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
+
+    const handleEnlaceClick = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      };
+
     return (
         <div className="container-fluid fondo_secciones h-100">
             <div className="container p-4 footer">
@@ -12,10 +17,10 @@ const Footer = () => {
                     <div className="col-md-3 col-sm-12 caja_footer">
                         <h5 className="text-start fw-bold quicksand titulofooter">Enlaces</h5>
                         <ul className="text-start list-unstyled">
-                            <li><Link to="/restaurante" className="text-decoration-underline footer_link text-dark cuerpofooter">Restaurantes</Link></li>
-                            <li className="my-2"><Link to="/proveedor" className="text-decoration-underline footer_link text-dark cuerpofooter">Proveedores</Link></li>
-                            <li className="my-2"><Link to="/testimonios" className="text-decoration-underline footer_link text-dark cuerpofooter">Testimonios</Link></li>
-                            <li><Link to="/faq" className="text-decoration-underline footer_link text-dark cuerpofooter">FAQ</Link></li>
+                            <li><NavLink onClick={handleEnlaceClick} to="/restaurante" className="text-decoration-underline footer_link text-dark cuerpofooter">Restaurantes</NavLink></li>
+                            <li className="my-2"><NavLink onClick={handleEnlaceClick} to="/proveedor" className="text-decoration-underline footer_link text-dark cuerpofooter">Proveedores</NavLink></li>
+                            <li className="my-2"><NavLink onClick={handleEnlaceClick} to="/testimonios" className="text-decoration-underline footer_link text-dark cuerpofooter">Testimonios</NavLink></li>
+                            <li><NavLink onClick={handleEnlaceClick} to="/faq" className="text-decoration-underline footer_link text-dark cuerpofooter">FAQ</NavLink></li>
                         </ul>
                     </div>
                     <div className="text-start col-md-3 col-sm-12 caja_footer">
