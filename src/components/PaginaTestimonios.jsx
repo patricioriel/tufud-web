@@ -33,8 +33,9 @@ const PaginaTestimonios = () => {
 
         </div>
         <div className="row">
-          <h3 className="titulo quicksand">Historias que inspiran</h3>
-          <p className="cuerpo">Te invitamos a conocer a nuestros Clientes</p>
+          <h3 className="d-none testmobile">TESTIMONIOS</h3>
+          <h3 className="titulo quicksand titulotest">Historias que inspiran</h3>
+          <p className="cuerpo cuerpotest">Te invitamos a conocer a nuestros Clientes</p>
           <div className="imagenes_testimonios mt-4">
             <img className="img1" src={amelia} width="60" alt="" />
             <img className="img2" src={semilla} width="60" alt="" />
@@ -43,10 +44,13 @@ const PaginaTestimonios = () => {
             <img className="img5" src={picolina} width="60" alt="" />
             <img className="img6" src={tienda} width="60" alt="" />
             <img className="img7" src={mercado} width="60" alt="" />
-            <Link to={"#"} className="btn btntest">
+            <p className="text-center cuerpocard_testimonios mt-1 d-none empresastest">
+              Mas de 200 empresas nos avalan
+            </p>
+            <Link to={"#"} className="btn btntest order-2 order-md-1">
               Comienza ahora
             </Link>
-            <p className="text-center cuerpocard_testimonios mt-1">
+            <p className="text-center cuerpocard_testimonios mt-1 empresastest2">
               Mas de 200 empresas nos avalan
             </p>
           </div>
@@ -57,7 +61,7 @@ const PaginaTestimonios = () => {
         <div className="row my-5 containertest">
           <div className="col-md-7 caja_testimonio order-2 order-md-1">
             <div className="d-flex">
-              <img src={comillas} alt="" className="me-1 comillas" />
+              <img src={comillas} alt="" className="me-1 comillas ms-3" />
               <img src={comillas} alt="" className="comillas" />
             </div>
             <div className="ms-3 textostest">
@@ -86,7 +90,8 @@ const PaginaTestimonios = () => {
           </div>
           <Link
             className="morado conocelos quicksand fw-bold text-center my-5 order-3 order-md-3"
-            to={`#`}
+            to={`https://www.instagram.com/supersaludabletienda/?igshid=MzRlODBiNWFlZA%3D%3D`}
+            target="_blank"
           >
             Conocelos
             <FontAwesomeIcon
@@ -111,7 +116,7 @@ const PaginaTestimonios = () => {
           </div>
           <div className="col-md-7 caja_testimonio">
             <div className="d-flex">
-            <img src={comillas} alt="" className="me-1 comillas" />
+            <img src={comillas} alt="" className="me-1 comillas ms-3" />
               <img src={comillas} alt="" className="comillas" />
             </div>
             <div className="ms-3 textostest">
@@ -132,7 +137,8 @@ const PaginaTestimonios = () => {
           </div>
           <Link
             className="morado conocelos quicksand fw-bold text-center my-5"
-            to={`#`}
+            to={`https://www.instagram.com/tiendanova.ba/?igshid=MzRlODBiNWFlZA%3D%3D`}
+            target="_blank"
           >
             Conocelos
             <FontAwesomeIcon
@@ -149,7 +155,7 @@ const PaginaTestimonios = () => {
         <div className="row my-5 containertest">
           <div className="col-md-7 caja_testimonio order-2 order-md-1">
             <div className="d-flex">
-            <img src={comillas} alt="" className="me-1 comillas" />
+            <img src={comillas} alt="" className="me-1 comillas ms-3" />
               <img src={comillas} alt="" className="comillas" />
             </div>
             <div className="ms-3 textostest">
@@ -174,7 +180,8 @@ const PaginaTestimonios = () => {
           </div>
           <Link
             className="morado conocelos quicksand fw-bold text-center my-5 order-3 order-md-3"
-            to={`#`}
+            to={`https://www.instagram.com/stories.deli/?igshid=MzRlODBiNWFlZA%3D%3D`}
+            target="_blank"
           >
             Conocelos
             <FontAwesomeIcon

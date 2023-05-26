@@ -129,9 +129,6 @@ body {
     margin-top: 15px !important;
   }
 
-  
-  
-  
   .cajainfo{
     padding-right: 0!important;
   }
@@ -141,7 +138,16 @@ body {
     margin-right: 0 !important;
     margin-left: 0 !important;
   }
-  
+}
+
+@media (min-width: 769px) and (max-width: 1384px) {
+  .btninfo1{
+    margin-left: 0 !important;
+  }
+  .btncomunidad{
+    width: auto !important;
+    height: auto !important;
+  }
 }
 
 .cajainfo {
@@ -1576,11 +1582,12 @@ body .quicksand {
 
 .img1 {
   position: relative;
+  left: 4%;
 }
 
 .img2 {
-  position: absolute;
-  left: 33%;
+  position: relative;
+  left: 2%;
 }
 
 .img3 {
@@ -1648,14 +1655,15 @@ border-radius: 10px !important;
     display: flex !important;
     position: absolute !important;
     z-index: 0 !important;
-    top: -25vw;
-    left: 28vw;
-    width: 40%;
+    top: -18vw;
+    left: 31vw;
+    width: 35%;
     border-radius: 100%;
     border: 8px solid rgb(255, 255, 255);
   }
   .comillas{
     width: 4%;
+    margin-left: 0 !important;
   }
   .titulos_testimonios{
     font-size: 18px !important;
@@ -1704,12 +1712,63 @@ border-radius: 10px !important;
   .btntest{
     margin-top: 5% !important;
   }
-}
+  .img1{
+    left: auto !important;
+  }
+  .img2{
+    left: auto !important;
+  }
+  .img3{
+    left: auto !important;
+  }
+  .img4{
+    left: auto !important;
+  }
+  .img5{
+    left: auto !important;
+  }
+  .img6{
+    left: auto !important;
+  }
+  .img7{
+    left: auto !important;
+  }
+  .empresastest{
+    display: block !important;
+    left: auto !important;
+  }
+  .empresastest2{
+    display: none;
+  }
+  .titulotest{
+    text-align: start !important;
+    margin-bottom: 3% !important;
+    margin-top: 1% !important;
+    padding-right: 20% !important;
+  }
+  .cuerpotest{
+    text-align: start !important;
+    padding-right: 20% !important;
+  }
+  .testmobile{
+    display: block !important;
+    text-align: start !important;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    color: #363636;
+  }
+  }
 
 @media (min-width: 769px) {
   .btnatrastest {
     display: inline-block !important;
   }
+}
+
+.comillas{
+  width: 5%;
+  margin-bottom: 5%;
 }
 
 .caja_testimonio {
