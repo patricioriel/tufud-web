@@ -7,10 +7,10 @@ const Testimonios = () => {
   return (
     <>
       <div className="container-fluid my-5" >
-        <h2 className="quicksand subtitulo titulotest">Que dicen de nosotros</h2>
+        <h2 className="quicksand subtitulo quedicen">Que dicen de nosotros</h2>
         <div className="container my-5">
-          <div className="row">
-            <div className="row d-flex justify-content-center my-5">
+          <div className="row centrartestimonios">
+            <div className="row d-flex justify-content-center my-5 margentestimonios">
               <div className="col-md-4">
                 <div className="card bg-white border-0 h-100 cardtestimonios">
                   <div className="card-body text-center">
