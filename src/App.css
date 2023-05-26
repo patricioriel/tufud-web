@@ -1165,6 +1165,10 @@ body .quicksand {
     padding-top: 40px;
   }
 
+  nav {
+    margin-bottom: 0px !important;
+  }
+
 }
 
 
@@ -1755,10 +1759,17 @@ border-radius: 10px !important;
     display: none;
   }
   .titulotest{
-    text-align: start !important;
+    text-align: center !important;
     margin-bottom: 3% !important;
     margin-top: 1% !important;
-    padding-right: 20% !important;
+  }
+
+  .row_test {
+    margin-top: 0 !important;
+  }
+
+  .container_test {
+    margin-left: 15px !important;
   }
   .cuerpotest{
     text-align: start !important;
