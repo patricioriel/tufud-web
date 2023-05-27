@@ -752,6 +752,11 @@ body .quicksand {
   .cajabenefprov{
     width: 100% !important;
   }
+  .divtabs{
+    padding: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 0 !important;
+  }
 }
 
 /* tab bar */
@@ -776,6 +781,11 @@ body .quicksand {
   cursor: pointer;
   font-size: 22px;
   white-space: nowrap;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
 }
 
 .tab-content {
@@ -805,6 +815,7 @@ body .quicksand {
   }
   .divtabs{
     padding: 0 !important;
+    margin-right: 0 !important;
     margin-top: 0 !important;
   }
   .tab-bar{
@@ -1269,6 +1280,7 @@ body .quicksand {
   .persona_mobile {
     font-size: 23px !important;
     font-weight: 700 !important;
+    margin-top: 15px;
   }
 
   .puesto_mobile {
@@ -1683,6 +1695,13 @@ border-radius: 10px !important;
     width: 4%;
     margin-left: 0 !important;
   }
+.card_testimonios .comillas2{
+  width: 4% !important;
+  margin-left: 10px;
+  margin-bottom: 2%;
+  margin-top: 4%;
+}
+  
   .titulos_testimonios{
     font-size: 18px !important;
     line-height: 26px !important;
@@ -1798,6 +1817,11 @@ border-radius: 10px !important;
 }
 
 .comillas{
+  width: 5%;
+  margin-bottom: 5%;
+}
+
+.comillas2{
   width: 5%;
   margin-bottom: 5%;
 }
