@@ -9,10 +9,10 @@ import BtnSubir from './BtnSubir';
 function Noticia1() {
     return (
         <div className='container-fluid row justify-content-center fondo_noticias mb-5'>
-            <Link to={"/noticias"} className='text-start btnatras'>
+            <Link to={"/noticias"} className='text-start btnatras btnatrasnoticias'>
                 <FontAwesomeIcon icon={faArrowLeft} size="2xl" style={{ color: 'black' }} />
             </Link>
-            <h1 className='titulocard fw-bold mt-5'>NOTICIAS</h1>
+            <h1 className='titulocard fw-bold mt-5 titulonoticiadetalle'>NOTICIAS</h1>
             <span className="titulocard d-block text-start fechanoticia ms-5">12/05/22</span>
 
             <div className='text-start mt-5 detallenoticia'>
@@ -21,10 +21,10 @@ function Noticia1() {
                 <img src={donjulio} alt="Don Julio" class="img-fluid mx-auto w-100 mb-5 mt-5" />
                 <h3 className='titulocard fw-bold mb-3'>¿Por qué la digitalización es un factor fundamental para la industria gastronómica?</h3>
                 <div className='row'>
-                    <div className='col-md-5 col-sm-12'>
+                    <div className='col-md-5 col-sm-12 imgcolnoticia order-2 order-md-1'>
                         <img src={dnoticia1} alt="Restó" class="img-fluid mx-auto mt-3" />
                     </div>
-                    <div className='col-md-7 col-sm-12'>
+                    <div className='col-md-7 col-sm-12 order-1 order-md-2'>
                         <p className='pfoto cuerpo'>En la actualidad, es prácticamente inevitable no haber experimentado la transición hacia el mundo digital, ya sea realizando pedidos a través de las aplicaciones, dejando reseñas en línea a los establecimientos gastronómicos o incluso rasteando al delivery mientras reparte tu pedido.
                             Si bien esta práctica se ha convertido en una costumbre en la relación entre los clientes y los restaurantes, también resulta crucial la digitalización en la relación entre los restaurantes y sus proveedores.</p>
                     </div>

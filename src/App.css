@@ -1050,6 +1050,9 @@ body .quicksand {
     padding-left: 10px !important;
     padding-right: 10px !important;
   }
+  .btnatrasnoticias{
+    margin-top: 10% !important;
+  }
 }
 
 .btnnoticia {
@@ -1202,6 +1205,28 @@ body .quicksand {
 }
 
 @media (max-width: 768px) {
+  .fondo_noticias{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .titulonoticiadetalle{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    color: #363636;
+    text-align: start;
+    margin-left: 6% !important;
+  }
+  .fechanoticia{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    letter-spacing: -0.035em;
+    color: #363636;
+    margin-top: 0;
+    margin-left: 6% !important;
+  }
   .detallenoticia {
     width: 90% !important;
     padding-left: 20px !important;
@@ -1214,12 +1239,14 @@ body .quicksand {
     letter-spacing: -0.02em;
     padding-top: 0 !important;
     margin-bottom: 30px;
+    text-align: start !important; 
   }
 
   .detallenoticia p {
     font-size: 14px;
     line-height: 17px;
     letter-spacing: -0.035em;
+    text-align: start !important; 
   }
 
   .detallenoticia img {
@@ -1227,10 +1254,15 @@ body .quicksand {
     margin-bottom: 20px !important;
   }
 
+  .imgcolnoticia{
+    text-align: center;
+  }
+
   .detallenoticia h3 {
     font-size: 14px;
     line-height: 20px;
     letter-spacing: -0.04em;
+    text-align: start !important; 
   }
 
   .detallenoticia span {

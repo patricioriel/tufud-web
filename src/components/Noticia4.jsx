@@ -21,10 +21,10 @@ function Noticia4() {
         <img src={noti4p} alt="Don Julio" class="img-fluid mx-auto w-100 mb-5 mt-5" />
         <h3 className='titulocard fw-bold mb-3'>Beneficios principales para proovedores.</h3>
         <div className='row'>
-          <div className='col-md-5 col-sm-12'>
+          <div className='col-md-5 col-sm-12 imgcolnoticia order-2 order-md-1'>
             <img src={noti4s} alt="Restó" class="img-fluid mx-auto mt-3" />
           </div>
-          <div className='col-md-7 col-sm-12'>
+          <div className='col-md-7 col-sm-12 order-1 order-md-2'>
             <p className='pfoto cuerpo'>Uno de los principales beneficios de Tufud para los proveedores es la posibilidad de recibir las compras de todos tus clientes en un solo lugar. Esto significa que no tendrás que estar pendiente de múltiples correos electrónicos, llamadas telefónicas o facturas. En su lugar, podrás acceder a un panel de control en el que verás todas las compras de tus clientes en tiempo real. De esta forma, tendrás una visión completa de tus ventas y podrás tomar decisiones más informadas sobre tu negocio.</p>
           </div>
         </div>
