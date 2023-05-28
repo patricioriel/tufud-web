@@ -47,7 +47,7 @@ const PaginaTestimonios = () => {
             <p className="text-center cuerpocard_testimonios mt-1 d-none empresastest">
               Mas de 200 empresas nos avalan
             </p>
-            <Link to={"#"} className="btn btntest order-2 order-md-1">
+            <Link to={"/faq"} className="btn btntest order-2 order-md-1">
               Comienza ahora
             </Link>
             <p className="text-center cuerpocard_testimonios mt-1 empresastest2">
