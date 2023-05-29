@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tufud-web/static/css/main.1e43d9bc.css",
-    "main.js": "/tufud-web/static/js/main.f85ecfd3.js",
+    "main.css": "/tufud-web/static/css/main.3892e56f.css",
+    "main.js": "/tufud-web/static/js/main.f3edfe7a.js",
     "static/media/Funcionamiento.mp4": "/tufud-web/static/media/Funcionamiento.b22313aef5c5ecaf970d.mp4",
     "static/media/noti4s.svg": "/tufud-web/static/media/noti4s.20583c1c10f0cbf28d94c5ff8ce41230.svg",
     "static/media/noti4p.svg": "/tufud-web/static/media/noti4p.fa8c1d2d1d60835b59f13443a7bfeae2.svg",
@@ -38,7 +38,6 @@
     "static/media/SilvestreCafe.png": "/tufud-web/static/media/SilvestreCafe.1f24d52c66cdba95af26.png",
     "static/media/RESTAURANTE.png": "/tufud-web/static/media/RESTAURANTE.f52aa10d0fdf202c956e.png",
     "static/media/PROVEEDOR.png": "/tufud-web/static/media/PROVEEDOR.f0b95c63029bb8ec0fc2.png",
-    "static/media/LOGO_NOTICIA.png": "/tufud-web/static/media/LOGO_NOTICIA.4f206ce8c895ed1bceda.png",
     "static/media/Piccolina.png": "/tufud-web/static/media/Piccolina.2388c102b96b9f5823b4.png",
     "static/media/inicionoti.svg": "/tufud-web/static/media/inicionoti.fbab7423e1f123931b37ec33815d86a3.svg",
     "static/media/MercadoSilvestre.png": "/tufud-web/static/media/MercadoSilvestre.eed2dc1fedfd9bdb5256.png",
@@ -49,6 +48,7 @@
     "static/media/experiencia.svg": "/tufud-web/static/media/experiencia.a0d44abde90bdc8e06b81b6d39876622.svg",
     "static/media/Supersaludable.png": "/tufud-web/static/media/Supersaludable.3535c57f4c1a5539ccab.png",
     "static/media/tareas.svg": "/tufud-web/static/media/tareas.811b47f1ee4449cebefb5724b73fad3f.svg",
+    "static/media/LOGO_NOTICIA.png": "/tufud-web/static/media/LOGO_NOTICIA.03e23971255f421aea1b.png",
     "static/media/pedidos.svg": "/tufud-web/static/media/pedidos.b4a289fffd8f3d0b16651f6218373c47.svg",
     "static/media/anii.png": "/tufud-web/static/media/anii.cf352e28258c1c3b5165.png",
     "static/media/reloj.svg": "/tufud-web/static/media/reloj.2d47b75033cf8d689ef64389f8221da9.svg",
@@ -63,11 +63,11 @@
     "static/media/comillas.svg": "/tufud-web/static/media/comillas.896c164c3b015960496332d9aec143d6.svg",
     "static/media/comillas2.svg": "/tufud-web/static/media/comillas2.8648af0da39e7baec70f20607330a064.svg",
     "static/media/menu.svg": "/tufud-web/static/media/menu.0ec9dc45fbb79819c631589da46644d4.svg",
-    "main.1e43d9bc.css.map": "/tufud-web/static/css/main.1e43d9bc.css.map",
-    "main.f85ecfd3.js.map": "/tufud-web/static/js/main.f85ecfd3.js.map"
+    "main.3892e56f.css.map": "/tufud-web/static/css/main.3892e56f.css.map",
+    "main.f3edfe7a.js.map": "/tufud-web/static/js/main.f3edfe7a.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e43d9bc.css",
-    "static/js/main.f85ecfd3.js"
+    "static/css/main.3892e56f.css",
+    "static/js/main.f3edfe7a.js"
   ]
 }
