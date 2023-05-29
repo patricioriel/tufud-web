@@ -47,7 +47,7 @@ const Formulario = () => {
   return (
     <div className="container-fluid d-flex flex-column align-items-center my-5 fondo_form">
       <h4 className="quicksand fw-bolder tituloformulario">¡Comunícate con nosotros!</h4>
-      <div className="container m-5 form">
+      <div className="container m-5 mb-4 form">
         <div className="row">
           <div className="form">
             <form onSubmit={handleSubmit} className="p-5 paddingform">

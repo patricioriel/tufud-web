@@ -495,6 +495,10 @@ body .quicksand {
   max-width: 100%;
 }
 
+.img_ajustada {
+  height: 100% !important;
+}
+
 .card_testimonios {
   height: 690px;
   color: #fff;
@@ -591,11 +595,16 @@ body .quicksand {
     letter-spacing: -0.035em;
   }
   .cardbeneficios{
-    margin-bottom: 20px;
+    margin-bottom: 20px !important; 
     height: auto !important;
     margin-right: 6%;
     margin-left: 6%;
   }
+
+  .card_beneficio {
+    margin-bottom: 5px !important;
+  }
+
   .tituloseparador{
     font-size: 28px;
     line-height: 32px;
@@ -1687,6 +1696,11 @@ body .quicksand {
 }
 
 @media (max-width: 768px) {
+
+  .contenedor_tab {
+    margin-left: 20px !important;
+  }
+
   .caja_testimonio{
     z-index: 20 !important;
     height: 100% !important;

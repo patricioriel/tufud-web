@@ -21,7 +21,7 @@ function InicioContacto() {
         </div>        
       </div>
       <div className="col-md-5 d-none d-md-block">
-        <img src={imgcontacto} alt="Descripción de la imagen" className='imginfo mt-3 img-fluid'/>
+        <img src={imgcontacto} alt="Descripción de la imagen" className='imginfo img_ajustada mt-3 img-fluid'/>
       </div>
     </div>
   )

@@ -42,7 +42,7 @@ function BeneficiosProveedores() {
           </div>
         </div>
         <div className="col-sm-6 col-md-4">
-          <div className="card rounded border-0 h-100 p-3 cardbeneficios">
+          <div className="card rounded border-0 h-100 p-3 cardbeneficios card_beneficio">
             <div className="card-body text-center">
               <img
                 className="card-img-top rounded-circle imgbeneficios fluid w-50"

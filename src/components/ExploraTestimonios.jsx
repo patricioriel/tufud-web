@@ -36,7 +36,7 @@ function ExploraTestimonios() {
                 <img src={comillas2} alt="" className="comillas2"/>
                 <img src={comillas2} alt="" className="ms-2 comillas2"/>
               </div>
-              <h2 className="fw-bold quicksand titulonoticia text-start mb-4 me-5">
+              <h2 className="fw-bold titulonoticia text-start mb-4 me-5">
                 {testimonios[noticiaActual].titulo}
               </h2>
               <p className="cuerpo_mobile cuerpo text-start me-5">
@@ -50,10 +50,10 @@ function ExploraTestimonios() {
                   alt=""
                 />
                 <div ClassName="">
-                  <p className="persona_mobile cuerpo text-start mb-0">
+                  <p className="persona_mobile fw-bold fs-2 cuerpo text-start mb-0">
                     {testimonios[noticiaActual].persona}
                   </p>
-                  <p className="puesto_mobile cuerpo text-start">
+                  <p className="quicksand puesto_mobile cuerpo text-start">
                     {testimonios[noticiaActual].puesto}
                   </p>
                 </div>
