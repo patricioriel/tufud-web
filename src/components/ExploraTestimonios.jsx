@@ -22,6 +22,10 @@ function ExploraTestimonios() {
     }
   };
 
+  const handleEnlaceClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <div>
       <div className="container containernoticias my-5">
@@ -91,7 +95,7 @@ function ExploraTestimonios() {
               />
             </button>
           </div>
-          <Link className="btn btnnoticia mt-5 pt-2 pb-2" to="/testimonios/all">
+          <Link className="btn btnnoticia mt-5 pt-2 pb-2" onClick={handleEnlaceClick} to="/testimonios/all">
             Ver todas las Historias
           </Link>
         </div>
