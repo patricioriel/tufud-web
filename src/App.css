@@ -526,6 +526,11 @@ body .quicksand {
     margin-bottom: 50px;
     margin-right: 0 !important;
   }
+
+  .img_ajustada {
+    height: auto !important;
+  }
+
   .inst2 {
     width: 35%;
     margin-left: 30px !important;
