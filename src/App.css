@@ -927,6 +927,10 @@ body .quicksand {
   border-radius: 46px;
 }
 
+.colorcuerponoti{
+  color: #373737;
+}
+
 .imagennoticia {
   height: 500px;
   position: relative;
