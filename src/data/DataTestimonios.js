@@ -6,7 +6,7 @@ import saludable from "../images/Supersaludable.png";
 export const testimonios = [
     {
         id: 1,
-        titulo: "La plataforma es muy útil y efectiva a la hora de hacer muchos pedidos a la vez.",
+        titulo: "Logramos un mejor control de stock y organizamos los pedidos de manera más ágil.",
         descripcion: "La inclusión de fotos de los productos nos ha ayudado significativamente a acelerar el proceso de compra. El uso de la plataforma es simple y práctico. El servicio técnico es excelente.",
         persona: "Pompi Huarte",
         puesto: "Dueña en Super Saludable",

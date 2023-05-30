@@ -159,8 +159,35 @@ body {
   }
 }
 
+@media (min-width: 1109px) and (max-width: 1384px) {
+  .btnprov{
+    margin-left: 3% !important;
+  }
+}
+
 .cajainfo {
   margin-top: 5% !important;
+}
+
+@media (min-width: 800px) and (max-width: 1488px) {
+  .colinicio1{
+    width: 35% !important;
+  }
+  .colinicio2{
+    width: 47% !important;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1319px) {
+  .colinicio1{
+    width: 35% !important;
+  }
+  .colinicio2{
+    width: 47% !important;
+  }
+  .tituloinicio{
+    font-size: 45px !important;
+  }
 }
 
 .fondo_secciones {
@@ -1083,15 +1110,19 @@ body .quicksand {
 .btnadelante {
   background-color: #7758dd8e;
   border: none;
-  padding-right: 15px !important;
-  padding-left: 15px !important; 
+  padding-right: 14px !important;
+  padding-left: 14px !important;
+  padding-top: 10px;
+  padding-bottom: 10px; 
 }
 
 .btnatrasnoti {
   background-color: #7758dd8e;
   border: none;
-  padding-right: 15px !important;
-  padding-left: 15px !important; 
+  padding-right: 14px !important;
+  padding-left: 14px !important;
+  padding-top: 10px;
+  padding-bottom: 10px; 
 }
 
 .btn[disabled] {
