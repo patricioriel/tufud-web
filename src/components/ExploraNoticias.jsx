@@ -37,10 +37,10 @@ function ExploraNoticias() {
             />
           </div>
           <div className="col-md-7 col-sm-12 cajanoticias ">
-            <h2 className="fw-bold quicksand titulonoticia text-start mb-4 me-5">
+            <h2 className="fw-bold quicksand titulonoticia text-start mb-4 me-5 colorcuerponoti">
               {noticias[noticiaActual].titulo}
             </h2>
-            <p className="cuerpo text-start me-5">
+            <p className="cuerpo text-start me-5 colorcuerponoti">
               {noticias[noticiaActual].texto}
             </p>
             <Link
