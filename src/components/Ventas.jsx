@@ -21,7 +21,7 @@ function Ventas() {
                 </div>
             </div>
             <div className="col-md-5 order-1 order-md-2">
-                <img src={imagenPrincipal} alt="Descripción de la imagen" className='imginfo img_ajustada mt-3 img-fluid' />
+                <img src={imagenPrincipal} alt="Descripción de la imagen" className='imginfo mt-3 img-fluid' />
             </div>
         </div>
   )

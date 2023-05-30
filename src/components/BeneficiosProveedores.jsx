@@ -34,7 +34,7 @@ function BeneficiosProveedores() {
                 src={experiencia}
                 alt="reloj"
               />
-              <h5 className="card-title fw-bold morado titulocard mt-4 mb-3">Aumenta la experiencia de compra de tus clientes</h5>
+              <h5 className="card-title fw-bold morado titulocard mt-4 mb-3">Mejora la experiencia de compra de tus clientes</h5>
               <p className="card-text cuerpocard">
                 Mejora la experiencia de compra. Basta de planillas interminables o listados en PDF.
               </p>

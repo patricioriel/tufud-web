@@ -15,7 +15,6 @@ function Proveedores() {
         <BeneficiosProveedores/>
         <div className="gradiente_verde">
           <TabBar/>
-          <Video/>
           <Formulario/>
         </div>
         <BtnSubir/>
