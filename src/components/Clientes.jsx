@@ -21,7 +21,7 @@ const Clientes = () => {
     <div className="container-fluid">
       <div className="row">
         <h2 className="quicksand tituloswiper mb-5">
-          Descubre <span className="morado">quiénes confían</span> en
+          Descubre algunos de los<span className="morado"> que confían</span> en
           nosotros
         </h2> 
         <Swiper
