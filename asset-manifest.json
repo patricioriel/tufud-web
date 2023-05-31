@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tufud-web/static/css/main.9e2f08b6.css",
-    "main.js": "/tufud-web/static/js/main.982d079d.js",
+    "main.css": "/tufud-web/static/css/main.ff16e4bb.css",
+    "main.js": "/tufud-web/static/js/main.f7c8e8b0.js",
     "static/media/Funcionamiento.mp4": "/tufud-web/static/media/Funcionamiento.b22313aef5c5ecaf970d.mp4",
     "static/media/noti4s.svg": "/tufud-web/static/media/noti4s.20583c1c10f0cbf28d94c5ff8ce41230.svg",
     "static/media/noti4p.svg": "/tufud-web/static/media/noti4p.fa8c1d2d1d60835b59f13443a7bfeae2.svg",
@@ -63,11 +63,11 @@
     "static/media/comillas.svg": "/tufud-web/static/media/comillas.896c164c3b015960496332d9aec143d6.svg",
     "static/media/comillas2.svg": "/tufud-web/static/media/comillas2.8648af0da39e7baec70f20607330a064.svg",
     "static/media/menu.svg": "/tufud-web/static/media/menu.0ec9dc45fbb79819c631589da46644d4.svg",
-    "main.9e2f08b6.css.map": "/tufud-web/static/css/main.9e2f08b6.css.map",
-    "main.982d079d.js.map": "/tufud-web/static/js/main.982d079d.js.map"
+    "main.ff16e4bb.css.map": "/tufud-web/static/css/main.ff16e4bb.css.map",
+    "main.f7c8e8b0.js.map": "/tufud-web/static/js/main.f7c8e8b0.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e2f08b6.css",
-    "static/js/main.982d079d.js"
+    "static/css/main.ff16e4bb.css",
+    "static/js/main.f7c8e8b0.js"
   ]
 }
