@@ -740,6 +740,24 @@ body .quicksand {
   color: #363636;
 }
 
+@media (min-width: 1058px) and (max-width: 1459px) {
+  .agilizacol1{
+    width: 40% !important;
+  }
+  .agilizacol2{
+    width: 58% !important;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1059px) {
+  .agilizacol1{
+    width: 35% !important;
+  }
+  .agilizacol2{
+    width: 63% !important;
+  }
+}
+
 /* contactanos */
 
 .btn-contactanos {
