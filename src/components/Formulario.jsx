@@ -72,7 +72,7 @@ const Formulario = () => {
                   type="tel"
                   className="form-control"
                   id="telefono"
-                  placeholder="Escribe un número de teléfono"
+                  placeholder="Escribe tu número de teléfono"
                   value={telefono}
                   onChange={(e) => setTelefono(e.target.value)}
                 />

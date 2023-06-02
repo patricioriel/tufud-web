@@ -86,7 +86,7 @@ function BeneficiosProveedores() {
                 alt="check"
               />
               <h5 className="card-title fw-bold morado titulocard mt-4 mb-3">
-                Mejora la gestion de tu negocio
+                Mejora la gestión de tu negocio
               </h5>
               <p className="card-text cuerpocard">
                 Viendo las estadísticas y gestionando todas tus cuentas por cobrar.

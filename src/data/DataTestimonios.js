@@ -16,7 +16,7 @@ export const testimonios = [
         id: 2,
         titulo: "Facilitó enormemente la distribución de nuestra mercadería a otras tiendas.",
         descripcion: "La función para cargar imágenes en el catálogo es muy intuitiva. También es muy útil  la división de catálogos por Proveedor. Todas las operaciones se realizan con mayor eficacia y rapidez.",
-        persona: "Jorge Giménez",
+        persona: "Jorge Jiménez",
         puesto: "Dueño en Tienda Nova",
         imagen: tienda
     },
